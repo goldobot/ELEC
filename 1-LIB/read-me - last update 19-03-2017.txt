@@ -1,0 +1,140 @@
+1- intro
+2- installation
+3- template
+4- todo
+5- changelog
+
+
+*********************- 1 -***********************
+Ce dossier contient toutes les librairies Altium d'Eceborg/Goldorak
+il est notamment l'agrégation des travaux des équipes:
+2006
+2011 (Gali IV)
+2013 (Gali VI)
+2014 (Gali VII)
+2015 (Gali VIII)
+2016 (Gali IX]
+
+les librairies antérieures à 2011 sont concentrée dans l'archive "Librairie ECE", les librairies en question pourrait être fusionnées avec les librairies postérieures mais les packages y sont rassemblés dans un ou deux fichiers, il faut donc faire un petit travail pour fusionner ces librairies avec les plus récentes. en attendant il est fortement conseillé d'utiliser les librairies .IntLib pré-compilées.
+
+
+
+*********************- 2 -***********************
+Pour installer les libs dans Altium il faut dans l'onglet lib cliquer sur install.
+Naviguer jusqu'au dossier 1-LIB et faire une recherche (champs en haut à droite) avec "*.IntLib" ainsi seule les fichiers intéressants s'affichent.
+Tout sélectionner sauf ceux du dossier passif (exception pour Passif_20xx.IntLib quand même), donc normalement vous devez dé-sélectionner:
+- Capas_Chimiques.IntLib
+- Resistances2.IntLib
+- Capa_ceramiques.IntLib
+- Capas_Tantales.IntLib
+en cliquant sur "ouvrir" les libs vont apparaître comme installées. c'est tout!
+
+
+
+*********************- 3 -***********************
+Voici les informations utiles à la future génération de Bill Of Materials qui doivent être présent dans tout les composants schématique des libs (double clic sur le nom du composant), tout champs supplémentaires non listé ici générerons une colonne indésirable dans la BOM, la rendant rapidement illisible:
+-ComponentLink1Description  ("Datasheet" ou lien vers le fournisseur)
+-ComponentLink1URL   (lien internet vers la Datasheet)
+-Description   (description récupéré sur Digikey.fr)
+-Manufacturer   (nom fabricant)
+-Manufacturer Part Number  (ref fabricant)
+-Pricing   (automatiquement complété)
+-Supplier 1  (nom du distributeur, ajouter automatiquement via supplier search)
+-Supplier Part Number 1 (ref de commande du distributeur, ajouter automatiquement via supplier search)
+
+Pour pouvoir ajouter rapidement les infos de base, une recherche de composant chez un fournisseur est le point de départ. cette recherche se fait directement au sein d'altium via les plug-in de "Data Management Packages" (à installer), elle permet de pré-remplir automatiquement la plupart des champs mentionné et de les garder à jour en tache de fond (notamment pour le pricing). 
+Il faut penser à exclure les paramètre superflus dans préférence>Data Management>Supplier: "Enable" que sur Farnell et Digi-key, et "exclude" les paramètre "Category", "RoHS" et "Stock".
+Une fois les réglages fait pour ajouter une ref supplier à un composant il faut activer et aller dans le panneau latéral Supplier Search (System>Supplier Search) lorsque le composant à éditer est ouvert. Taper la ref dans le champs de recherche, vérifier en parallèle sur le site de farnell que la ref correspond bien au composant qu'on veut (l'interface intégrée à altium est un peu trop minimaliste pour pouvoir le faire directement) puis l'ajouter au composant actif.
+Attention de n'ajouter qu'une seule ref, sinon cela générera plusieurs ref fourniseur.
+Une fois cela fait,  il faut ouvrir les "Library Components Properties" pour éditer/supprimer/compléter les champs pour au final retrouver la liste ci-dessus.
+
+Pour la lettre du designator, voir https://en.wikipedia.org/wiki/Reference_designator
+et pour s'inspirer pour les symoles: https://en.wikipedia.org/wiki/Electronic_symbol
+
+Concernant les layers voir: 
+http://www.eevblog.com/forum/altium/footprint-in-altium-designer/ et
+http://www.mbedded.ninja/electronics/general/altium/altium-tricks-and-standards
+resumé:
+
+- Mechanical 1 (M1)		Board outline (it is not recommended to use just the keep-out layer, since that can be used for other things also).
+- Mechanical 2 (M2)		PCB info (manfacturing info, added as text).
+- Mechanical 3 (M3) 	FAB NOTES Fabrication Notes (for PCB producer)
+- Mechanical 4 (M4) 	PANEL NOTES Panelization Info (V-groove and tab locations, etc)
+- Mechanical 11 (M11)	Top layer dimensions (paired with M12).
+- Mechanical 12 (M12)	Bottom layer dimensions (paired with M11).
+- Mechanical 13 (M13)	Top layer component body information (3D models and mechanical outlines, paired with M14).
+- Mechanical 14 (M14)	Bottom layer component body information (3D models and mechanical outlines, paired with M13).
+- Mechanical 15 (M15)	Top layer courtyard and assembly information (paired with M16). This normally includes a cross-hairs at the origin of the component.
+- Mechanical 16 (M16)	Bottom layer courtyard and assembly information (paired with M15). This normally includes a cross-hairs at the origin of the component.
+- Mechanical 17 (M17) 	not to use (sometine .Designator are left on this layer)
+
+pour résumer lors de la création de composant les plans mécaniques importants: 
+M13: corps 3D et Ligne de forme (info esthétique)
+M15: espace/zone occupé par le composant (y compris la prise si c'est un connecteur par ex) + croix à l'origine du composant
+
+A la fin de processus de création d'un composant, prenez le temps de vous relire.
+De toute façon il est TRES FORTEMENT recommandé de vérifier tout composant ajouté à une nouvelle carte et si nécessaire de le mettre à jour au niveau de la librairie en cas de problème. 
+C'est surtout valable dans le cas des composant ayant une polarité. ou il faut vérifier la bonne correspondance des numéros de pin entre le symbole et l'empreinte. Quand vous regardez la datasheet, prenez garde à l'orientation de la représentation des composants qui peut être par le bas ou par le haut.
+
+Une fois le composant créer, n'oubliez pas de recompiler (avec un clic droit) le fichier *.LibPkg affiché dans l'onglet projet, cela régénérera le fichier de lib intégrée "*.IntLib" dans le dossier "output" et donnera accès au nouveau composant dans Altium via le panneau librairie (parfois il faut redémarrer Altium pour que le composant apparaisse). 
+S'il s'agit d'un composant déjà présent sur un schéma et que vous avez juste modifié dans la lib, il vous faut le mettre à jour dans la schématique en utilisant la fonction "update from librairies" (svg avant de le faire, au cas ou ça ne se passe pas comme prévu). En effet, dans les projets de carte Altium, les composants sont gardés en cache à l'état ou ils étaient dans les libs lorsqu'ils ont été ajouté à la base (il est même possible de régénérer la lib à partir de la schématique.) Du coup il faut autant que possible -----EVITER DE COPIER UN COMPOSANT DEPUIS UN ANCIEN PROJET---- lorsque celui-ci est dans les libs car l'ancienne version ainsi copié pourrait avoir des erreurs, vous devez plutôt le prendre dans la lib OU faire un "update from librairies" immédiatement après l'avoir copié (pour pas oublier).
+
+
+
+*********************- 4 -***********************
+TODO:
+- corriger les pins des capacités chimique CMS (déjà fait?), ils sont inversé + agrandir les pads vers l'exterieur pour faciliter la soudure.
+- vérifier le Traco TEN12-2410, ref obsolète, les paramètres sont incohérent. a remplacer par le TEN15-2410WI (attention, pinout/empreinte différente)
+- ajouter empreinte SOT223-3 au LDO MCP1826S-3302E/DB (et ajouter modèle 3D à MCP1826S-3302E/EB)
+
+
+
+*********************- 5 -***********************
+change-log:
+30-03-2014: version initiale
+31-03-2014: ajout du breakout dsPIC33F
+18-04-2014: correction du silkscreen des interrupteurs
+20-04-2014: ajout de la lib capa_chimiques (avec modèle de "paramètre/composant")
+20-04-2014: MAJ de la lib alimentation, connecteur (paramètre des composants)
+20-04-2014: Ajout d'un connecteur Edge solder et d'un optocoupleur (lib opto)
+04-04-2014: modification du traco TEN25 (5V), erreur dans les pins
+05-04-2014: maj lib connecteur et darlington
+11-01-2015: transfert des datasheet réparties dans les dossiers vers le dossier 2-Datasheets
+[ à completer ici]
+02-02-2015: création d'une librairie Passif_2015 rassemblant les composants passif de gali VII et notament les condesateur Wurth
+06-02-2015: lib passif_2015, ajout des R_10k_0603, Cc_22pF_0603, Cc_100nF_0603 avec leur package 0603_std et 0603_fit (version à pad et keepout reduit, à tester pour le reflow). ajout du modèle 3D step pour le bouton poussoir CMS de la lib Switches.
+11-02-2015: ajout du break-out 2015 en tant que composant dans la lib microchip-eceborg
+11-02-2015: ajout des properties dans les librairies Connecteurs, Alimentation et Passif_2015
+14-02-2015: ajout des properties dans les librairies Serial, Wireless, Connecteurs.
+Modification des Condensateurs dans Passifs 2015.
+Ajout de Potentiomètre et condensateur céramique 0805 dans Passifs 2015.
+17-02-2015: ajout led Mixte dans opto, pic16F1823 dans microship, modification des librairies connecteurs, alimentations (traco footprint) et switches. Ajout des jumpers 4 et 2 dans connecteurs. modifcation des properties et schéma des led (couleurs). Ajout des mosfet (1879964 et 1831088).
+23-02-2015: modification des packages PVB4 (pad lateraux, modèle 3D et Schematic). Homogénéisation des mechanical layer de switch et led
+06-03-2015: ajout à la lib connecteur des ranger de header femelle 1.27 de Wurth
+07-03-2015: Ajout des resistances , connecteur Wurth, fusibles. 
+18-03-2015: Ajout des bibliothèques wurth, condensateur traversant 47µ, autre et modification librairie Connecteur.
+31-10-2016: Fusion des librairies 2016 faites par Elodie K. avec les lib existante
+			revue de la lib DC_DC:
+				- empreinte traco 5V 5A "TEN 25" corrigée (flip bottom/top)
+				- TEN 40-2411 WIN changé en TEN 30-2411 WIN (symbol ref incorrecte, possible perte de lien avec la schématique de 2015/2016)
+				- TEN60-2412WI changé en TEN 60-2412WIN (symbol ref incorrecte, possible perte de lien avec la schématique de 2015/2016)
+				- empreinte "TEN 60" rotation de 180deg
+				- empreinte THL10WI renommé en THL 10WI
+				- empreinte THL 15WI ajouté
+				- empreinte TEN 40 SINGLE supprimé (non attribuée)
+			revue de la lib Connecteur:	
+				- empreinte Mini-display port corrigée, ajout des pastilles pour le shield
+			revue de la lib Divers:	
+				- suppression de FTDI (mauvais endroit, déplacé dans lib serial)
+			revue de la lib Serial:	
+				- ajout de "FT231XS" qui est une copie de "FTDI"
+			revue de la lib "Ponts en H":
+				- fusion avec la lib transistorA101SYCQ04
+			revue de la lib "Switchs":
+				- SPDT_ON_ON changé en A101SYCQ04, footprint MAJ: trou d1.8->2mm (symbol ref incorrecte, possible perte de lien avec la schématique de 2015/2016)
+				- Supprimé DILx3, DILx4, DILx8,car des ref alternative chez Wurth existent
+19-03-2017: Nombreux changement non tracé. parmis ceux-là: 
+			Ajout des lib Altium2013 (ensemble des lib officielles Altium, non mise à jour depuis 2013) sous-forme d'une archive, la quantité impressionnante de lib faisant rammer voir planter Altium à l'importation
+			La lib Passif2017 et le dossier passif est remplacé par trois dossier et lib éponyme: Condensateur, Resistance, Inductance. ces nouvelles lib privilégie les composants Wurth et Yageo (resistance pas chère)
+			Ajout de la lib Diode ou ont été transféré les composants de la lib Alimentation>redressement
+			

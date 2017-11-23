@@ -1,0 +1,26 @@
+Voici des librairie de condensateur, en grande partie récupéré de Wurth par soucis de simplicité.
+
+de manière générale,utiliser les "tensions capa" suivante pour les rails
+> +3.3V utiliser 10V
+> +5V utiliser 16V
+> +12V utiliser 25V
+> +20V utiliser 50V
+après, par défaut utiliser la plus haute tension disponible en fonction de la valeur voulue, préférer les boitiers 0603, n'utiliser les 0402 que s'il ya une grosse contrainte de place et les 0805 que si aucun 0603 ne convient (valeur;tension).
+
+
+pour les capa céramique, utiliser la gamme WCAP-CSGP.
+> les NP0 0402 pour les découplages de quartz (0402 10V 22pF)
+> les X5R pour la banque capacitive de CI (0402 10V: 1µF, 0603 10V: 4.7µF, 0603 16V: 1µF)
+> les X7R pour le reste
+
+pour les capa chimique, utiliser la gamme WCAP-ATG8, sauf si la datasheet précise que la capa doit avoir un faible ESR, utiliser alors la gamme WCAP-PTHR (composant à ajouter au cas par cas car aucun pour l'instant).
+noté qu'il ne s'agit que de traversant, c'est parce que les capa CMS sont très dures à souder et dessouder.
+
+
+Pour les composants Wurth, certaines ref ont été supprimé par rapport au lib officielle afin de limiter le choix. si néanmoins d'autres ref sont nécessaire les lib peuvent être complété avec les fichiers de l'archive "01-Lib_Wurth.zip"
+
+Les composants de la gamme WCAP-ATG8 ont été modifié comme suit:
+- modification de la description
+- modification de la représentation du symbole
+- affichage du "ratedVoltage" (et retrait du suffixe " DC" quand il y ait)
+- si nécessaire conversion pF->nF en commentaire et en value
