@@ -1,0 +1,7 @@
+#ignore altium log file
+history
+*/__Previews
+__Previews
+Project Logs*
+#ignore folderFile created by windows
+desktop.ini

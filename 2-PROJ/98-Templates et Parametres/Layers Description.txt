@@ -1,0 +1,20 @@
+GTO - top overlay
+GTP - top paste
+GTS - top solder
+GTL - Top layer
+GP1 - plane - GND
+GP2 - plane - Power
+GBL - Bottom layer
+GBS - Bottom solder
+GBP - bottom paste
+GBO - bottom overlay
+
+GKO - keep-out layer AND board shape (Kontur)
+
+
+
+layer stack:
+Top
+plane GND
+plane Power
+Bottom

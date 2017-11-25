@@ -1,0 +1,12 @@
+Dans les choses à configurer au début dans altium:
+- charger le fichier de paramètre via le menu DXP>préférence (puis en bas à gauche "load"): DXPPreferences_Altium_Audran_v4.DXPPrf 
+  > spécifier votre chemin de backup (Option>DataManagement>Backup), c'est là où seront sauvegardés toutes les 5min vos fichiers en cours d'édition au cas ou Altium crash (si ça arrive, allez vite les récupérer avant qu'ils ne soient écrasés)
+  > Dans (Option>DataManagement>InstalledLibrairies) changer juste le chemin d'accès par celui de votre dossier Google Drive avec les lib et vous n'aurez pas à réinstaller les libs
+- charger le layout view>Desktop Layout> load Layout... : Layout_v1.TLT
+- Quand vous êtes sur un PCB, pensez à charger le layer set. "layer set.layerset"
+- installer les libs, onglet "libraires" à droite> bouton "Librairies..."> "library Path Relative To:" pointez vers le dossier "*ELEC/1-LIB" qui se trouve sur le drive.
+
+Quand vous démarrer une nouvelle carte:
+- prenez le template de projet (une simple copie suffit)
+- dans renommez les fichiers qui doivent l'être
+- mettez à jour les paramètre du projet

@@ -1,0 +1,15 @@
+Note en cours de rédaction à propos de ta question Goldo :
+-Page 27 de la fiche technique du F303 :
+
+TIM2, 3, and TIM4
+These are full-featured general-purpose timers:
+– TIM2 has a 32-bit auto-reload up/downcounter and 32-bit prescaler
+– TIM3 and 4 have 16-bit auto-reload up/downcounters and 16-bit prescalers.
+These timers all feature 4 independent channels for input capture/output compare,
+PWM or one-pulse mode output. They can work together, or with the other generalpurpose
+timers via the Timer Link feature for synchronization or event chaining.
+The counters can be frozen in debug mode.
+All have independent DMA request generation and support quadrature encoders.
+
+Ce lien t'aidera peut-être :
+http://stackoverflow.com/questions/15203069/stm32-rotary-encoder-config-on-tim4
