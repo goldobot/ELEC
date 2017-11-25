@@ -15,7 +15,7 @@ il est notamment l'agrégation des travaux des équipes:
 2015 (Gali VIII)
 2016 (Gali IX]
 
-les librairies antérieures à 2011 sont concentrée dans l'archive "Librairie ECE", les librairies en question pourrait être fusionnées avec les librairies postérieures mais les packages y sont rassemblés dans un ou deux fichiers, il faut donc faire un petit travail pour fusionner ces librairies avec les plus récentes. en attendant il est fortement conseillé d'utiliser les librairies .IntLib pré-compilées.
+les librairies antérieures à 2011 sont concentrées dans l'archive "Librairie ECE", les librairies en question pourraient être fusionnées avec les librairies postérieures mais les packages y sont rassemblés dans un ou deux fichiers, il faut donc faire un petit travail pour fusionner ces librairies avec les plus récentes. En attendant il est fortement conseillé d'utiliser les librairies .IntLib pré-compilées.
 
 
 
@@ -32,7 +32,7 @@ en cliquant sur "ouvrir" les libs vont apparaître comme installées. c'est tout!
 
 
 *********************- 3 -***********************
-Voici les informations utiles à la future génération de Bill Of Materials qui doivent être présent dans tout les composants schématique des libs (double clic sur le nom du composant), tout champs supplémentaires non listé ici générerons une colonne indésirable dans la BOM, la rendant rapidement illisible:
+Voici les informations utiles à la future génération de Bill Of Materials qui doivent être présents dans tous les composants schématiques des libs (double clic sur le nom du composant), tout champs supplémentaires non listé ici générerons une colonne indésirable dans la BOM, la rendant rapidement illisible:
 -ComponentLink1Description  ("Datasheet" ou lien vers le fournisseur)
 -ComponentLink1URL   (lien internet vers la Datasheet)
 -Description   (description récupéré sur Digikey.fr)
@@ -42,9 +42,9 @@ Voici les informations utiles à la future génération de Bill Of Materials qui do
 -Supplier 1  (nom du distributeur, ajouter automatiquement via supplier search)
 -Supplier Part Number 1 (ref de commande du distributeur, ajouter automatiquement via supplier search)
 
-Pour pouvoir ajouter rapidement les infos de base, une recherche de composant chez un fournisseur est le point de départ. cette recherche se fait directement au sein d'altium via les plug-in de "Data Management Packages" (à installer), elle permet de pré-remplir automatiquement la plupart des champs mentionné et de les garder à jour en tache de fond (notamment pour le pricing). 
+Pour pouvoir ajouter rapidement les infos de base, une recherche de composant chez un fournisseur est le point de départ. Cette recherche se fait directement au sein d'altium via les plug-in de "Data Management Packages" (à installer), elle permet de pré-remplir automatiquement la plupart des champs mentionnés et de les garder à jour en tache de fond (notamment pour le pricing). 
 Il faut penser à exclure les paramètre superflus dans préférence>Data Management>Supplier: "Enable" que sur Farnell et Digi-key, et "exclude" les paramètre "Category", "RoHS" et "Stock".
-Une fois les réglages fait pour ajouter une ref supplier à un composant il faut activer et aller dans le panneau latéral Supplier Search (System>Supplier Search) lorsque le composant à éditer est ouvert. Taper la ref dans le champs de recherche, vérifier en parallèle sur le site de farnell que la ref correspond bien au composant qu'on veut (l'interface intégrée à altium est un peu trop minimaliste pour pouvoir le faire directement) puis l'ajouter au composant actif.
+Une fois les réglages faits pour ajouter une ref supplier à un composant il faut activer et aller dans le panneau latéral Supplier Search (System>Supplier Search) lorsque le composant à éditer est ouvert. Taper la ref dans le champs de recherche, vérifier en parallèle sur le site de farnell que la ref correspond bien au composant qu'on veut (l'interface intégrée à altium est un peu trop minimaliste pour pouvoir le faire directement) puis l'ajouter au composant actif.
 Attention de n'ajouter qu'une seule ref, sinon cela générera plusieurs ref fourniseur.
 Une fois cela fait,  il faut ouvrir les "Library Components Properties" pour éditer/supprimer/compléter les champs pour au final retrouver la liste ci-dessus.
 
@@ -74,17 +74,17 @@ M15: espace/zone occupé par le composant (y compris la prise si c'est un connect
 
 A la fin de processus de création d'un composant, prenez le temps de vous relire.
 De toute façon il est TRES FORTEMENT recommandé de vérifier tout composant ajouté à une nouvelle carte et si nécessaire de le mettre à jour au niveau de la librairie en cas de problème. 
-C'est surtout valable dans le cas des composant ayant une polarité. ou il faut vérifier la bonne correspondance des numéros de pin entre le symbole et l'empreinte. Quand vous regardez la datasheet, prenez garde à l'orientation de la représentation des composants qui peut être par le bas ou par le haut.
+C'est surtout valable dans le cas des composants ayant une polarité. ou il faut vérifier la bonne correspondance des numéros de pin entre le symbole et l'empreinte. Quand vous regardez la datasheet, prenez garde à l'orientation de la représentation des composants qui peut être par le bas ou par le haut.
 
-Une fois le composant créer, n'oubliez pas de recompiler (avec un clic droit) le fichier *.LibPkg affiché dans l'onglet projet, cela régénérera le fichier de lib intégrée "*.IntLib" dans le dossier "output" et donnera accès au nouveau composant dans Altium via le panneau librairie (parfois il faut redémarrer Altium pour que le composant apparaisse). 
-S'il s'agit d'un composant déjà présent sur un schéma et que vous avez juste modifié dans la lib, il vous faut le mettre à jour dans la schématique en utilisant la fonction "update from librairies" (svg avant de le faire, au cas ou ça ne se passe pas comme prévu). En effet, dans les projets de carte Altium, les composants sont gardés en cache à l'état ou ils étaient dans les libs lorsqu'ils ont été ajouté à la base (il est même possible de régénérer la lib à partir de la schématique.) Du coup il faut autant que possible -----EVITER DE COPIER UN COMPOSANT DEPUIS UN ANCIEN PROJET---- lorsque celui-ci est dans les libs car l'ancienne version ainsi copié pourrait avoir des erreurs, vous devez plutôt le prendre dans la lib OU faire un "update from librairies" immédiatement après l'avoir copié (pour pas oublier).
+Une fois le composant créé, n'oubliez pas de recompiler (avec un clic droit) le fichier *.LibPkg affiché dans l'onglet projet, cela régénérera le fichier de lib intégrée "*.IntLib" dans le dossier "output" et donnera accès au nouveau composant dans Altium via le panneau librairie (parfois il faut redémarrer Altium pour que le composant apparaisse). 
+S'il s'agit d'un composant déjà présent sur un schéma et que vous avez juste modifié dans la lib, il vous faut le mettre à jour dans la schématique en utilisant la fonction "update from librairies" (svg avant de le faire, au cas ou ça ne se passe pas comme prévu). En effet, dans les projets de carte Altium, les composants sont gardés en cache à l'état ou ils étaient dans les libs lorsqu'ils ont été ajoutés à la base (il est même possible de régénérer la lib à partir de la schématique.) Du coup il faut autant que possible -----EVITER DE COPIER UN COMPOSANT DEPUIS UN ANCIEN PROJET---- lorsque celui-ci est dans les libs car l'ancienne version ainsi copiée pourrait avoir des erreurs, vous devez plutôt le prendre dans la lib OU faire un "update from librairies" immédiatement après l'avoir copié (pour pas oublier).
 
 
 
 *********************- 4 -***********************
 TODO:
-- corriger les pins des capacités chimique CMS (déjà fait?), ils sont inversé + agrandir les pads vers l'exterieur pour faciliter la soudure.
-- vérifier le Traco TEN12-2410, ref obsolète, les paramètres sont incohérent. a remplacer par le TEN15-2410WI (attention, pinout/empreinte différente)
+- corriger les pins des capacités chimique CMS (déjà fait?), ils sont inversés + agrandir les pads vers l'exterieur pour faciliter la soudure.
+- vérifier le Traco TEN12-2410, ref obsolète, les paramètres sont incohérents. à remplacer par le TEN15-2410WI (attention, pinout/empreinte différente)
 - ajouter empreinte SOT223-3 au LDO MCP1826S-3302E/DB (et ajouter modèle 3D à MCP1826S-3302E/EB)
 
 
