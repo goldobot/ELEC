@@ -1,0 +1,104 @@
+ spécification carte: CartApuce         |  |      audran - 28/11/2017
+---------------------------------------------------------------------------------------------------------------------------------------------
+1) description
+
+l'une des deux cartes principale du robot, elle interface la batterie/alim externe avec les principaux actionneurs du robot: rail d'alimentation, moteur BL et DC, servo-moteur, pompe. Elle est aussi en charge de l'asservissement de la propulsion du robot.
+Comme les autres cartes du robot elle est centré sur un micro-contrôleur STM32F767ZIT6 (carte de dev associé: NUCLEO-F767ZI) communiquant via un bus CAN avec les autres cartes.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+2) contraintes générales
+
+- la carte doit pouvoir être fabriquée avec une machine de placement manuelle et un four à refusion "amateur", les composants CMS devront donc être placé en priorité sur la couche TOP.
+- un minimum de composant traversant, les composants traversant honéreux (ex: les DC/DC traco) devront avoir des trous élargies et des freins thermiques pour les rendres façile à dessouder
+- du fait de nos partenariats, doivent être utilisé en priorité des composants Wurth Electronik (connecteur, led, condensateur, ferrite, diode TVS, inductance, etc.) et Traco Power (convertisseur DC/DC)
+- carte en 4 couches, 6 eventuellement, fabriquée chez SAFE PCB ou similaire
+- le projet altium doit être Flat et non hiérarchique. néanmoins les feuilles doivent être pensé comme des devices sheet (utilisation de port et de harness, powerport ramener à porté locale) 
+- les sous-bloc fonctionnel sont encadré et nommé pour une réutilisation facilité
+- sauf exception, le pin 1 d'un connecteur sera la tension positive d'alimentation et le pin 2 la masse.
+- la partie puissance doit être designée pour pouvoir être ultérieurement configurée pour passer V_Batterie de 22V à 32V.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+3) dimension et remarque de topologie
+
+- taille: #TBD# le plus petit possible, mais à étudier une fois les empreinte crééer
+- hauteur: #TBD#
+- fixation : #TBD#
+- carte sécable:  #TBD# une partie des fonctions doit être concentré sur un bout de PCB qui doit pouvoir être séparé du reste. 
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+4) sérigraphie
+
+- les connecteurs devront avoir une sérigraphie rappelant leur pin-out et un "identifiant" (par défaut leur designator), ces indications peuvent être sur la couche BOT tant qu'un designator/repère est présent à coté du composant auquel elle se réfères.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+5) fournitures
+
+- BOM
+- plan d'assemblage
+- plan de câblage
+- Gerber et NC drill pour fabrication
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+6) fonctions
+
+6.1 gestion batterie (protection, monitoring)
+		la batterie est connecté sur une embase Wurth 691311500102 pour un courant de 20A. par convention, le
+		un porte fusible Keystone 3557-2 peut accueillir un fusible 20 ou 30A (ou moins). il est compact
+		Une protection inversion de polarité et surtension constitué d'une diode transil Wurth
+		le rail de tension batterie 
+6.2 gestion Arret-d'urgence et bouton démarrage
+		la carte contrôle le démarrage de ses alim via 2 bouton: un coup de point (dit "AU") qui dispose d'un pin NC et un NO et un bouton poussoir (dit "BD", NO).
+		Chaque bouton doit être "lisible" par le STM32: BD, AU_no, AU_nc
+		Chacun dispose d'une led intégrée qui doit pouvoir être contrôlé par le STM32.
+		l'appui de BD doit activer l'alim "3L" il s'agit d'un rail 3.3V destiné à la logique du robot, il est basée sur un Traco THL10-2410WI.
+		cette alim est ensuite maintenue en route par un signal d'auto-maintient. une fois en auto-maintient, un appui sur BD doit toujours être détectable par le STM32. attention aux interaction avec l'ovewrite (cf §6.4)
+		les bouton sont déporté via un connecteur WR-MM 6 pin. pour limiter les fils, les boutons et les led ont une masse commune: 
+			1:PGND, 
+			2:AU_no, 
+			3:AU_nc, 
+			4:AU_led, 
+			5:BD_no, 
+			6:BD_led.
+6.3 séquensage des alimentations
+		Une fois l'alim 3L démarrée, les autres alimentation doivent pouvoir être démarrées par le STM32.
+		Il y a plusieurs rail d'alimentation:
+		- 3L: (cf §6.2)
+		- 5L: 5.0V logique
+		- 5P: 5.5V puissance
+		- BattP: tension batterie pour la propulsion
+		- BattD: tension batterie pour les moteurs DC (Reversible et Tout-ou-rien)
+		- BattC: tension batterie pour les capteurs industriels
+		- BattE: tension batterie pour alimenter une paire de traco TEN 60-2412WIN sur une carte déporté (carte "Pompe") pour générer l'alim 12P
+		############
+6.4 overwrite du contrôle de puissance
+		#TBD#
+6.5 contrôleur moteur BL
+		#TBD#
+6.6 encodeur moteur BL
+		#TBD#
+6.7 encodeur odometrie
+		#TBD#
+6.8 contrôleur moteur DC
+		#TBD# <- sur carte CoG?
+6.9 encodeur moteur DC
+		#TBD# <- sur carte CoG?
+6.10 contrôle TOR
+		#TBD#
+6.11 monitoring rail d'alimentation de puissance (Moteur et servo-moteur
+		#TBD#
+6.12 contrôle capteur
+		#TBD# <- sur carte CoG?
+6.13 LED temoin d'alimentation
+		#TBD#
+6.14 bus alimentation 
+		#TBD#
+6.15 interface CAN
+		#TBD#
+6.16 micro-contrôleur
+		#TBD#
+6.17 interface de débug
+		#TBD#
+6.18 buzzer
+		#TBD#
+
+
