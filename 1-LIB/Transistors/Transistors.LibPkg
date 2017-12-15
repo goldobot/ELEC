@@ -70,7 +70,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ERVANBIB
+DocumentUniqueId=JBNPEEJE
 
 [Document3]
 DocumentPath=Transistor.PcbLib
@@ -126,34 +126,59 @@ DocumentUniqueId=NJGOQEAM
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=EPSONAFD653 (XP-235 Series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=PADSNetlist
-OutputName1=PADS ASCII Netlist
+OutputType1=PCADNetlist
+OutputName1=PCAD Netlist
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=PCADNetlist
-OutputName2=PCAD Netlist
+OutputType2=Verilog
+OutputName2=Verilog File
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=Verilog
-OutputName3=Verilog File
+OutputType3=VHDL
+OutputName3=VHDL File
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=VHDL
-OutputName4=VHDL File
+OutputType4=SIMetrixNetlist
+OutputName4=SIMetrix
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
+OutputType5=SIMPLISNetlist
+OutputName5=SIMPLIS
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+OutputType6=XSpiceNetlist
+OutputName6=XSpice Netlist
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=EPSONAFD653 (XP-235 Series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -268,11 +293,17 @@ OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
 PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType19=Software Platform Print
+OutputName19=Software Platform Prints
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
+PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=EPSONAFD653 (XP-235 Series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -294,7 +325,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=EPSONAFD653 (XP-235 Series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -366,7 +397,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=EPSONAFD653 (XP-235 Series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -403,7 +434,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=EPSONAFD653 (XP-235 Series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -583,7 +614,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=EPSONAFD653 (XP-235 Series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -622,7 +653,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=EPSONAFD653 (XP-235 Series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=ExportSTEP
 OutputName1=Export STEP
@@ -950,34 +981,100 @@ UpdateVariants=1
 PartTypes=0
 ComponentLibIdentifierKind0=Any
 ComponentLibraryIdentifier0=
-ComponentDesignItemID0=IRF540
-ComponentSymbolReference0=IRF540
+ComponentDesignItemID0=AUIRF1018ES
+ComponentSymbolReference0=AUIRF1018ES
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Any
 ComponentLibraryIdentifier1=
-ComponentDesignItemID1=IRF6215
-ComponentSymbolReference1=IRF6215
+ComponentDesignItemID1=FMMT620
+ComponentSymbolReference1=FMMT620
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Any
 ComponentLibraryIdentifier2=
-ComponentDesignItemID2=IRLML0040TRPbF
-ComponentSymbolReference2=IRLML0040TRPbF
+ComponentDesignItemID2=IRF1018ESPBF
+ComponentSymbolReference2=IRF1018ESPBF
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Any
 ComponentLibraryIdentifier3=
-ComponentDesignItemID3=IRLML2502
-ComponentSymbolReference3=IRLML2502
+ComponentDesignItemID3=IRF540 - CMS
+ComponentSymbolReference3=IRF540 - CMS
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Any
 ComponentLibraryIdentifier4=
-ComponentDesignItemID4=NTD5867NLT4G
-ComponentSymbolReference4=NTD5867NLT4G
+ComponentDesignItemID4=IRF540
+ComponentSymbolReference4=IRF540
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Any
+ComponentLibraryIdentifier5=
+ComponentDesignItemID5=IRF6215
+ComponentSymbolReference5=IRF6215
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Any
+ComponentLibraryIdentifier6=
+ComponentDesignItemID6=IRLML0040TRPbF
+ComponentSymbolReference6=IRLML0040TRPbF
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Any
+ComponentLibraryIdentifier7=
+ComponentDesignItemID7=IRLML2502
+ComponentSymbolReference7=IRLML2502
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Any
+ComponentLibraryIdentifier8=
+ComponentDesignItemID8=LMD18200T
+ComponentSymbolReference8=LMD18200T
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Any
+ComponentLibraryIdentifier9=
+ComponentDesignItemID9=NSS20200LT1G
+ComponentSymbolReference9=NSS20200LT1G
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Any
+ComponentLibraryIdentifier10=
+ComponentDesignItemID10=NTD5867NLT4G
+ComponentSymbolReference10=NTD5867NLT4G
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Any
+ComponentLibraryIdentifier11=
+ComponentDesignItemID11=NX3008PBKS
+ComponentSymbolReference11=NX3008PBKS
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Any
+ComponentLibraryIdentifier12=
+ComponentDesignItemID12=PSMN3R3-40YS
+ComponentSymbolReference12=PSMN3R3-40YS
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Any
+ComponentLibraryIdentifier13=
+ComponentDesignItemID13=test
+ComponentSymbolReference13=test
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Any
+ComponentLibraryIdentifier14=
+ComponentDesignItemID14=VNH5180ATR-E
+ComponentSymbolReference14=VNH5180ATR-E
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Any
+ComponentLibraryIdentifier15=
+ComponentDesignItemID15=ZXTN25012EFL
+ComponentSymbolReference15=ZXTN25012EFL
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
 
 [ToDoManager]
 ProjectToDo1=Name=completer param IRF6215, IRLML2502, IRLML0040TRPbF, NTD5867NLT4G|Owner=audran|Category=Lib|UID=SHVRHQQJ
