@@ -1,0 +1,4 @@
+Créer les composants suivants :
+- diode bpw 34
+- transistor : NSS12201LT1G
+Demander les plans à Audran (photos).
