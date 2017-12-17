@@ -12,3 +12,5 @@ ProjectPath=7-Capteur_Couleur\Capteur_Couleur.PrjPcb
 ProjectPath=95-Archive\10-Alim12_Mot_2017\Alim12_Mot.PrjPcb
 [Project6]
 ProjectPath=95-Archive\9-Carte_GR_2017\Carte_GR_2017.PrjPcb
+[Project7]
+ProjectPath=11-Carte_GR_2017_v2\logique\Carte_GR_2017_logique_v1.PrjPCB
