@@ -1005,6 +1005,24 @@ ProjectToDo19=Name=Enlever le nom de pin correspondante :~1PF0_I2C2_SDA : virer 
 ProjectToDo20=Name=Ne pas mettre les 3 Dels sur le même fil, pb électriques (répartition courant) et coûts|State=1|Owner=Grégoire|UID=HEFQTIFD
 ProjectToDo21=Name=Corriger le fait que l'on est en SWD et pas en JTAG|State=1|Owner=Grégoire|UID=BOLBPMEY
 
+[NetInfos]
+Net1=NetName=CC_SWCLK|NetColor=$00AC5DE8
+Net2=NetName=I2C3_SCL|NetColor=$0089A829
+Net3=NetName=I2C3_SDA|NetColor=$0089A829
+Net4=NetName=CC_SWO|NetColor=$00AC5DE8
+Net5=NetName=GND|NetColor=$0099808B
+Net6=NetName=I2C1_SDA|NetColor=$0089A829
+Net7=NetName=3L|NetColor=clMaroon
+Net8=NetName=I2C1_SCL|NetColor=$0089A829
+Net9=NetName=I2C2_SCL|NetColor=$0089A829
+Net10=NetName=CANH|NetColor=$0089A829
+Net11=NetName=I2C2_SDA|NetColor=$0089A829
+Net12=NetName=5L|NetColor=$00D1AC7C
+Net13=NetName=3L_UC|NetColor=$0020F2F1
+Net14=NetName=CANL|NetColor=$0089A829
+Net15=NetName=CC_NRST|NetColor=$00AC5DE8
+Net16=NetName=CC_SWDIO|NetColor=$00AC5DE8
+
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
