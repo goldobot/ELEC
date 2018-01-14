@@ -70,7 +70,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=TWQMJPQA
 
 [Document3]
 DocumentPath=Carte_Barriere_Optique_Interface.SchDoc
@@ -87,7 +87,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=KKOIQYDA
 
 [Document4]
 DocumentPath=Carte_Barriere_Optique_Interface.PcbDoc
@@ -104,7 +104,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=VJOYOMBV
+DocumentUniqueId=DTNICWUO
 
 [Configuration1]
 Name=Default Configuration
