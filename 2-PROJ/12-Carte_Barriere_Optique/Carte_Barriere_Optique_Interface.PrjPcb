@@ -973,6 +973,18 @@ SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
 
+[ToDoManager]
+ProjectToDo1=Name=Supprimer le 5V et tout connecter sur le 5L.~1Rajouter un cinquième laser.|Owner=Grégoire|Category=PCB|UID=JDBKGTNT
+ProjectToDo2=Name=Contrôle directe de ENABLE (supprimer le MOSFET).~1Les résistances de tirage doivent être du 10k.|Owner=Grégoire|Category=PCB|UID=OTINUKXE
+ProjectToDo3=Name=Remplacer le connecteur par le nouveau posé sur la schématique.|Owner=Grégoire|Category=PCB|UID=TARHOHWE
+ProjectToDo4=Name=Ajout condo 10micro entrée 5V carte (regarder cartes CoG et CAP)|UID=VSDNKBQF
+ProjectToDo5=Name=Les pistes doivent être en 0.4.~1Le 5V des lasers doit être en 0.6mm~1Il faut que la piste 5V qui alimente les lasers soit située en aval du condensateur de filtrage.|Owner=Grégoire|Category=PCB|UID=SSLDGHSJ
+ProjectToDo6=Name=Tourner le connecteur 8 broches de 90° afin de simplifier le routage des pistes.|Owner=Grégoire|Category=PCB|UID=QKDOMKKM
+ProjectToDo7=Name=Passer les résistances en 0603.|Owner=Grégoire|Category=PCB|UID=HABSOAKG
+ProjectToDo8=Name=Corriger l'erreur d'usage MOSFET.|Owner=Grégoire|Category=PCB|UID=YHJOERWV
+ProjectToDo9=Name=Mettre un écart de 2.54 entre les connecteurs pour les photodiodes.~1Espacer les connecteurs lasers d'un multiple de 2.54.|Owner=Grégoire|Category=PCB|UID=YPYYVHKE
+ProjectToDo10=Name=Agrandir les pads des connecteurs pr les capteurs afin qu'ils soient de la même taille que ceux des lasers.|Owner=Grégoire|Category=PCB|UID=CJBWNDJI
+
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
