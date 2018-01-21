@@ -56,24 +56,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
-DocumentPath=Revision.SchDoc
-AnnotationEnabled=0
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TWQMJPQA
-
-[Document3]
-DocumentPath=Carte_Barriere_Optique.PcbDoc
+DocumentPath=Revision_Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -87,24 +70,41 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=BAIPDYOI
+DocumentUniqueId=TWQMJPQA
 
-[Document4]
-DocumentPath=Carte_Barriere_Optique.SchDoc
-AnnotationEnabled=0
+[Document3]
+DocumentPath=Carte_Barriere_Optique_Interface.SchDoc
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=FDCNOXFC
+DocumentUniqueId=KKOIQYDA
+
+[Document4]
+DocumentPath=Carte_Barriere_Optique_Interface.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DTNICWUO
 
 [Configuration1]
 Name=Default Configuration
@@ -954,42 +954,6 @@ NetClassSeparateForBusSections=0
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Connecteurs.IntLib
-ComponentDesignItemID0=61300311021
-ComponentSymbolReference0=61300311021
-ComponentUpdate0=1
-ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=Optoélectronique.IntLib
-ComponentDesignItemID1=BPW34S
-ComponentSymbolReference1=BPW34S
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=Resistance.IntLib
-ComponentDesignItemID2=RC0402FR-074K7L
-ComponentSymbolReference2=RC0402FR-074K7L
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=Resistance.IntLib
-ComponentDesignItemID3=RC0603FR-071KL
-ComponentSymbolReference3=RC0603FR-071KL
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=Resistance.IntLib
-ComponentDesignItemID4=RC0603FR-07330RL
-ComponentSymbolReference4=RC0603FR-07330RL
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=Transistors.IntLib
-ComponentDesignItemID5=NSS12201LT1G
-ComponentSymbolReference5=NSS12201LT1G
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1003,61 +967,6 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
-ParameterUpdate0=1
-ParameterName1=Component Kind
-ParameterUpdate1=1
-ParameterName2=ComponentLink1Description
-ParameterUpdate2=1
-ParameterName3=ComponentLink1URL
-ParameterUpdate3=1
-ParameterName4=ComponentLink2Description
-ParameterUpdate4=1
-ParameterName5=ComponentLink2URL
-ParameterUpdate5=1
-ParameterName6=Description
-ParameterUpdate6=1
-ParameterName7=Library Reference
-ParameterUpdate7=1
-ParameterName8=Manufacturer
-ParameterUpdate8=1
-ParameterName9=Manufacturer 1
-ParameterUpdate9=1
-ParameterName10=Manufacturer Part Number
-ParameterUpdate10=1
-ParameterName11=Power
-ParameterUpdate11=1
-ParameterName12=Precision
-ParameterUpdate12=1
-ParameterName13=Pricing
-ParameterUpdate13=1
-ParameterName14=Supplier 1
-ParameterUpdate14=1
-ParameterName15=Supplier Part Number 1
-ParameterUpdate15=1
-ParameterName16=Type
-ParameterUpdate16=1
-ParameterName17=Value
-ParameterUpdate17=1
-ParameterName18=Vmax
-ParameterUpdate18=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=61300311021
-ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=BPW34-S
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=RESC1005X04N
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=RESC1608X06N
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=SOT-23
-ModelUpdate4=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1065,11 +974,16 @@ UpdateVariants=1
 PartTypes=0
 
 [ToDoManager]
-ProjectToDo1=Name=aligner les empreintes de la photodiode|Owner=Grégoire|Category=PCB|UID=TRTTEBFF
-ProjectToDo2=Name=Enlever les angles droits des pistes|Owner=Grégoire|Category=PCB|UID=HEGJMJFY
-ProjectToDo3=Name=Raboter les cartes (env 1mm en haut et en bas)~1objectif : largeur : 11mm|Owner=Grégoire|Category=PCB|UID=SUTXTMFF
-ProjectToDo4=Name=Déplacer le connecteur pour "rectifier" les pistes, le signal doit être droit|Owner=Grégoire|Category=PCB|UID=XIVPGWDM
-ProjectToDo5=Name=Agrandir les pastilles (le cuivre) du connecteur.|Owner=Grégoire|Category=PCB|UID=QYXWUGQY
+ProjectToDo1=Name=Supprimer le 5V et tout connecter sur le 5L.~1Rajouter un cinquième laser.|Owner=Grégoire|Category=PCB|UID=JDBKGTNT
+ProjectToDo2=Name=Contrôle directe de ENABLE (supprimer le MOSFET).~1Les résistances de tirage doivent être du 10k.|Owner=Grégoire|Category=PCB|UID=OTINUKXE
+ProjectToDo3=Name=Remplacer le connecteur par le nouveau posé sur la schématique.|Owner=Grégoire|Category=PCB|UID=TARHOHWE
+ProjectToDo4=Name=Ajout condo 10micro entrée 5V carte (regarder cartes CoG et CAP)|UID=VSDNKBQF
+ProjectToDo5=Name=Les pistes doivent être en 0.4.~1Le 5V des lasers doit être en 0.6mm~1Il faut que la piste 5V qui alimente les lasers soit située en aval du condensateur de filtrage.|Owner=Grégoire|Category=PCB|UID=SSLDGHSJ
+ProjectToDo6=Name=Tourner le connecteur 8 broches de 90° afin de simplifier le routage des pistes.|Owner=Grégoire|Category=PCB|UID=QKDOMKKM
+ProjectToDo7=Name=Passer les résistances en 0603.|Owner=Grégoire|Category=PCB|UID=HABSOAKG
+ProjectToDo8=Name=Corriger l'erreur d'usage MOSFET.|Owner=Grégoire|Category=PCB|UID=YHJOERWV
+ProjectToDo9=Name=Mettre un écart de 2.54 entre les connecteurs pour les photodiodes.~1Espacer les connecteurs lasers d'un multiple de 2.54.|Owner=Grégoire|Category=PCB|UID=YPYYVHKE
+ProjectToDo10=Name=Agrandir les pads des connecteurs pr les capteurs afin qu'ils soient de la même taille que ceux des lasers.|Owner=Grégoire|Category=PCB|UID=CJBWNDJI
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
