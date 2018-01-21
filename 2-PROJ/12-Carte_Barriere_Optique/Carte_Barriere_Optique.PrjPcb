@@ -1065,11 +1065,11 @@ UpdateVariants=1
 PartTypes=0
 
 [ToDoManager]
-ProjectToDo1=Name=aligner les empreintes de la photodiode|Owner=Grégoire|Category=PCB|UID=TRTTEBFF
-ProjectToDo2=Name=Enlever les angles droits des pistes|Owner=Grégoire|Category=PCB|UID=HEGJMJFY
-ProjectToDo3=Name=Raboter les cartes (env 1mm en haut et en bas)~1objectif : largeur : 11mm|Owner=Grégoire|Category=PCB|UID=SUTXTMFF
-ProjectToDo4=Name=Déplacer le connecteur pour "rectifier" les pistes, le signal doit être droit|Owner=Grégoire|Category=PCB|UID=XIVPGWDM
-ProjectToDo5=Name=Agrandir les pastilles (le cuivre) du connecteur.|Owner=Grégoire|Category=PCB|UID=QYXWUGQY
+ProjectToDo1=Name=aligner les empreintes de la photodiode|State=1|Owner=Grégoire|Category=PCB|UID=TRTTEBFF
+ProjectToDo2=Name=Enlever les angles droits des pistes|State=1|Owner=Grégoire|Category=PCB|UID=HEGJMJFY
+ProjectToDo3=Name=Raboter les cartes (env 1mm en haut et en bas)~1objectif : largeur : 11mm|State=1|Owner=Grégoire|Category=PCB|UID=SUTXTMFF
+ProjectToDo4=Name=Déplacer le connecteur pour "rectifier" les pistes, le signal doit être droit|State=1|Owner=Grégoire|Category=PCB|UID=XIVPGWDM
+ProjectToDo5=Name=Agrandir les pastilles (le cuivre) du connecteur.|State=1|Owner=Grégoire|Category=PCB|UID=QYXWUGQY
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
