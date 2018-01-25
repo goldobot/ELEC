@@ -65,7 +65,7 @@ AnnotateScope=All
 AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
+ClassGenCCAutoEnabled=0
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -82,7 +82,7 @@ AnnotateScope=All
 AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
+ClassGenCCAutoEnabled=0
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -954,6 +954,48 @@ NetClassSeparateForBusSections=0
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Condensateur.IntLib
+ComponentDesignItemID0=WCAP-CSGP, 885012207026
+ComponentSymbolReference0=WCAP-CSGP, 885012207026
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Connecteurs.IntLib
+ComponentDesignItemID1=22-03-2021
+ComponentSymbolReference1=22-03-2021
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=Connecteurs.IntLib
+ComponentDesignItemID2=61300311021
+ComponentSymbolReference2=61300311021
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=Connecteurs.IntLib
+ComponentDesignItemID3=690367280876
+ComponentSymbolReference3=690367280876
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=Resistance.IntLib
+ComponentDesignItemID4=RC0603FR-0710KL
+ComponentSymbolReference4=RC0603FR-0710KL
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=Resistance.IntLib
+ComponentDesignItemID5=RC0603FR-07330RL
+ComponentSymbolReference5=RC0603FR-07330RL
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=Transistors.IntLib
+ComponentDesignItemID6=IRLML2502
+ComponentSymbolReference6=IRLML2502
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -967,6 +1009,72 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=CeramicType
+ParameterUpdate0=1
+ParameterName1=Comment
+ParameterUpdate1=1
+ParameterName2=Component Kind
+ParameterUpdate2=1
+ParameterName3=ComponentLink1Description
+ParameterUpdate3=1
+ParameterName4=ComponentLink1URL
+ParameterUpdate4=1
+ParameterName5=ComponentLink2Description
+ParameterUpdate5=1
+ParameterName6=ComponentLink2URL
+ParameterUpdate6=1
+ParameterName7=Description
+ParameterUpdate7=1
+ParameterName8=Library Reference
+ParameterUpdate8=1
+ParameterName9=Manufacturer
+ParameterUpdate9=1
+ParameterName10=Manufacturer 1
+ParameterUpdate10=1
+ParameterName11=Manufacturer Part Number
+ParameterUpdate11=1
+ParameterName12=Power
+ParameterUpdate12=1
+ParameterName13=Precision
+ParameterUpdate13=1
+ParameterName14=Pricing
+ParameterUpdate14=1
+ParameterName15=PublishedDate
+ParameterUpdate15=1
+ParameterName16=RatedVoltage
+ParameterUpdate16=1
+ParameterName17=Size
+ParameterUpdate17=1
+ParameterName18=Supplier 1
+ParameterUpdate18=1
+ParameterName19=Supplier Part Number 1
+ParameterUpdate19=1
+ParameterName20=Type
+ParameterUpdate20=1
+ParameterName21=Value
+ParameterUpdate21=1
+ParameterName22=Vmax
+ParameterUpdate22=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=22-03-2021
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=61300311021
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=690367280876
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=RESC1608X06N
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=SOT-23
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=WCAP-CSGP_0805, 2x1.25x1.25
+ModelUpdate5=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -974,15 +1082,15 @@ UpdateVariants=1
 PartTypes=0
 
 [ToDoManager]
-ProjectToDo1=Name=Supprimer le 5V et tout connecter sur le 5L.~1Rajouter un cinquième laser.|Owner=Grégoire|Category=PCB|UID=JDBKGTNT
-ProjectToDo2=Name=Contrôle directe de ENABLE (supprimer le MOSFET).~1Les résistances de tirage doivent être du 10k.|Owner=Grégoire|Category=PCB|UID=OTINUKXE
-ProjectToDo3=Name=Remplacer le connecteur par le nouveau posé sur la schématique.|Owner=Grégoire|Category=PCB|UID=TARHOHWE
-ProjectToDo4=Name=Ajout condo 10micro entrée 5V carte (regarder cartes CoG et CAP)|UID=VSDNKBQF
-ProjectToDo5=Name=Les pistes doivent être en 0.4.~1Le 5V des lasers doit être en 0.6mm~1Il faut que la piste 5V qui alimente les lasers soit située en aval du condensateur de filtrage.|Owner=Grégoire|Category=PCB|UID=SSLDGHSJ
-ProjectToDo6=Name=Tourner le connecteur 8 broches de 90° afin de simplifier le routage des pistes.|Owner=Grégoire|Category=PCB|UID=QKDOMKKM
-ProjectToDo7=Name=Passer les résistances en 0603.|Owner=Grégoire|Category=PCB|UID=HABSOAKG
-ProjectToDo8=Name=Corriger l'erreur d'usage MOSFET.|Owner=Grégoire|Category=PCB|UID=YHJOERWV
-ProjectToDo9=Name=Mettre un écart de 2.54 entre les connecteurs pour les photodiodes.~1Espacer les connecteurs lasers d'un multiple de 2.54.|Owner=Grégoire|Category=PCB|UID=YPYYVHKE
+ProjectToDo1=Name=Supprimer le 5V et tout connecter sur le 5L.~1Rajouter un cinquième laser.|State=1|Owner=Grégoire|Category=PCB|UID=JDBKGTNT
+ProjectToDo2=Name=Contrôle directe de ENABLE (supprimer le MOSFET).~1Les résistances de tirage doivent être du 10k.|State=1|Owner=Grégoire|Category=PCB|UID=OTINUKXE
+ProjectToDo3=Name=Remplacer le connecteur par le nouveau posé sur la schématique.|State=1|Owner=Grégoire|Category=PCB|UID=TARHOHWE
+ProjectToDo4=Name=Ajout condo 10micro entrée 5V carte (regarder cartes CoG et CAP)|State=1|UID=VSDNKBQF
+ProjectToDo5=Name=Les pistes doivent être en 0.4.~1Le 5V des lasers doit être en 0.6mm~1Il faut que la piste 5V qui alimente les lasers soit située en aval du condensateur de filtrage.|State=1|Owner=Grégoire|Category=PCB|UID=SSLDGHSJ
+ProjectToDo6=Name=Tourner le connecteur 8 broches de 90° afin de simplifier le routage des pistes.|State=1|Owner=Grégoire|Category=PCB|UID=QKDOMKKM
+ProjectToDo7=Name=Passer les résistances en 0603.|State=1|Owner=Grégoire|Category=PCB|UID=HABSOAKG
+ProjectToDo8=Name=Corriger l'erreur d'usage MOSFET.|State=1|Owner=Grégoire|Category=PCB|UID=YHJOERWV
+ProjectToDo9=Name=Mettre un écart de 2.54 entre les connecteurs pour les photodiodes.~1Espacer les connecteurs lasers d'un multiple de 2.54.|State=1|Owner=Grégoire|Category=PCB|UID=YPYYVHKE
 ProjectToDo10=Name=Agrandir les pads des connecteurs pr les capteurs afin qu'ils soient de la même taille que ceux des lasers.|Owner=Grégoire|Category=PCB|UID=CJBWNDJI
 
 [Comparison Options]
