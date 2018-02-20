@@ -1,5 +1,6 @@
 Record=TopLevelDocument|FileName=CaP_TOP.SchDoc
 Record=SheetSymbol|SourceDocument=CaP_TOP.SchDoc|Designator=CDC|SchDesignator=CDC|FileName=CAp_CDC.SchDoc|SymbolType=Normal|RawFileName=CAp_CDC.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=CaP_TOP.SchDoc|Designator=PONT_H|SchDesignator=PONT_H|FileName=CAp_Pont_H.SchDoc|SymbolType=Normal|RawFileName=CAp_Pont_H.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=CaP_TOP.SchDoc|Designator=PWR|SchDesignator=PWR|FileName=CAp_PWR.SchDoc|SymbolType=Normal|RawFileName=CAp_PWR.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=CaP_TOP.SchDoc|Designator=Revision|SchDesignator=Revision|FileName=CaP_Revision.SchDoc|SymbolType=Normal|RawFileName=CaP_Revision.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=CaP_TOP.SchDoc|Designator=SRV|SchDesignator=SRV|FileName=CAp_SRV.SchDoc|SymbolType=Normal|RawFileName=CAp_SRV.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
