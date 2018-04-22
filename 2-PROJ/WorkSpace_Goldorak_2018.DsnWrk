@@ -18,3 +18,5 @@ ProjectPath=11-Carte_GR_2017_v2\logique\Carte_GR_2017_logique_v1.PrjPCB
 ProjectPath=12-Carte_Barriere_Optique\Carte_Barriere_Optique.PrjPcb
 [Project9]
 ProjectPath=12-Carte_Barriere_Optique\Carte_Barriere_Optique_Interface.PrjPcb
+[Project10]
+ProjectPath=13-Carte_EV_2018\Carte_EV_2018.PrjPcb
