@@ -73,18 +73,10 @@ GenerateClassCluster=0
 DocumentUniqueId=FDCNOXFC
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Carte_EV_2018\Carte_EV_2018.BOM
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Carte_EV_2018\Carte_EV_2018.CSV
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Project Outputs for Carte_EV_2018\Carte_EV_2018.xls
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for Carte_EV_2018\Design Rule Check - Carte_EV_2018.html
 DItemRevisionGUID=
 
