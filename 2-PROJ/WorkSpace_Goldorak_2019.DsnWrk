@@ -24,7 +24,3 @@ ProjectPath=13-Carte_EV_2018\Carte_EV_2018.PrjPcb
 ProjectPath=14-Carte_Alim_2019\Carte_Alim_2019.PrjPcb
 [Project12]
 ProjectPath=U:\GDrive_Audran\Goldorak\7-Espionnage\elec_ECEBORG\2015\5-Alim\carte_alim.PrjPCB
-[Project13]
-ProjectPath=U:\GDrive_Audran\Goldorak\7-Espionnage\elec NUCLEO-F303RE (utilisé par Goldo)\MB1136_w_pcb.PrjPCB
-[Project14]
-ProjectPath=..\1-LIB\Diode\Diode.LibPkg
