@@ -3,6 +3,8 @@ Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
 ReleasesFolder=
+ReleaseVaultGUID=
+ReleaseVaultName=
 ChannelDesignatorFormatString=$Component_$RoomName
 ChannelRoomLevelSeperator=_
 OpenOutputs=1
@@ -31,7 +33,6 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
-IncludeDesignInRelease=0
 
 [Preferences]
 PrefsVaultGUID=
@@ -156,29 +157,11 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
-DocumentPath=Carte_Alim_2019.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [ProjectVariant1]
-UniqueID=9BB0119C-21A8-4DD9-803E-8B50D50056B4
 Description=PROD
 AllowFabrication=0
 ParameterCount=0
-VariationCount=24
+VariationCount=29
 Variation1=Designator=R45|UniqueId=\OFPBMYJG\GDXNQIMC|Kind=1|AlternatePart= 
 Variation2=Designator=C24|UniqueId=\OFPBMYJG\FRGGTCSE|Kind=1|AlternatePart= 
 Variation3=Designator=R46|UniqueId=\OFPBMYJG\VVXOKNIT|Kind=1|AlternatePart= 
@@ -203,6 +186,11 @@ Variation21=Designator=FB3|UniqueId=\GNREREHE\GCLKKXWO|Kind=1|AlternatePart=
 Variation22=Designator=R60|UniqueId=\GNREREHE\VTRPSMTO|Kind=1|AlternatePart= 
 Variation23=Designator=R72|UniqueId=\GNREREHE\RLFHYNEO|Kind=1|AlternatePart= 
 Variation24=Designator=J15|UniqueId=\OFPBMYJG\OTKRVXEF|Kind=1|AlternatePart= 
+Variation25=Designator=J33|UniqueId=\OFPBMYJG\REIHJAFH|Kind=1|AlternatePart= 
+Variation26=Designator=J13|UniqueId=\OFPBMYJG\BUYFSLWX|Kind=1|AlternatePart= 
+Variation27=Designator=J14|UniqueId=\OFPBMYJG\PUPOBWPN|Kind=1|AlternatePart= 
+Variation28=Designator=J8|UniqueId=\GWMQEKWF\VCURCYVE|Kind=1|AlternatePart= 
+Variation29=Designator=J10|UniqueId=\GWMQEKWF\BCWXXDMQ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -210,10 +198,10 @@ Name=Default Configuration
 ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
+CurrentRevision=
 Variant=[No Variations]
+GenerateBOM=1
 OutputJobsCount=0
-ContentTypeGUID=
-ConfigurationType=
 
 [Generic_SmartPDF]
 AutoOpenFile=0
@@ -257,7 +245,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver 3
+TargetPrinter=HP LaserJet M177fw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
@@ -269,101 +257,21 @@ OutputName2=PADS ASCII Netlist
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=CadnetixNetlist
-OutputName3=Cadnetix Netlist
+OutputType3=Verilog
+OutputName3=Verilog File
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=CalayNetlist
-OutputName4=Calay Netlist
+OutputType4=VHDL
+OutputName4=VHDL File
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=EDIF
-OutputName5=EDIF for PCB
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-OutputType6=EESofNetlist
-OutputName6=EESof Netlist
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-OutputType7=IntergraphNetlist
-OutputName7=Intergraph Netlist
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-OutputType8=MentorBoardStationNetlist
-OutputName8=Mentor BoardStation Netlist
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-OutputType9=MultiWire
-OutputName9=MultiWire
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-OutputType10=OrCadPCB2Netlist
-OutputName10=Orcad/PCB2 Netlist
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=Pcad
-OutputName11=Pcad for PCB
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=PCADnltNetlist
-OutputName12=PCADnlt Netlist
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=Protel2Netlist
-OutputName13=Protel2 Netlist
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=ProtelNetlist
-OutputName14=Protel
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=RacalNetlist
-OutputName15=Racal Netlist
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=RINFNetlist
-OutputName16=RINF Netlist
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SciCardsNetlist
-OutputName17=SciCards Netlist
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=TangoNetlist
-OutputName18=Tango Netlist
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-OutputType19=TelesisNetlist
-OutputName19=Telesis Netlist
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-OutputType20=WireListNetlist
-OutputName20=WireList Netlist
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver 3
+TargetPrinter=HP LaserJet M177fw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -431,17 +339,65 @@ OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType10=PCBDrawing
-OutputName10=Draftsman
+OutputType10=Assembler Source Print
+OutputName10=Assembler Source Prints
 OutputDocumentPath10=
-OutputVariantName10=[No Variations]
+OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=C Source Print
+OutputName11=C Source Prints
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=C/C++ Header Print
+OutputName12=C/C++ Header Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=C++ Source Print
+OutputName13=C++ Source Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=FSM Print
+OutputName14=FSM Prints
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType15=OpenBus Print
+OutputName15=OpenBus Prints
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType16=VHDL Print
+OutputName16=VHDL Prints
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType17=Wave Print
+OutputName17=Wave Prints
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType18=WaveSim Print
+OutputName18=WaveSim Prints
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver 3
+TargetPrinter=HP LaserJet M177fw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -463,7 +419,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver 3
+TargetPrinter=HP LaserJet M177fw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -535,7 +491,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver 3
+TargetPrinter=HP LaserJet M177fw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -586,7 +542,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver 3
+TargetPrinter=HP LaserJet M177fw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -766,7 +722,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver 3
+TargetPrinter=HP LaserJet M177fw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -805,7 +761,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver 3
+TargetPrinter=HP LaserJet M177fw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -822,47 +778,6 @@ OutputName3=Export STEP
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=ExportIDF
-OutputName4=Export IDF
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-OutputType5=ExportPARASOLID
-OutputName5=Export PARASOLID
-OutputDocumentPath5=
-OutputVariantName5=[No Variations]
-OutputDefault5=0
-OutputType6=ExportVRML
-OutputName6=Export VRML
-OutputDocumentPath6=
-OutputVariantName6=[No Variations]
-OutputDefault6=0
-OutputType7=Save As/Export PCB
-OutputName7=Save As/Export PCB
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-OutputType8=Save As/Export Schematic
-OutputName8=Save As/Export Schematic
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-OutputType9=Specctra Design PCB
-OutputName9=Specctra Design PCB
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-
-[OutputGroup10]
-Name=PostProcess Outputs
-Description=
-TargetPrinter=Samsung Universal Print Driver 3
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Copy Files
-OutputName1=Copy Files
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [Modification Levels]
 Type1=1
@@ -945,42 +860,6 @@ Type77=1
 Type78=1
 Type79=1
 Type80=1
-Type81=1
-Type82=1
-Type83=1
-Type84=1
-Type85=1
-Type86=1
-Type87=1
-Type88=1
-Type89=1
-Type90=1
-Type91=1
-Type92=1
-Type93=1
-Type94=1
-Type95=1
-Type96=1
-Type97=1
-Type98=1
-Type99=1
-Type100=1
-Type101=1
-Type102=1
-Type103=1
-Type104=1
-Type105=1
-Type106=1
-Type107=1
-Type108=1
-Type109=1
-Type110=1
-Type111=1
-Type112=1
-Type113=1
-Type114=1
-Type115=1
-Type116=1
 
 [Difference Levels]
 Type1=1
@@ -1028,26 +907,6 @@ Type42=1
 Type43=1
 Type44=0
 Type45=1
-Type46=1
-Type47=1
-Type48=1
-Type49=1
-Type50=1
-Type51=1
-Type52=1
-Type53=1
-Type54=1
-Type55=1
-Type56=1
-Type57=1
-Type58=1
-Type59=1
-Type60=1
-Type61=1
-Type62=1
-Type63=1
-Type64=1
-Type65=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1161,17 +1020,6 @@ Type108=2
 Type109=1
 Type110=1
 Type111=1
-Type112=1
-Type113=1
-Type114=2
-Type115=2
-Type116=2
-Type117=3
-Type118=3
-Type119=3
-MultiChannelAlternate=2
-AlternateItemFail=3
-Type122=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1272,190 +1120,184 @@ ComponentUpdate8=1
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
 ComponentLibraryIdentifier9=Condensateur.IntLib
-ComponentDesignItemID9=WCAP-ATG8, 860010675018
-ComponentSymbolReference9=WCAP-ATG8, 860010675018
+ComponentDesignItemID9=WCAP-CSGP, 885012205067
+ComponentSymbolReference9=WCAP-CSGP, 885012205067
 ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
 ComponentLibraryIdentifier10=Condensateur.IntLib
-ComponentDesignItemID10=WCAP-CSGP, 885012205067
-ComponentSymbolReference10=WCAP-CSGP, 885012205067
+ComponentDesignItemID10=WCAP-CSGP, 885012206095
+ComponentSymbolReference10=WCAP-CSGP, 885012206095
 ComponentUpdate10=1
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
 ComponentLibraryIdentifier11=Condensateur.IntLib
-ComponentDesignItemID11=WCAP-CSGP, 885012206095
-ComponentSymbolReference11=WCAP-CSGP, 885012206095
+ComponentDesignItemID11=WCAP-CSGP, 885012207103
+ComponentSymbolReference11=WCAP-CSGP, 885012207103
 ComponentUpdate11=1
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=Condensateur.IntLib
-ComponentDesignItemID12=WCAP-CSGP, 885012207103
-ComponentSymbolReference12=WCAP-CSGP, 885012207103
+ComponentLibraryIdentifier12=Connecteurs.IntLib
+ComponentDesignItemID12=20-03-5035
+ComponentSymbolReference12=20-03-5035
 ComponentUpdate12=1
 ComponentIsDeviceSheet12=0
 ComponentLibIdentifierKind13=Library Name And Type
 ComponentLibraryIdentifier13=Connecteurs.IntLib
-ComponentDesignItemID13=20-03-5035
-ComponentSymbolReference13=20-03-5035
+ComponentDesignItemID13=22-03-2021
+ComponentSymbolReference13=22-03-2021
 ComponentUpdate13=1
 ComponentIsDeviceSheet13=0
 ComponentLibIdentifierKind14=Library Name And Type
 ComponentLibraryIdentifier14=Connecteurs.IntLib
-ComponentDesignItemID14=22-03-2021
-ComponentSymbolReference14=22-03-2021
+ComponentDesignItemID14=22-03-2031
+ComponentSymbolReference14=22-03-2031
 ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
 ComponentLibraryIdentifier15=Connecteurs.IntLib
-ComponentDesignItemID15=22-03-2031
-ComponentSymbolReference15=22-03-2031
+ComponentDesignItemID15=690367280676
+ComponentSymbolReference15=690367280676
 ComponentUpdate15=1
 ComponentIsDeviceSheet15=0
 ComponentLibIdentifierKind16=Library Name And Type
 ComponentLibraryIdentifier16=Connecteurs.IntLib
-ComponentDesignItemID16=690367280676
-ComponentSymbolReference16=690367280676
+ComponentDesignItemID16=690367280876
+ComponentSymbolReference16=690367280876
 ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 ComponentLibIdentifierKind17=Library Name And Type
 ComponentLibraryIdentifier17=Connecteurs.IntLib
-ComponentDesignItemID17=690367280876
-ComponentSymbolReference17=690367280876
+ComponentDesignItemID17=691311500102
+ComponentSymbolReference17=691311500102
 ComponentUpdate17=1
 ComponentIsDeviceSheet17=0
 ComponentLibIdentifierKind18=Library Name And Type
 ComponentLibraryIdentifier18=Connecteurs.IntLib
-ComponentDesignItemID18=691311500102
-ComponentSymbolReference18=691311500102
+ComponentDesignItemID18=691322110002
+ComponentSymbolReference18=691322110002
 ComponentUpdate18=1
 ComponentIsDeviceSheet18=0
 ComponentLibIdentifierKind19=Library Name And Type
-ComponentLibraryIdentifier19=Connecteurs.IntLib
-ComponentDesignItemID19=691322110002
-ComponentSymbolReference19=691322110002
+ComponentLibraryIdentifier19=Diode.IntLib
+ComponentDesignItemID19=824540241
+ComponentSymbolReference19=824540241
 ComponentUpdate19=1
 ComponentIsDeviceSheet19=0
 ComponentLibIdentifierKind20=Library Name And Type
 ComponentLibraryIdentifier20=Diode.IntLib
-ComponentDesignItemID20=824540241
-ComponentSymbolReference20=824540241
+ComponentDesignItemID20=BAT54S-7-F
+ComponentSymbolReference20=BAT54S-7-F
 ComponentUpdate20=1
 ComponentIsDeviceSheet20=0
 ComponentLibIdentifierKind21=Library Name And Type
 ComponentLibraryIdentifier21=Diode.IntLib
-ComponentDesignItemID21=BAT54S-7-F
-ComponentSymbolReference21=BAT54S-7-F
+ComponentDesignItemID21=HTA5U100
+ComponentSymbolReference21=HTA5U100
 ComponentUpdate21=1
 ComponentIsDeviceSheet21=0
 ComponentLibIdentifierKind22=Library Name And Type
 ComponentLibraryIdentifier22=Diode.IntLib
-ComponentDesignItemID22=HTA5U100
-ComponentSymbolReference22=HTA5U100
+ComponentDesignItemID22=RBR3MM40ATFTR
+ComponentSymbolReference22=RBR3MM40ATFTR
 ComponentUpdate22=1
 ComponentIsDeviceSheet22=0
 ComponentLibIdentifierKind23=Library Name And Type
-ComponentLibraryIdentifier23=Diode.IntLib
-ComponentDesignItemID23=RBR3MM40ATFTR
-ComponentSymbolReference23=RBR3MM40ATFTR
+ComponentLibraryIdentifier23=Fuse.IntLib
+ComponentDesignItemID23=0891030.NXS
+ComponentSymbolReference23=0891030.NXS
 ComponentUpdate23=1
 ComponentIsDeviceSheet23=0
 ComponentLibIdentifierKind24=Library Name And Type
 ComponentLibraryIdentifier24=Fuse.IntLib
-ComponentDesignItemID24=0891030.NXS
-ComponentSymbolReference24=0891030.NXS
+ComponentDesignItemID24=3557-2
+ComponentSymbolReference24=3557-2
 ComponentUpdate24=1
 ComponentIsDeviceSheet24=0
 ComponentLibIdentifierKind25=Library Name And Type
-ComponentLibraryIdentifier25=Fuse.IntLib
-ComponentDesignItemID25=3557-2
-ComponentSymbolReference25=3557-2
+ComponentLibraryIdentifier25=Inductance.IntLib
+ComponentDesignItemID25=WE-CBF, 742792624
+ComponentSymbolReference25=WE-CBF, 742792624
 ComponentUpdate25=1
 ComponentIsDeviceSheet25=0
 ComponentLibIdentifierKind26=Library Name And Type
-ComponentLibraryIdentifier26=Inductance.IntLib
-ComponentDesignItemID26=WE-CBF, 742792624
-ComponentSymbolReference26=WE-CBF, 742792624
+ComponentLibraryIdentifier26=Optoélectronique.IntLib
+ComponentDesignItemID26=WL-SMCW 0603  150060GS75000
+ComponentSymbolReference26=WL-SMCW 0603  150060GS75000
 ComponentUpdate26=1
 ComponentIsDeviceSheet26=0
 ComponentLibIdentifierKind27=Library Name And Type
-ComponentLibraryIdentifier27=Optoélectronique.IntLib
-ComponentDesignItemID27=WL-SMCW 0603  150060GS75000
-ComponentSymbolReference27=WL-SMCW 0603  150060GS75000
+ComponentLibraryIdentifier27=Resistance.IntLib
+ComponentDesignItemID27=Generic_TH_Vert_Res
+ComponentSymbolReference27=Generic_TH_Vert_Res
 ComponentUpdate27=1
 ComponentIsDeviceSheet27=0
 ComponentLibIdentifierKind28=Library Name And Type
 ComponentLibraryIdentifier28=Resistance.IntLib
-ComponentDesignItemID28=Generic_TH_Vert_Res
-ComponentSymbolReference28=Generic_TH_Vert_Res
+ComponentDesignItemID28=RC0402FR-07620RL
+ComponentSymbolReference28=RC0402FR-07620RL
 ComponentUpdate28=1
 ComponentIsDeviceSheet28=0
 ComponentLibIdentifierKind29=Library Name And Type
 ComponentLibraryIdentifier29=Resistance.IntLib
-ComponentDesignItemID29=RC0402FR-07620RL
-ComponentSymbolReference29=RC0402FR-07620RL
+ComponentDesignItemID29=RC0603FR-0710KL
+ComponentSymbolReference29=RC0603FR-0710KL
 ComponentUpdate29=1
 ComponentIsDeviceSheet29=0
 ComponentLibIdentifierKind30=Library Name And Type
 ComponentLibraryIdentifier30=Resistance.IntLib
-ComponentDesignItemID30=RC0603FR-0710KL
-ComponentSymbolReference30=RC0603FR-0710KL
+ComponentDesignItemID30=RC0603FR-071K8L
+ComponentSymbolReference30=RC0603FR-071K8L
 ComponentUpdate30=1
 ComponentIsDeviceSheet30=0
 ComponentLibIdentifierKind31=Library Name And Type
 ComponentLibraryIdentifier31=Resistance.IntLib
-ComponentDesignItemID31=RC0603FR-071K8L
-ComponentSymbolReference31=RC0603FR-071K8L
+ComponentDesignItemID31=RC0603FR-071KL
+ComponentSymbolReference31=RC0603FR-071KL
 ComponentUpdate31=1
 ComponentIsDeviceSheet31=0
 ComponentLibIdentifierKind32=Library Name And Type
 ComponentLibraryIdentifier32=Resistance.IntLib
-ComponentDesignItemID32=RC0603FR-071KL
-ComponentSymbolReference32=RC0603FR-071KL
+ComponentDesignItemID32=RC0603FR-0768RL
+ComponentSymbolReference32=RC0603FR-0768RL
 ComponentUpdate32=1
 ComponentIsDeviceSheet32=0
 ComponentLibIdentifierKind33=Library Name And Type
 ComponentLibraryIdentifier33=Resistance.IntLib
-ComponentDesignItemID33=RC0603FR-0768RL
-ComponentSymbolReference33=RC0603FR-0768RL
+ComponentDesignItemID33=RC0805FR-072K7L
+ComponentSymbolReference33=RC0805FR-072K7L
 ComponentUpdate33=1
 ComponentIsDeviceSheet33=0
 ComponentLibIdentifierKind34=Library Name And Type
-ComponentLibraryIdentifier34=Resistance.IntLib
-ComponentDesignItemID34=RC0805FR-072K7L
-ComponentSymbolReference34=RC0805FR-072K7L
+ComponentLibraryIdentifier34=Switchs.IntLib
+ComponentDesignItemID34=430456085736
+ComponentSymbolReference34=430456085736
 ComponentUpdate34=1
 ComponentIsDeviceSheet34=0
 ComponentLibIdentifierKind35=Library Name And Type
 ComponentLibraryIdentifier35=Switchs.IntLib
-ComponentDesignItemID35=430456085736
-ComponentSymbolReference35=430456085736
+ComponentDesignItemID35=OS102011MS2QN1
+ComponentSymbolReference35=OS102011MS2QN1
 ComponentUpdate35=1
 ComponentIsDeviceSheet35=0
 ComponentLibIdentifierKind36=Library Name And Type
-ComponentLibraryIdentifier36=Switchs.IntLib
-ComponentDesignItemID36=OS102011MS2QN1
-ComponentSymbolReference36=OS102011MS2QN1
+ComponentLibraryIdentifier36=Transistors.IntLib
+ComponentDesignItemID36=IPD50P04P4-L11
+ComponentSymbolReference36=IPD50P04P4-L11
 ComponentUpdate36=1
 ComponentIsDeviceSheet36=0
 ComponentLibIdentifierKind37=Library Name And Type
 ComponentLibraryIdentifier37=Transistors.IntLib
-ComponentDesignItemID37=IPD50P04P4-L11
-ComponentSymbolReference37=IPD50P04P4-L11
+ComponentDesignItemID37=IRLML0040
+ComponentSymbolReference37=IRLML0040
 ComponentUpdate37=1
 ComponentIsDeviceSheet37=0
 ComponentLibIdentifierKind38=Library Name And Type
 ComponentLibraryIdentifier38=Transistors.IntLib
-ComponentDesignItemID38=IRLML0040
-ComponentSymbolReference38=IRLML0040
+ComponentDesignItemID38=VNH5180ATR-E
+ComponentSymbolReference38=VNH5180ATR-E
 ComponentUpdate38=1
 ComponentIsDeviceSheet38=0
-ComponentLibIdentifierKind39=Library Name And Type
-ComponentLibraryIdentifier39=Transistors.IntLib
-ComponentDesignItemID39=VNH5180ATR-E
-ComponentSymbolReference39=VNH5180ATR-E
-ComponentUpdate39=1
-ComponentIsDeviceSheet39=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1652,7 +1494,7 @@ ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=
 ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions5=Kind=Code Memory|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
