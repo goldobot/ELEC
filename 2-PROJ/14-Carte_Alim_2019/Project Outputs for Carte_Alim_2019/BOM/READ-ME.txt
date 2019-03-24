@@ -1,0 +1,6 @@
+Note sur la BOM
+
+Traco fourni en sponsoring
+composant Wurth fourni en sponsoring
+Pont en H en rupture chez farnell, demander sample
+fusible 30A au US (ou sur Digikey Mouser), ref alt: 2137132; 2137134
