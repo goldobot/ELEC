@@ -6,3 +6,7 @@ Pont en H en rupture chez farnell, demander sample
 fusible 30A au US (ou sur Digikey Mouser), ref alt: 2137132; 2137134
 pate à braser: 1850223
 barette sécable?
+
+
+pour eceborg:
+On a 2 moteur DC, on veut 5V de puissance, 5V logique, 12V, un fusible 63A si possible (30A sinon), on aura 6 sharps, les autres capteurs on a pas encore décidé, le clavier et la led AU ne sont pas nécessaires plus nous mais si ca te fais plus de travail alors on le prends
