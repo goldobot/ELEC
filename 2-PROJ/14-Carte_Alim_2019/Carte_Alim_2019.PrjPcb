@@ -3,6 +3,8 @@ Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
 ReleasesFolder=
+ReleaseVaultGUID=
+ReleaseVaultName=
 ChannelDesignatorFormatString=$Component_$RoomName
 ChannelRoomLevelSeperator=_
 OpenOutputs=1
@@ -31,7 +33,6 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
-IncludeDesignInRelease=0
 
 [Preferences]
 PrefsVaultGUID=
@@ -157,40 +158,981 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [ProjectVariant1]
-UniqueID=50B526B2-61C3-4202-8C1E-F1097DAED88D
 Description=PROD
 AllowFabrication=0
 ParameterCount=0
-VariationCount=29
+VariationCount=22
 Variation1=Designator=R45|UniqueId=\OFPBMYJG\GDXNQIMC|Kind=1|AlternatePart= 
-Variation2=Designator=C24|UniqueId=\OFPBMYJG\FRGGTCSE|Kind=0|AlternatePart= 
-Variation3=Designator=R46|UniqueId=\OFPBMYJG\VVXOKNIT|Kind=0|AlternatePart= 
-Variation4=Designator=D8|UniqueId=\OFPBMYJG\LBUUJKEU|Kind=0|AlternatePart= 
-Variation5=Designator=R51|UniqueId=\OFPBMYJG\BXKRCMWN|Kind=1|AlternatePart= 
-Variation6=Designator=R52|UniqueId=\OFPBMYJG\BISAYODH|Kind=0|AlternatePart= 
-Variation7=Designator=C25|UniqueId=\OFPBMYJG\HVAIIEGW|Kind=0|AlternatePart= 
-Variation8=Designator=D9|UniqueId=\OFPBMYJG\ACWBDEXK|Kind=0|AlternatePart= 
-Variation9=Designator=J12|UniqueId=\OFPBMYJG\SIUVCUAV|Kind=1|AlternatePart= 
-Variation10=Designator=J25|UniqueId=\AHAWVNSC\VGNUGKDP|Kind=1|AlternatePart= 
-Variation11=Designator=J28|UniqueId=\AHAWVNSC\AJKCCXRJ|Kind=1|AlternatePart= 
-Variation12=Designator=J11|UniqueId=\GWMQEKWF\JYFIDOTP|Kind=1|AlternatePart= 
-Variation13=Designator=J9|UniqueId=\GWMQEKWF\QCKBOJMA|Kind=1|AlternatePart= 
-Variation14=Designator=J4|UniqueId=\GWMQEKWF\UBCNSAUH|Kind=1|AlternatePart= 
-Variation15=Designator=R25|UniqueId=\GWMQEKWF\RJSONNLY|Kind=1|AlternatePart= 
-Variation16=Designator=J17|UniqueId=\GNREREHE\HHPDKNVH|Kind=1|AlternatePart= 
-Variation17=Designator=J18|UniqueId=\GNREREHE\TKUBGVQE|Kind=1|AlternatePart= 
-Variation18=Designator=C28|UniqueId=\GNREREHE\LCGGFMNG|Kind=1|AlternatePart= 
-Variation19=Designator=FB1|UniqueId=\GNREREHE\PHSDIFXO|Kind=1|AlternatePart= 
-Variation20=Designator=FB2|UniqueId=\GNREREHE\TYDHHXSJ|Kind=1|AlternatePart= 
-Variation21=Designator=FB3|UniqueId=\GNREREHE\GCLKKXWO|Kind=1|AlternatePart= 
-Variation22=Designator=R60|UniqueId=\GNREREHE\VTRPSMTO|Kind=1|AlternatePart= 
-Variation23=Designator=R72|UniqueId=\GNREREHE\RLFHYNEO|Kind=1|AlternatePart= 
-Variation24=Designator=J15|UniqueId=\OFPBMYJG\OTKRVXEF|Kind=0|AlternatePart= 
-Variation25=Designator=J33|UniqueId=\OFPBMYJG\REIHJAFH|Kind=1|AlternatePart= 
-Variation26=Designator=J13|UniqueId=\OFPBMYJG\BUYFSLWX|Kind=1|AlternatePart= 
-Variation27=Designator=J14|UniqueId=\OFPBMYJG\PUPOBWPN|Kind=1|AlternatePart= 
-Variation28=Designator=J8|UniqueId=\GWMQEKWF\VCURCYVE|Kind=1|AlternatePart= 
-Variation29=Designator=J10|UniqueId=\GWMQEKWF\BCWXXDMQ|Kind=1|AlternatePart= 
+Variation2=Designator=R51|UniqueId=\OFPBMYJG\BXKRCMWN|Kind=1|AlternatePart= 
+Variation3=Designator=J12|UniqueId=\OFPBMYJG\SIUVCUAV|Kind=1|AlternatePart= 
+Variation4=Designator=J25|UniqueId=\AHAWVNSC\VGNUGKDP|Kind=1|AlternatePart= 
+Variation5=Designator=J28|UniqueId=\AHAWVNSC\AJKCCXRJ|Kind=1|AlternatePart= 
+Variation6=Designator=J11|UniqueId=\GWMQEKWF\JYFIDOTP|Kind=1|AlternatePart= 
+Variation7=Designator=J9|UniqueId=\GWMQEKWF\QCKBOJMA|Kind=1|AlternatePart= 
+Variation8=Designator=J4|UniqueId=\GWMQEKWF\UBCNSAUH|Kind=1|AlternatePart= 
+Variation9=Designator=R25|UniqueId=\GWMQEKWF\RJSONNLY|Kind=1|AlternatePart= 
+Variation10=Designator=J17|UniqueId=\GNREREHE\HHPDKNVH|Kind=1|AlternatePart= 
+Variation11=Designator=J18|UniqueId=\GNREREHE\TKUBGVQE|Kind=1|AlternatePart= 
+Variation12=Designator=C28|UniqueId=\GNREREHE\LCGGFMNG|Kind=1|AlternatePart= 
+Variation13=Designator=FB1|UniqueId=\GNREREHE\PHSDIFXO|Kind=1|AlternatePart= 
+Variation14=Designator=FB2|UniqueId=\GNREREHE\TYDHHXSJ|Kind=1|AlternatePart= 
+Variation15=Designator=FB3|UniqueId=\GNREREHE\GCLKKXWO|Kind=1|AlternatePart= 
+Variation16=Designator=R60|UniqueId=\GNREREHE\VTRPSMTO|Kind=1|AlternatePart= 
+Variation17=Designator=R72|UniqueId=\GNREREHE\RLFHYNEO|Kind=1|AlternatePart= 
+Variation18=Designator=J33|UniqueId=\OFPBMYJG\REIHJAFH|Kind=1|AlternatePart= 
+Variation19=Designator=J13|UniqueId=\OFPBMYJG\BUYFSLWX|Kind=1|AlternatePart= 
+Variation20=Designator=J14|UniqueId=\OFPBMYJG\PUPOBWPN|Kind=1|AlternatePart= 
+Variation21=Designator=J8|UniqueId=\GWMQEKWF\VCURCYVE|Kind=1|AlternatePart= 
+Variation22=Designator=J10|UniqueId=\GWMQEKWF\BCWXXDMQ|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant2]
+Description=BASE
+AllowFabrication=0
+ParameterCount=0
+VariationCount=91
+Variation1=Designator=J12|UniqueId=\OFPBMYJG\SIUVCUAV|Kind=1|AlternatePart= 
+Variation2=Designator=J25|UniqueId=\AHAWVNSC\VGNUGKDP|Kind=1|AlternatePart= 
+Variation3=Designator=J28|UniqueId=\AHAWVNSC\AJKCCXRJ|Kind=1|AlternatePart= 
+Variation4=Designator=J11|UniqueId=\GWMQEKWF\JYFIDOTP|Kind=1|AlternatePart= 
+Variation5=Designator=J9|UniqueId=\GWMQEKWF\QCKBOJMA|Kind=1|AlternatePart= 
+Variation6=Designator=J4|UniqueId=\GWMQEKWF\UBCNSAUH|Kind=1|AlternatePart= 
+Variation7=Designator=R25|UniqueId=\GWMQEKWF\RJSONNLY|Kind=1|AlternatePart= 
+Variation8=Designator=J17|UniqueId=\GNREREHE\HHPDKNVH|Kind=1|AlternatePart= 
+Variation9=Designator=J18|UniqueId=\GNREREHE\TKUBGVQE|Kind=1|AlternatePart= 
+Variation10=Designator=C28|UniqueId=\GNREREHE\LCGGFMNG|Kind=1|AlternatePart= 
+Variation11=Designator=FB1|UniqueId=\GNREREHE\PHSDIFXO|Kind=1|AlternatePart= 
+Variation12=Designator=FB2|UniqueId=\GNREREHE\TYDHHXSJ|Kind=1|AlternatePart= 
+Variation13=Designator=FB3|UniqueId=\GNREREHE\GCLKKXWO|Kind=1|AlternatePart= 
+Variation14=Designator=R60|UniqueId=\GNREREHE\VTRPSMTO|Kind=1|AlternatePart= 
+Variation15=Designator=R72|UniqueId=\GNREREHE\RLFHYNEO|Kind=1|AlternatePart= 
+Variation16=Designator=J33|UniqueId=\OFPBMYJG\REIHJAFH|Kind=1|AlternatePart= 
+Variation17=Designator=J13|UniqueId=\OFPBMYJG\BUYFSLWX|Kind=1|AlternatePart= 
+Variation18=Designator=J14|UniqueId=\OFPBMYJG\PUPOBWPN|Kind=1|AlternatePart= 
+Variation19=Designator=J8|UniqueId=\GWMQEKWF\VCURCYVE|Kind=1|AlternatePart= 
+Variation20=Designator=J10|UniqueId=\GWMQEKWF\BCWXXDMQ|Kind=1|AlternatePart= 
+Variation21=Designator=C8|UniqueId=\GWMQEKWF\TAREBCLJ|Kind=1|AlternatePart= 
+Variation22=Designator=C9|UniqueId=\GWMQEKWF\RGVTJPKL|Kind=1|AlternatePart= 
+Variation23=Designator=C10|UniqueId=\GWMQEKWF\SOGTKATX|Kind=1|AlternatePart= 
+Variation24=Designator=C11|UniqueId=\GWMQEKWF\FONCWNBE|Kind=1|AlternatePart= 
+Variation25=Designator=C12|UniqueId=\GWMQEKWF\UJDUOYDN|Kind=1|AlternatePart= 
+Variation26=Designator=C13|UniqueId=\GWMQEKWF\WGNVPOSP|Kind=1|AlternatePart= 
+Variation27=Designator=C14|UniqueId=\GWMQEKWF\EJLFHHCB|Kind=1|AlternatePart= 
+Variation28=Designator=C15|UniqueId=\GWMQEKWF\EHWYLXSN|Kind=1|AlternatePart= 
+Variation29=Designator=C16|UniqueId=\GWMQEKWF\CNWEHJVX|Kind=1|AlternatePart= 
+Variation30=Designator=C17|UniqueId=\GWMQEKWF\FIEYWBND|Kind=1|AlternatePart= 
+Variation31=Designator=C18|UniqueId=\GWMQEKWF\WLWWFESC|Kind=1|AlternatePart= 
+Variation32=Designator=C19|UniqueId=\GWMQEKWF\AUKXKWHQ|Kind=1|AlternatePart= 
+Variation33=Designator=D2|UniqueId=\GWMQEKWF\RPGJBPPQ|Kind=1|AlternatePart= 
+Variation34=Designator=D3|UniqueId=\GWMQEKWF\EAMQIMNQ|Kind=1|AlternatePart= 
+Variation35=Designator=D4|UniqueId=\GWMQEKWF\ECQCVCSO|Kind=1|AlternatePart= 
+Variation36=Designator=D5|UniqueId=\GWMQEKWF\EXOASLQD|Kind=1|AlternatePart= 
+Variation37=Designator=D6|UniqueId=\GWMQEKWF\PBKPDYPA|Kind=1|AlternatePart= 
+Variation38=Designator=D7|UniqueId=\GWMQEKWF\HYNDUATU|Kind=1|AlternatePart= 
+Variation39=Designator=DC1|UniqueId=\GWMQEKWF\EMLCFAIF|Kind=1|AlternatePart= 
+Variation40=Designator=DC2|UniqueId=\GWMQEKWF\FPQNHKVF|Kind=1|AlternatePart= 
+Variation41=Designator=DC3|UniqueId=\GWMQEKWF\MFOFPSPO|Kind=1|AlternatePart= 
+Variation42=Designator=J5|UniqueId=\GWMQEKWF\OTCERPQS|Kind=1|AlternatePart= 
+Variation43=Designator=J6|UniqueId=\GWMQEKWF\GHUJSVTH|Kind=1|AlternatePart= 
+Variation44=Designator=J7|UniqueId=\GWMQEKWF\MHGAKOMU|Kind=1|AlternatePart= 
+Variation45=Designator=J31|UniqueId=\GWMQEKWF\RKTALRGW|Kind=1|AlternatePart= 
+Variation46=Designator=J32|UniqueId=\GWMQEKWF\NHLCBLTS|Kind=1|AlternatePart= 
+Variation47=Designator=R17|UniqueId=\GWMQEKWF\NHHXLSRD|Kind=1|AlternatePart= 
+Variation48=Designator=R18|UniqueId=\GWMQEKWF\ESALUXFM|Kind=1|AlternatePart= 
+Variation49=Designator=R19|UniqueId=\GWMQEKWF\KGHLALPR|Kind=1|AlternatePart= 
+Variation50=Designator=R20|UniqueId=\GWMQEKWF\WXPMIEWF|Kind=1|AlternatePart= 
+Variation51=Designator=R21|UniqueId=\GWMQEKWF\GDFFHYWM|Kind=1|AlternatePart= 
+Variation52=Designator=R22|UniqueId=\GWMQEKWF\CEYLQXKL|Kind=1|AlternatePart= 
+Variation53=Designator=R23|UniqueId=\GWMQEKWF\NNIEQYIJ|Kind=1|AlternatePart= 
+Variation54=Designator=R24|UniqueId=\GWMQEKWF\MWURCJJS|Kind=1|AlternatePart= 
+Variation55=Designator=R26|UniqueId=\GWMQEKWF\OJVEVMBV|Kind=1|AlternatePart= 
+Variation56=Designator=R66|UniqueId=\GNREREHE\UMNTAXVF|Kind=1|AlternatePart= 
+Variation57=Designator=Q13|UniqueId=\GNREREHE\YYMEDIEK|Kind=1|AlternatePart= 
+Variation58=Designator=R57|UniqueId=\GNREREHE\INTRIHMU|Kind=1|AlternatePart= 
+Variation59=Designator=R78|UniqueId=\GNREREHE\MSGMKMTE|Kind=1|AlternatePart= 
+Variation60=Designator=Q16|UniqueId=\GNREREHE\TFULMXCN|Kind=1|AlternatePart= 
+Variation61=Designator=R69|UniqueId=\GNREREHE\DSJXEQGT|Kind=1|AlternatePart= 
+Variation62=Designator=R56|UniqueId=\GNREREHE\FYTHWHNK|Kind=1|AlternatePart= 
+Variation63=Designator=Q12|UniqueId=\GNREREHE\AJCGQXVL|Kind=1|AlternatePart= 
+Variation64=Designator=R65|UniqueId=\GNREREHE\GTONASNQ|Kind=1|AlternatePart= 
+Variation65=Designator=R59|UniqueId=\GNREREHE\AEYKCOWW|Kind=1|AlternatePart= 
+Variation66=Designator=R55|UniqueId=\GNREREHE\BCCIFHPQ|Kind=1|AlternatePart= 
+Variation67=Designator=R71|UniqueId=\GNREREHE\MAWMFJFY|Kind=1|AlternatePart= 
+Variation68=Designator=R77|UniqueId=\GNREREHE\NCJROYXE|Kind=1|AlternatePart= 
+Variation69=Designator=Q15|UniqueId=\GNREREHE\GHLVFRUY|Kind=1|AlternatePart= 
+Variation70=Designator=R68|UniqueId=\GNREREHE\YGCPPMDH|Kind=1|AlternatePart= 
+Variation71=Designator=R58|UniqueId=\GNREREHE\YFDQMELF|Kind=1|AlternatePart= 
+Variation72=Designator=R64|UniqueId=\GNREREHE\MEIBFOJH|Kind=1|AlternatePart= 
+Variation73=Designator=Q11|UniqueId=\GNREREHE\LQIYMHMQ|Kind=1|AlternatePart= 
+Variation74=Designator=R67|UniqueId=\GNREREHE\EUYKCCPU|Kind=1|AlternatePart= 
+Variation75=Designator=Q14|UniqueId=\GNREREHE\LSUDOAQU|Kind=1|AlternatePart= 
+Variation76=Designator=R76|UniqueId=\GNREREHE\MBOPQOQR|Kind=1|AlternatePart= 
+Variation77=Designator=R70|UniqueId=\GNREREHE\LDWILWHV|Kind=1|AlternatePart= 
+Variation78=Designator=Q3|UniqueId=\WNXXXMRV|Kind=1|AlternatePart= 
+Variation79=Designator=Q4|UniqueId=\MADIJXJI|Kind=1|AlternatePart= 
+Variation80=Designator=Q5|UniqueId=\FAJGPRSY|Kind=1|AlternatePart= 
+Variation81=Designator=R61|UniqueId=\GNREREHE\MKYMDNTQ|Kind=1|AlternatePart= 
+Variation82=Designator=R73|UniqueId=\GNREREHE\YUSJAMXI|Kind=1|AlternatePart= 
+Variation83=Designator=R62|UniqueId=\GNREREHE\EFKPIQXB|Kind=1|AlternatePart= 
+Variation84=Designator=R74|UniqueId=\GNREREHE\ELWNRADN|Kind=1|AlternatePart= 
+Variation85=Designator=R75|UniqueId=\GNREREHE\BASQQSXD|Kind=1|AlternatePart= 
+Variation86=Designator=R63|UniqueId=\GNREREHE\MRNRMEAH|Kind=1|AlternatePart= 
+Variation87=Designator=FB5|UniqueId=\GNREREHE\LANLNJGS|Kind=1|AlternatePart= 
+Variation88=Designator=FB6|UniqueId=\GNREREHE\ATAYKDHM|Kind=1|AlternatePart= 
+Variation89=Designator=FB8|UniqueId=\GNREREHE\OQRNPMLB|Kind=1|AlternatePart= 
+Variation90=Designator=FB7|UniqueId=\GNREREHE\IGPLTFXQ|Kind=1|AlternatePart= 
+Variation91=Designator=FB4|UniqueId=\GNREREHE\AIRMYTPI|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant3]
+Description=12V et NPN(VBAT)
+AllowFabrication=0
+ParameterCount=0
+VariationCount=186
+Variation1=Designator=R45|UniqueId=\OFPBMYJG\GDXNQIMC|Kind=1|AlternatePart= 
+Variation2=Designator=R51|UniqueId=\OFPBMYJG\BXKRCMWN|Kind=1|AlternatePart= 
+Variation3=Designator=C1|UniqueId=\AYPIIWAJ|Kind=1|AlternatePart= 
+Variation4=Designator=C3|UniqueId=\KFYJGYGK|Kind=1|AlternatePart= 
+Variation5=Designator=R52|UniqueId=\OFPBMYJG\BISAYODH|Kind=1|AlternatePart= 
+Variation6=Designator=R53|UniqueId=\OFPBMYJG\KTWQOHRA|Kind=1|AlternatePart= 
+Variation7=Designator=R54|UniqueId=\OFPBMYJG\UIYHOXRD|Kind=1|AlternatePart= 
+Variation8=Designator=R61|UniqueId=\GNREREHE\MKYMDNTQ|Kind=0|AlternatePart= 
+Variation9=Designator=R62|UniqueId=\GNREREHE\EFKPIQXB|Kind=0|AlternatePart= 
+Variation10=Designator=R63|UniqueId=\GNREREHE\MRNRMEAH|Kind=0|AlternatePart= 
+Variation11=Designator=S3|UniqueId=\AHAWVNSC\RSIIDDMS|Kind=1|AlternatePart= 
+Variation12=Designator=R88|UniqueId=\AHAWVNSC\VUTCKJBW|Kind=1|AlternatePart= 
+Variation13=Designator=R73|UniqueId=\GNREREHE\YUSJAMXI|Kind=0|AlternatePart= 
+Variation14=Designator=R74|UniqueId=\GNREREHE\ELWNRADN|Kind=0|AlternatePart= 
+Variation15=Designator=R75|UniqueId=\GNREREHE\BASQQSXD|Kind=0|AlternatePart= 
+Variation16=Designator=R79|UniqueId=\AHAWVNSC\JVINJNTT|Kind=1|AlternatePart= 
+Variation17=Designator=R80|UniqueId=\AHAWVNSC\RIQEBNUC|Kind=1|AlternatePart= 
+Variation18=Designator=R81|UniqueId=\AHAWVNSC\YJAEMHRF|Kind=1|AlternatePart= 
+Variation19=Designator=R82|UniqueId=\AHAWVNSC\UAHKGGJL|Kind=1|AlternatePart= 
+Variation20=Designator=R83|UniqueId=\AHAWVNSC\KFRHMUKT|Kind=1|AlternatePart= 
+Variation21=Designator=R84|UniqueId=\AHAWVNSC\GBEHOUNJ|Kind=1|AlternatePart= 
+Variation22=Designator=R85|UniqueId=\AHAWVNSC\GYMIEXQU|Kind=1|AlternatePart= 
+Variation23=Designator=R86|UniqueId=\AHAWVNSC\HLVLHNJV|Kind=1|AlternatePart= 
+Variation24=Designator=R87|UniqueId=\AHAWVNSC\VNIPOVON|Kind=1|AlternatePart= 
+Variation25=Designator=R89|UniqueId=\AHAWVNSC\GOUOXINB|Kind=1|AlternatePart= 
+Variation26=Designator=S2|UniqueId=\AHAWVNSC\FSKNJOBF|Kind=1|AlternatePart= 
+Variation27=Designator=R90|UniqueId=\AHAWVNSC\DCYMDCFL|Kind=1|AlternatePart= 
+Variation28=Designator=S1|UniqueId=\AHAWVNSC\GQYCQFEF|Kind=1|AlternatePart= 
+Variation29=Designator=S4|UniqueId=\AHAWVNSC\IJLBDIIE|Kind=1|AlternatePart= 
+Variation30=Designator=S5|UniqueId=\AHAWVNSC\KFBSGLHA|Kind=1|AlternatePart= 
+Variation31=Designator=Q1|UniqueId=\BOFSQVTU|Kind=1|AlternatePart= 
+Variation32=Designator=Q5|UniqueId=\FAJGPRSY|Kind=1|AlternatePart= 
+Variation33=Designator=J35|UniqueId=\OFPBMYJG\ETWUUDFG|Kind=1|AlternatePart= 
+Variation34=Designator=J22|UniqueId=\GNREREHE\HAQSTGUH|Kind=1|AlternatePart= 
+Variation35=Designator=Q17|UniqueId=\AHAWVNSC\MUTVCQPT|Kind=1|AlternatePart= 
+Variation36=Designator=Q7|UniqueId=\OFPBMYJG\BVWKCATF|Kind=1|AlternatePart= 
+Variation37=Designator=J29|UniqueId=\AHAWVNSC\QNVYRIOU|Kind=1|AlternatePart= 
+Variation38=Designator=R6|UniqueId=\EIRQBQHX|Kind=1|AlternatePart= 
+Variation39=Designator=R27|UniqueId=\OFPBMYJG\PQODWRBP|Kind=1|AlternatePart= 
+Variation40=Designator=Q10|UniqueId=\OFPBMYJG\NOJOLASF|Kind=1|AlternatePart= 
+Variation41=Designator=R29|UniqueId=\OFPBMYJG\FDMCECAH|Kind=1|AlternatePart= 
+Variation42=Designator=R32|UniqueId=\OFPBMYJG\PAKNUUHS|Kind=1|AlternatePart= 
+Variation43=Designator=J24|UniqueId=\GNREREHE\PAEJLKIA|Kind=1|AlternatePart= 
+Variation44=Designator=Q6|UniqueId=\WYGQIMDQ|Kind=1|AlternatePart= 
+Variation45=Designator=J34|UniqueId=\OFPBMYJG\MGXIWNIH|Kind=1|AlternatePart= 
+Variation46=Designator=R35|UniqueId=\OFPBMYJG\WVJEDESL|Kind=1|AlternatePart= 
+Variation47=Designator=Q3|UniqueId=\WNXXXMRV|Kind=1|AlternatePart= 
+Variation48=Designator=R30|UniqueId=\OFPBMYJG\VVIYKYKL|Kind=1|AlternatePart= 
+Variation49=Designator=R10|UniqueId=\BXECLDBX|Kind=1|AlternatePart= 
+Variation50=Designator=R34|UniqueId=\OFPBMYJG\WLDUCEVX|Kind=1|AlternatePart= 
+Variation51=Designator=R31|UniqueId=\OFPBMYJG\PJWHXPRE|Kind=1|AlternatePart= 
+Variation52=Designator=R28|UniqueId=\OFPBMYJG\TMSAQQNC|Kind=1|AlternatePart= 
+Variation53=Designator=R36|UniqueId=\OFPBMYJG\FJVJXOHC|Kind=1|AlternatePart= 
+Variation54=Designator=R9|UniqueId=\YAIFVVYP|Kind=1|AlternatePart= 
+Variation55=Designator=Q9|UniqueId=\OFPBMYJG\FWQVPOKN|Kind=1|AlternatePart= 
+Variation56=Designator=J30|UniqueId=\AHAWVNSC\KPNYCSAG|Kind=1|AlternatePart= 
+Variation57=Designator=R37|UniqueId=\OFPBMYJG\TBLKQPDS|Kind=1|AlternatePart= 
+Variation58=Designator=R3|UniqueId=\LUNTNYCG|Kind=1|AlternatePart= 
+Variation59=Designator=R39|UniqueId=\OFPBMYJG\WJLPRABW|Kind=1|AlternatePart= 
+Variation60=Designator=J27|UniqueId=\AHAWVNSC\AXHVUQPM|Kind=1|AlternatePart= 
+Variation61=Designator=R38|UniqueId=\OFPBMYJG\NDKLJAOD|Kind=1|AlternatePart= 
+Variation62=Designator=R33|UniqueId=\OFPBMYJG\NDXHNLDL|Kind=1|AlternatePart= 
+Variation63=Designator=R7|UniqueId=\GKGIHOJE|Kind=1|AlternatePart= 
+Variation64=Designator=J26|UniqueId=\AHAWVNSC\TORHMQEV|Kind=1|AlternatePart= 
+Variation65=Designator=R8|UniqueId=\MAKSTIWC|Kind=1|AlternatePart= 
+Variation66=Designator=R4|UniqueId=\IKLOAAQU|Kind=1|AlternatePart= 
+Variation67=Designator=J23|UniqueId=\GNREREHE\UYXNVBWS|Kind=1|AlternatePart= 
+Variation68=Designator=R1|UniqueId=\UOKPIGMU|Kind=1|AlternatePart= 
+Variation69=Designator=Q8|UniqueId=\OFPBMYJG\IHQTLBNF|Kind=1|AlternatePart= 
+Variation70=Designator=Q4|UniqueId=\MADIJXJI|Kind=0|AlternatePart= 
+Variation71=Designator=Q2|UniqueId=\CTPXYIYV|Kind=1|AlternatePart= 
+Variation72=Designator=R13|UniqueId=\IGOTOWAE|Kind=1|AlternatePart= 
+Variation73=Designator=R12|UniqueId=\ELUPWMGY|Kind=1|AlternatePart= 
+Variation74=Designator=R5|UniqueId=\FCDCLCCB|Kind=1|AlternatePart= 
+Variation75=Designator=R2|UniqueId=\CXIRWFXE|Kind=1|AlternatePart= 
+Variation76=Designator=J21|UniqueId=\GNREREHE\JSAVOQGX|Kind=1|AlternatePart= 
+Variation77=Designator=J20|UniqueId=\GNREREHE\TFMVEAOH|Kind=1|AlternatePart= 
+Variation78=Designator=J19|UniqueId=\GNREREHE\FJOEHADY|Kind=1|AlternatePart= 
+Variation79=Designator=R15|UniqueId=\SILGUAIQ|Kind=1|AlternatePart= 
+Variation80=Designator=R11|UniqueId=\FXLGAGVC|Kind=1|AlternatePart= 
+Variation81=Designator=R14|UniqueId=\YVXCSQND|Kind=1|AlternatePart= 
+Variation82=Designator=R16|UniqueId=\ULMBTOOE|Kind=1|AlternatePart= 
+Variation83=Designator=FB7|UniqueId=\GNREREHE\IGPLTFXQ|Kind=0|AlternatePart= 
+Variation84=Designator=J16|UniqueId=\GNREREHE\YIDRNQKM|Kind=1|AlternatePart= 
+Variation85=Designator=FB8|UniqueId=\GNREREHE\OQRNPMLB|Kind=1|AlternatePart= 
+Variation86=Designator=J15|UniqueId=\OFPBMYJG\OTKRVXEF|Kind=1|AlternatePart= 
+Variation87=Designator=J1|UniqueId=\IMQABJVO|Kind=1|AlternatePart= 
+Variation88=Designator=J3|UniqueId=\MTTCHYLJ|Kind=1|AlternatePart= 
+Variation89=Designator=J2|UniqueId=\PEBAGXFF|Kind=1|AlternatePart= 
+Variation90=Designator=FB10|UniqueId=\AHAWVNSC\RQLYTAWD|Kind=1|AlternatePart= 
+Variation91=Designator=FB9|UniqueId=\AHAWVNSC\CBXWLMHR|Kind=1|AlternatePart= 
+Variation92=Designator=D11|UniqueId=\AHAWVNSC\HDMUDBWM|Kind=1|AlternatePart= 
+Variation93=Designator=FB4|UniqueId=\GNREREHE\AIRMYTPI|Kind=0|AlternatePart= 
+Variation94=Designator=FB5|UniqueId=\GNREREHE\LANLNJGS|Kind=0|AlternatePart= 
+Variation95=Designator=FB6|UniqueId=\GNREREHE\ATAYKDHM|Kind=0|AlternatePart= 
+Variation96=Designator=D12|UniqueId=\YTBFMFJK|Kind=1|AlternatePart= 
+Variation97=Designator=D1|UniqueId=\DSQLJQSL|Kind=1|AlternatePart= 
+Variation98=Designator=D10|UniqueId=\AHAWVNSC\GCNEIIWK|Kind=1|AlternatePart= 
+Variation99=Designator=F2|UniqueId=\MEVMHEBA|Kind=1|AlternatePart= 
+Variation100=Designator=F1|UniqueId=\PKVRNYAE|Kind=1|AlternatePart= 
+Variation101=Designator=D9|UniqueId=\OFPBMYJG\ACWBDEXK|Kind=1|AlternatePart= 
+Variation102=Designator=C50|UniqueId=\AHAWVNSC\JNMPPVDH|Kind=1|AlternatePart= 
+Variation103=Designator=DT2|UniqueId=\EVQWNTAR|Kind=1|AlternatePart= 
+Variation104=Designator=C49|UniqueId=\VLIVGLPM|Kind=1|AlternatePart= 
+Variation105=Designator=C48|UniqueId=\AHAWVNSC\SYOVMUEL|Kind=1|AlternatePart= 
+Variation106=Designator=D8|UniqueId=\OFPBMYJG\LBUUJKEU|Kind=1|AlternatePart= 
+Variation107=Designator=C47|UniqueId=\AHAWVNSC\YCAKWOIA|Kind=1|AlternatePart= 
+Variation108=Designator=C46|UniqueId=\AHAWVNSC\IUHVYJYF|Kind=1|AlternatePart= 
+Variation109=Designator=C41|UniqueId=\AHAWVNSC\BVEPDGIR|Kind=1|AlternatePart= 
+Variation110=Designator=C44|UniqueId=\AHAWVNSC\CPDPUTNL|Kind=1|AlternatePart= 
+Variation111=Designator=C5|UniqueId=\CDQJGEMU|Kind=1|AlternatePart= 
+Variation112=Designator=C42|UniqueId=\AHAWVNSC\YCUBWFGI|Kind=1|AlternatePart= 
+Variation113=Designator=C40|UniqueId=\GNREREHE\LSLQGPEY|Kind=1|AlternatePart= 
+Variation114=Designator=C38|UniqueId=\GNREREHE\UUHBHEWD|Kind=1|AlternatePart= 
+Variation115=Designator=C39|UniqueId=\GNREREHE\SDNKXSSA|Kind=1|AlternatePart= 
+Variation116=Designator=C43|UniqueId=\AHAWVNSC\CIHRJFNB|Kind=1|AlternatePart= 
+Variation117=Designator=C37|UniqueId=\GNREREHE\QGAOELSP|Kind=1|AlternatePart= 
+Variation118=Designator=C45|UniqueId=\AHAWVNSC\UKMHYKXS|Kind=1|AlternatePart= 
+Variation119=Designator=C36|UniqueId=\GNREREHE\IWEBVYOT|Kind=1|AlternatePart= 
+Variation120=Designator=C32|UniqueId=\GNREREHE\VXHGCJDB|Kind=1|AlternatePart= 
+Variation121=Designator=C23|UniqueId=\OFPBMYJG\GXMYSRFS|Kind=1|AlternatePart= 
+Variation122=Designator=C29|UniqueId=\GNREREHE\AHERPPFU|Kind=1|AlternatePart= 
+Variation123=Designator=C4|UniqueId=\RYETYNDG|Kind=1|AlternatePart= 
+Variation124=Designator=C20|UniqueId=\OFPBMYJG\GBMHAQDS|Kind=1|AlternatePart= 
+Variation125=Designator=C34|UniqueId=\GNREREHE\DOJXGPBY|Kind=1|AlternatePart= 
+Variation126=Designator=C21|UniqueId=\OFPBMYJG\WVBEQHDG|Kind=1|AlternatePart= 
+Variation127=Designator=C6|UniqueId=\NFOLXANF|Kind=1|AlternatePart= 
+Variation128=Designator=C22|UniqueId=\OFPBMYJG\GPMTPLVP|Kind=1|AlternatePart= 
+Variation129=Designator=C25|UniqueId=\OFPBMYJG\HVAIIEGW|Kind=1|AlternatePart= 
+Variation130=Designator=C24|UniqueId=\OFPBMYJG\FRGGTCSE|Kind=1|AlternatePart= 
+Variation131=Designator=C30|UniqueId=\GNREREHE\DHTUKWYF|Kind=1|AlternatePart= 
+Variation132=Designator=C35|UniqueId=\GNREREHE\ADDYPMYX|Kind=1|AlternatePart= 
+Variation133=Designator=C31|UniqueId=\GNREREHE\IJYGLKEE|Kind=1|AlternatePart= 
+Variation134=Designator=C27|UniqueId=\GNREREHE\AMUOBSTP|Kind=0|AlternatePart= 
+Variation135=Designator=C7|UniqueId=\IBDDTCJM|Kind=1|AlternatePart= 
+Variation136=Designator=C2|UniqueId=\DASVFKVC|Kind=1|AlternatePart= 
+Variation137=Designator=C33|UniqueId=\GNREREHE\PRWGEQHH|Kind=1|AlternatePart= 
+Variation138=Designator=C26|UniqueId=\GNREREHE\IORDGROO|Kind=1|AlternatePart= 
+Variation139=Designator=R40|UniqueId=\OFPBMYJG\SQTVGGIP|Kind=1|AlternatePart= 
+Variation140=Designator=R42|UniqueId=\OFPBMYJG\WMKJULXB|Kind=1|AlternatePart= 
+Variation141=Designator=R41|UniqueId=\OFPBMYJG\UVOIUYCP|Kind=1|AlternatePart= 
+Variation142=Designator=R43|UniqueId=\OFPBMYJG\QUYPOBAK|Kind=1|AlternatePart= 
+Variation143=Designator=R44|UniqueId=\OFPBMYJG\LUBLEHYY|Kind=1|AlternatePart= 
+Variation144=Designator=R46|UniqueId=\OFPBMYJG\VVXOKNIT|Kind=1|AlternatePart= 
+Variation145=Designator=R50|UniqueId=\OFPBMYJG\DBVOUHWQ|Kind=1|AlternatePart= 
+Variation146=Designator=R48|UniqueId=\OFPBMYJG\ESFDVSWJ|Kind=1|AlternatePart= 
+Variation147=Designator=R47|UniqueId=\OFPBMYJG\ONASARNI|Kind=1|AlternatePart= 
+Variation148=Designator=R49|UniqueId=\OFPBMYJG\FUKWKSCO|Kind=1|AlternatePart= 
+Variation149=Designator=J25|UniqueId=\AHAWVNSC\VGNUGKDP|Kind=1|AlternatePart= 
+Variation150=Designator=J28|UniqueId=\AHAWVNSC\AJKCCXRJ|Kind=1|AlternatePart= 
+Variation151=Designator=J18|UniqueId=\GNREREHE\TKUBGVQE|Kind=1|AlternatePart= 
+Variation152=Designator=C28|UniqueId=\GNREREHE\LCGGFMNG|Kind=1|AlternatePart= 
+Variation153=Designator=J17|UniqueId=\GNREREHE\HHPDKNVH|Kind=1|AlternatePart= 
+Variation154=Designator=FB2|UniqueId=\GNREREHE\TYDHHXSJ|Kind=1|AlternatePart= 
+Variation155=Designator=FB3|UniqueId=\GNREREHE\GCLKKXWO|Kind=1|AlternatePart= 
+Variation156=Designator=FB1|UniqueId=\GNREREHE\PHSDIFXO|Kind=1|AlternatePart= 
+Variation157=Designator=J33|UniqueId=\OFPBMYJG\REIHJAFH|Kind=1|AlternatePart= 
+Variation158=Designator=J12|UniqueId=\OFPBMYJG\SIUVCUAV|Kind=1|AlternatePart= 
+Variation159=Designator=J13|UniqueId=\OFPBMYJG\BUYFSLWX|Kind=1|AlternatePart= 
+Variation160=Designator=J14|UniqueId=\OFPBMYJG\PUPOBWPN|Kind=1|AlternatePart= 
+Variation161=Designator=J8|UniqueId=\GWMQEKWF\VCURCYVE|Kind=1|AlternatePart= 
+Variation162=Designator=C12|UniqueId=\GWMQEKWF\UJDUOYDN|Kind=1|AlternatePart= 
+Variation163=Designator=J32|UniqueId=\GWMQEKWF\NHLCBLTS|Kind=1|AlternatePart= 
+Variation164=Designator=R21|UniqueId=\GWMQEKWF\GDFFHYWM|Kind=1|AlternatePart= 
+Variation165=Designator=R22|UniqueId=\GWMQEKWF\CEYLQXKL|Kind=1|AlternatePart= 
+Variation166=Designator=R23|UniqueId=\GWMQEKWF\NNIEQYIJ|Kind=1|AlternatePart= 
+Variation167=Designator=R24|UniqueId=\GWMQEKWF\MWURCJJS|Kind=1|AlternatePart= 
+Variation168=Designator=R25|UniqueId=\GWMQEKWF\RJSONNLY|Kind=1|AlternatePart= 
+Variation169=Designator=R26|UniqueId=\GWMQEKWF\OJVEVMBV|Kind=1|AlternatePart= 
+Variation170=Designator=C13|UniqueId=\GWMQEKWF\WGNVPOSP|Kind=1|AlternatePart= 
+Variation171=Designator=C14|UniqueId=\GWMQEKWF\EJLFHHCB|Kind=1|AlternatePart= 
+Variation172=Designator=C15|UniqueId=\GWMQEKWF\EHWYLXSN|Kind=1|AlternatePart= 
+Variation173=Designator=C16|UniqueId=\GWMQEKWF\CNWEHJVX|Kind=1|AlternatePart= 
+Variation174=Designator=C17|UniqueId=\GWMQEKWF\FIEYWBND|Kind=1|AlternatePart= 
+Variation175=Designator=C18|UniqueId=\GWMQEKWF\WLWWFESC|Kind=1|AlternatePart= 
+Variation176=Designator=C19|UniqueId=\GWMQEKWF\AUKXKWHQ|Kind=1|AlternatePart= 
+Variation177=Designator=D4|UniqueId=\GWMQEKWF\ECQCVCSO|Kind=1|AlternatePart= 
+Variation178=Designator=D5|UniqueId=\GWMQEKWF\EXOASLQD|Kind=1|AlternatePart= 
+Variation179=Designator=D6|UniqueId=\GWMQEKWF\PBKPDYPA|Kind=1|AlternatePart= 
+Variation180=Designator=D7|UniqueId=\GWMQEKWF\HYNDUATU|Kind=1|AlternatePart= 
+Variation181=Designator=DC2|UniqueId=\GWMQEKWF\FPQNHKVF|Kind=1|AlternatePart= 
+Variation182=Designator=DC3|UniqueId=\GWMQEKWF\MFOFPSPO|Kind=1|AlternatePart= 
+Variation183=Designator=J9|UniqueId=\GWMQEKWF\QCKBOJMA|Kind=1|AlternatePart= 
+Variation184=Designator=J10|UniqueId=\GWMQEKWF\BCWXXDMQ|Kind=1|AlternatePart= 
+Variation185=Designator=J11|UniqueId=\GWMQEKWF\JYFIDOTP|Kind=1|AlternatePart= 
+Variation186=Designator=J31|UniqueId=\GWMQEKWF\RKTALRGW|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant4]
+Description=5L et uSW(VBAT)
+AllowFabrication=0
+ParameterCount=0
+VariationCount=191
+Variation1=Designator=R45|UniqueId=\OFPBMYJG\GDXNQIMC|Kind=1|AlternatePart= 
+Variation2=Designator=R51|UniqueId=\OFPBMYJG\BXKRCMWN|Kind=1|AlternatePart= 
+Variation3=Designator=C1|UniqueId=\AYPIIWAJ|Kind=1|AlternatePart= 
+Variation4=Designator=C3|UniqueId=\KFYJGYGK|Kind=1|AlternatePart= 
+Variation5=Designator=R52|UniqueId=\OFPBMYJG\BISAYODH|Kind=1|AlternatePart= 
+Variation6=Designator=R53|UniqueId=\OFPBMYJG\KTWQOHRA|Kind=1|AlternatePart= 
+Variation7=Designator=R54|UniqueId=\OFPBMYJG\UIYHOXRD|Kind=1|AlternatePart= 
+Variation8=Designator=R61|UniqueId=\GNREREHE\MKYMDNTQ|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=False
+ParamVariation1=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator1=R61
+ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator2=R61
+ParamVariation3=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
+ParamDesignator3=R61
+ParamVariation4=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
+ParamDesignator4=R61
+ParamVariation5=ParameterName=ComponentLink2Description|VariantValue=Datasheet
+ParamDesignator5=R61
+ParamVariation6=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
+ParamDesignator6=R61
+ParamVariation7=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamDesignator7=R61
+ParamVariation8=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamDesignator8=R61
+ParamVariation9=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator9=R61
+ParamVariation10=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamDesignator10=R61
+ParamVariation11=ParameterName=Manufacturer|VariantValue=Yageo
+ParamDesignator11=R61
+ParamVariation12=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator12=R61
+ParamVariation13=ParameterName=PCB3D|VariantValue= 
+ParamDesignator13=R61
+ParamVariation14=ParameterName=Power|VariantValue=100mW
+ParamDesignator14=R61
+ParamVariation15=ParameterName=Precision|VariantValue=±1%
+ParamDesignator15=R61
+ParamVariation16=ParameterName=Simulation|VariantValue= 
+ParamDesignator16=R61
+ParamVariation17=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator17=R61
+ParamVariation18=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator18=R61
+ParamVariation19=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator19=R61
+ParamVariation20=ParameterName=Value|VariantValue=1.8k
+ParamDesignator20=R61
+ParamVariation21=ParameterName=Vmax|VariantValue=50V
+ParamDesignator21=R61
+Variation9=Designator=R62|UniqueId=\GNREREHE\EFKPIQXB|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=False
+ParamVariation22=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator22=R62
+ParamVariation23=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator23=R62
+ParamVariation24=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
+ParamDesignator24=R62
+ParamVariation25=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
+ParamDesignator25=R62
+ParamVariation26=ParameterName=ComponentLink2Description|VariantValue=Datasheet
+ParamDesignator26=R62
+ParamVariation27=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
+ParamDesignator27=R62
+ParamVariation28=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamDesignator28=R62
+ParamVariation29=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamDesignator29=R62
+ParamVariation30=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator30=R62
+ParamVariation31=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamDesignator31=R62
+ParamVariation32=ParameterName=Manufacturer|VariantValue=Yageo
+ParamDesignator32=R62
+ParamVariation33=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator33=R62
+ParamVariation34=ParameterName=PCB3D|VariantValue= 
+ParamDesignator34=R62
+ParamVariation35=ParameterName=Power|VariantValue=100mW
+ParamDesignator35=R62
+ParamVariation36=ParameterName=Precision|VariantValue=±1%
+ParamDesignator36=R62
+ParamVariation37=ParameterName=Simulation|VariantValue= 
+ParamDesignator37=R62
+ParamVariation38=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator38=R62
+ParamVariation39=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator39=R62
+ParamVariation40=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator40=R62
+ParamVariation41=ParameterName=Value|VariantValue=1.8k
+ParamDesignator41=R62
+ParamVariation42=ParameterName=Vmax|VariantValue=50V
+ParamDesignator42=R62
+Variation10=Designator=R63|UniqueId=\GNREREHE\MRNRMEAH|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=False
+ParamVariation43=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator43=R63
+ParamVariation44=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator44=R63
+ParamVariation45=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
+ParamDesignator45=R63
+ParamVariation46=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
+ParamDesignator46=R63
+ParamVariation47=ParameterName=ComponentLink2Description|VariantValue=Datasheet
+ParamDesignator47=R63
+ParamVariation48=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
+ParamDesignator48=R63
+ParamVariation49=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamDesignator49=R63
+ParamVariation50=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamDesignator50=R63
+ParamVariation51=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator51=R63
+ParamVariation52=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamDesignator52=R63
+ParamVariation53=ParameterName=Manufacturer|VariantValue=Yageo
+ParamDesignator53=R63
+ParamVariation54=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator54=R63
+ParamVariation55=ParameterName=PCB3D|VariantValue= 
+ParamDesignator55=R63
+ParamVariation56=ParameterName=Power|VariantValue=100mW
+ParamDesignator56=R63
+ParamVariation57=ParameterName=Precision|VariantValue=±1%
+ParamDesignator57=R63
+ParamVariation58=ParameterName=Simulation|VariantValue= 
+ParamDesignator58=R63
+ParamVariation59=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator59=R63
+ParamVariation60=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator60=R63
+ParamVariation61=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator61=R63
+ParamVariation62=ParameterName=Value|VariantValue=1.8k
+ParamDesignator62=R63
+ParamVariation63=ParameterName=Vmax|VariantValue=50V
+ParamDesignator63=R63
+Variation11=Designator=S3|UniqueId=\AHAWVNSC\RSIIDDMS|Kind=1|AlternatePart= 
+Variation12=Designator=R88|UniqueId=\AHAWVNSC\VUTCKJBW|Kind=1|AlternatePart= 
+Variation13=Designator=R73|UniqueId=\GNREREHE\YUSJAMXI|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=False
+ParamVariation64=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator64=R73
+ParamVariation65=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator65=R73
+ParamVariation66=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
+ParamDesignator66=R73
+ParamVariation67=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
+ParamDesignator67=R73
+ParamVariation68=ParameterName=ComponentLink2Description|VariantValue=Datasheet
+ParamDesignator68=R73
+ParamVariation69=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
+ParamDesignator69=R73
+ParamVariation70=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamDesignator70=R73
+ParamVariation71=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamDesignator71=R73
+ParamVariation72=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator72=R73
+ParamVariation73=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamDesignator73=R73
+ParamVariation74=ParameterName=Manufacturer|VariantValue=Yageo
+ParamDesignator74=R73
+ParamVariation75=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator75=R73
+ParamVariation76=ParameterName=PCB3D|VariantValue= 
+ParamDesignator76=R73
+ParamVariation77=ParameterName=Power|VariantValue=100mW
+ParamDesignator77=R73
+ParamVariation78=ParameterName=Precision|VariantValue=±1%
+ParamDesignator78=R73
+ParamVariation79=ParameterName=Simulation|VariantValue= 
+ParamDesignator79=R73
+ParamVariation80=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator80=R73
+ParamVariation81=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator81=R73
+ParamVariation82=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator82=R73
+ParamVariation83=ParameterName=Value|VariantValue=1.8k
+ParamDesignator83=R73
+ParamVariation84=ParameterName=Vmax|VariantValue=50V
+ParamDesignator84=R73
+Variation14=Designator=R74|UniqueId=\GNREREHE\ELWNRADN|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=False
+ParamVariation85=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator85=R74
+ParamVariation86=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator86=R74
+ParamVariation87=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
+ParamDesignator87=R74
+ParamVariation88=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
+ParamDesignator88=R74
+ParamVariation89=ParameterName=ComponentLink2Description|VariantValue=Datasheet
+ParamDesignator89=R74
+ParamVariation90=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
+ParamDesignator90=R74
+ParamVariation91=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamDesignator91=R74
+ParamVariation92=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamDesignator92=R74
+ParamVariation93=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator93=R74
+ParamVariation94=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamDesignator94=R74
+ParamVariation95=ParameterName=Manufacturer|VariantValue=Yageo
+ParamDesignator95=R74
+ParamVariation96=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator96=R74
+ParamVariation97=ParameterName=PCB3D|VariantValue= 
+ParamDesignator97=R74
+ParamVariation98=ParameterName=Power|VariantValue=100mW
+ParamDesignator98=R74
+ParamVariation99=ParameterName=Precision|VariantValue=±1%
+ParamDesignator99=R74
+ParamVariation100=ParameterName=Simulation|VariantValue= 
+ParamDesignator100=R74
+ParamVariation101=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator101=R74
+ParamVariation102=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator102=R74
+ParamVariation103=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator103=R74
+ParamVariation104=ParameterName=Value|VariantValue=1.8k
+ParamDesignator104=R74
+ParamVariation105=ParameterName=Vmax|VariantValue=50V
+ParamDesignator105=R74
+Variation15=Designator=R75|UniqueId=\GNREREHE\BASQQSXD|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=False
+ParamVariation106=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator106=R75
+ParamVariation107=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator107=R75
+ParamVariation108=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
+ParamDesignator108=R75
+ParamVariation109=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
+ParamDesignator109=R75
+ParamVariation110=ParameterName=ComponentLink2Description|VariantValue=Datasheet
+ParamDesignator110=R75
+ParamVariation111=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
+ParamDesignator111=R75
+ParamVariation112=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamDesignator112=R75
+ParamVariation113=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamDesignator113=R75
+ParamVariation114=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator114=R75
+ParamVariation115=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamDesignator115=R75
+ParamVariation116=ParameterName=Manufacturer|VariantValue=Yageo
+ParamDesignator116=R75
+ParamVariation117=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator117=R75
+ParamVariation118=ParameterName=PCB3D|VariantValue= 
+ParamDesignator118=R75
+ParamVariation119=ParameterName=Power|VariantValue=100mW
+ParamDesignator119=R75
+ParamVariation120=ParameterName=Precision|VariantValue=±1%
+ParamDesignator120=R75
+ParamVariation121=ParameterName=Simulation|VariantValue= 
+ParamDesignator121=R75
+ParamVariation122=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator122=R75
+ParamVariation123=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator123=R75
+ParamVariation124=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator124=R75
+ParamVariation125=ParameterName=Value|VariantValue=1.8k
+ParamDesignator125=R75
+ParamVariation126=ParameterName=Vmax|VariantValue=50V
+ParamDesignator126=R75
+Variation16=Designator=R79|UniqueId=\AHAWVNSC\JVINJNTT|Kind=1|AlternatePart= 
+Variation17=Designator=R80|UniqueId=\AHAWVNSC\RIQEBNUC|Kind=1|AlternatePart= 
+Variation18=Designator=R81|UniqueId=\AHAWVNSC\YJAEMHRF|Kind=1|AlternatePart= 
+Variation19=Designator=R82|UniqueId=\AHAWVNSC\UAHKGGJL|Kind=1|AlternatePart= 
+Variation20=Designator=R83|UniqueId=\AHAWVNSC\KFRHMUKT|Kind=1|AlternatePart= 
+Variation21=Designator=R84|UniqueId=\AHAWVNSC\GBEHOUNJ|Kind=1|AlternatePart= 
+Variation22=Designator=R85|UniqueId=\AHAWVNSC\GYMIEXQU|Kind=1|AlternatePart= 
+Variation23=Designator=R86|UniqueId=\AHAWVNSC\HLVLHNJV|Kind=1|AlternatePart= 
+Variation24=Designator=R87|UniqueId=\AHAWVNSC\VNIPOVON|Kind=1|AlternatePart= 
+Variation25=Designator=R89|UniqueId=\AHAWVNSC\GOUOXINB|Kind=1|AlternatePart= 
+Variation26=Designator=S2|UniqueId=\AHAWVNSC\FSKNJOBF|Kind=1|AlternatePart= 
+Variation27=Designator=R90|UniqueId=\AHAWVNSC\DCYMDCFL|Kind=1|AlternatePart= 
+Variation28=Designator=S1|UniqueId=\AHAWVNSC\GQYCQFEF|Kind=1|AlternatePart= 
+Variation29=Designator=S4|UniqueId=\AHAWVNSC\IJLBDIIE|Kind=1|AlternatePart= 
+Variation30=Designator=S5|UniqueId=\AHAWVNSC\KFBSGLHA|Kind=1|AlternatePart= 
+Variation31=Designator=Q1|UniqueId=\BOFSQVTU|Kind=1|AlternatePart= 
+Variation32=Designator=J35|UniqueId=\OFPBMYJG\ETWUUDFG|Kind=1|AlternatePart= 
+Variation33=Designator=J22|UniqueId=\GNREREHE\HAQSTGUH|Kind=1|AlternatePart= 
+Variation34=Designator=Q17|UniqueId=\AHAWVNSC\MUTVCQPT|Kind=1|AlternatePart= 
+Variation35=Designator=Q7|UniqueId=\OFPBMYJG\BVWKCATF|Kind=1|AlternatePart= 
+Variation36=Designator=J29|UniqueId=\AHAWVNSC\QNVYRIOU|Kind=1|AlternatePart= 
+Variation37=Designator=R6|UniqueId=\EIRQBQHX|Kind=1|AlternatePart= 
+Variation38=Designator=R27|UniqueId=\OFPBMYJG\PQODWRBP|Kind=1|AlternatePart= 
+Variation39=Designator=Q10|UniqueId=\OFPBMYJG\NOJOLASF|Kind=1|AlternatePart= 
+Variation40=Designator=R29|UniqueId=\OFPBMYJG\FDMCECAH|Kind=1|AlternatePart= 
+Variation41=Designator=R32|UniqueId=\OFPBMYJG\PAKNUUHS|Kind=1|AlternatePart= 
+Variation42=Designator=J24|UniqueId=\GNREREHE\PAEJLKIA|Kind=1|AlternatePart= 
+Variation43=Designator=Q6|UniqueId=\WYGQIMDQ|Kind=1|AlternatePart= 
+Variation44=Designator=J34|UniqueId=\OFPBMYJG\MGXIWNIH|Kind=1|AlternatePart= 
+Variation45=Designator=R35|UniqueId=\OFPBMYJG\WVJEDESL|Kind=1|AlternatePart= 
+Variation46=Designator=Q3|UniqueId=\WNXXXMRV|Kind=1|AlternatePart= 
+Variation47=Designator=R30|UniqueId=\OFPBMYJG\VVIYKYKL|Kind=1|AlternatePart= 
+Variation48=Designator=R10|UniqueId=\BXECLDBX|Kind=1|AlternatePart= 
+Variation49=Designator=R34|UniqueId=\OFPBMYJG\WLDUCEVX|Kind=1|AlternatePart= 
+Variation50=Designator=R31|UniqueId=\OFPBMYJG\PJWHXPRE|Kind=1|AlternatePart= 
+Variation51=Designator=R28|UniqueId=\OFPBMYJG\TMSAQQNC|Kind=1|AlternatePart= 
+Variation52=Designator=R36|UniqueId=\OFPBMYJG\FJVJXOHC|Kind=1|AlternatePart= 
+Variation53=Designator=R9|UniqueId=\YAIFVVYP|Kind=1|AlternatePart= 
+Variation54=Designator=Q9|UniqueId=\OFPBMYJG\FWQVPOKN|Kind=1|AlternatePart= 
+Variation55=Designator=J30|UniqueId=\AHAWVNSC\KPNYCSAG|Kind=1|AlternatePart= 
+Variation56=Designator=R37|UniqueId=\OFPBMYJG\TBLKQPDS|Kind=1|AlternatePart= 
+Variation57=Designator=R3|UniqueId=\LUNTNYCG|Kind=1|AlternatePart= 
+Variation58=Designator=R39|UniqueId=\OFPBMYJG\WJLPRABW|Kind=1|AlternatePart= 
+Variation59=Designator=J27|UniqueId=\AHAWVNSC\AXHVUQPM|Kind=1|AlternatePart= 
+Variation60=Designator=R38|UniqueId=\OFPBMYJG\NDKLJAOD|Kind=1|AlternatePart= 
+Variation61=Designator=R33|UniqueId=\OFPBMYJG\NDXHNLDL|Kind=1|AlternatePart= 
+Variation62=Designator=R7|UniqueId=\GKGIHOJE|Kind=1|AlternatePart= 
+Variation63=Designator=J26|UniqueId=\AHAWVNSC\TORHMQEV|Kind=1|AlternatePart= 
+Variation64=Designator=R8|UniqueId=\MAKSTIWC|Kind=1|AlternatePart= 
+Variation65=Designator=R4|UniqueId=\IKLOAAQU|Kind=1|AlternatePart= 
+Variation66=Designator=J23|UniqueId=\GNREREHE\UYXNVBWS|Kind=1|AlternatePart= 
+Variation67=Designator=R1|UniqueId=\UOKPIGMU|Kind=1|AlternatePart= 
+Variation68=Designator=Q8|UniqueId=\OFPBMYJG\IHQTLBNF|Kind=1|AlternatePart= 
+Variation69=Designator=Q4|UniqueId=\MADIJXJI|Kind=1|AlternatePart= 
+Variation70=Designator=Q2|UniqueId=\CTPXYIYV|Kind=1|AlternatePart= 
+Variation71=Designator=R13|UniqueId=\IGOTOWAE|Kind=1|AlternatePart= 
+Variation72=Designator=R12|UniqueId=\ELUPWMGY|Kind=1|AlternatePart= 
+Variation73=Designator=R5|UniqueId=\FCDCLCCB|Kind=1|AlternatePart= 
+Variation74=Designator=R2|UniqueId=\CXIRWFXE|Kind=1|AlternatePart= 
+Variation75=Designator=J21|UniqueId=\GNREREHE\JSAVOQGX|Kind=1|AlternatePart= 
+Variation76=Designator=J20|UniqueId=\GNREREHE\TFMVEAOH|Kind=1|AlternatePart= 
+Variation77=Designator=J19|UniqueId=\GNREREHE\FJOEHADY|Kind=1|AlternatePart= 
+Variation78=Designator=R15|UniqueId=\SILGUAIQ|Kind=1|AlternatePart= 
+Variation79=Designator=R11|UniqueId=\FXLGAGVC|Kind=1|AlternatePart= 
+Variation80=Designator=R14|UniqueId=\YVXCSQND|Kind=1|AlternatePart= 
+Variation81=Designator=R16|UniqueId=\ULMBTOOE|Kind=1|AlternatePart= 
+Variation82=Designator=FB7|UniqueId=\GNREREHE\IGPLTFXQ|Kind=1|AlternatePart= 
+Variation83=Designator=J16|UniqueId=\GNREREHE\YIDRNQKM|Kind=1|AlternatePart= 
+Variation84=Designator=J15|UniqueId=\OFPBMYJG\OTKRVXEF|Kind=1|AlternatePart= 
+Variation85=Designator=J1|UniqueId=\IMQABJVO|Kind=1|AlternatePart= 
+Variation86=Designator=J3|UniqueId=\MTTCHYLJ|Kind=1|AlternatePart= 
+Variation87=Designator=J2|UniqueId=\PEBAGXFF|Kind=1|AlternatePart= 
+Variation88=Designator=FB10|UniqueId=\AHAWVNSC\RQLYTAWD|Kind=1|AlternatePart= 
+Variation89=Designator=FB9|UniqueId=\AHAWVNSC\CBXWLMHR|Kind=1|AlternatePart= 
+Variation90=Designator=D11|UniqueId=\AHAWVNSC\HDMUDBWM|Kind=1|AlternatePart= 
+Variation91=Designator=FB4|UniqueId=\GNREREHE\AIRMYTPI|Kind=1|AlternatePart= 
+Variation92=Designator=FB5|UniqueId=\GNREREHE\LANLNJGS|Kind=1|AlternatePart= 
+Variation93=Designator=FB6|UniqueId=\GNREREHE\ATAYKDHM|Kind=1|AlternatePart= 
+Variation94=Designator=D12|UniqueId=\YTBFMFJK|Kind=1|AlternatePart= 
+Variation95=Designator=D1|UniqueId=\DSQLJQSL|Kind=1|AlternatePart= 
+Variation96=Designator=D10|UniqueId=\AHAWVNSC\GCNEIIWK|Kind=1|AlternatePart= 
+Variation97=Designator=F2|UniqueId=\MEVMHEBA|Kind=1|AlternatePart= 
+Variation98=Designator=F1|UniqueId=\PKVRNYAE|Kind=1|AlternatePart= 
+Variation99=Designator=D9|UniqueId=\OFPBMYJG\ACWBDEXK|Kind=1|AlternatePart= 
+Variation100=Designator=C50|UniqueId=\AHAWVNSC\JNMPPVDH|Kind=1|AlternatePart= 
+Variation101=Designator=DT2|UniqueId=\EVQWNTAR|Kind=1|AlternatePart= 
+Variation102=Designator=C49|UniqueId=\VLIVGLPM|Kind=1|AlternatePart= 
+Variation103=Designator=C48|UniqueId=\AHAWVNSC\SYOVMUEL|Kind=1|AlternatePart= 
+Variation104=Designator=D8|UniqueId=\OFPBMYJG\LBUUJKEU|Kind=1|AlternatePart= 
+Variation105=Designator=C47|UniqueId=\AHAWVNSC\YCAKWOIA|Kind=1|AlternatePart= 
+Variation106=Designator=C46|UniqueId=\AHAWVNSC\IUHVYJYF|Kind=1|AlternatePart= 
+Variation107=Designator=C41|UniqueId=\AHAWVNSC\BVEPDGIR|Kind=1|AlternatePart= 
+Variation108=Designator=C44|UniqueId=\AHAWVNSC\CPDPUTNL|Kind=1|AlternatePart= 
+Variation109=Designator=C5|UniqueId=\CDQJGEMU|Kind=1|AlternatePart= 
+Variation110=Designator=C42|UniqueId=\AHAWVNSC\YCUBWFGI|Kind=1|AlternatePart= 
+Variation111=Designator=C40|UniqueId=\GNREREHE\LSLQGPEY|Kind=1|AlternatePart= 
+Variation112=Designator=C38|UniqueId=\GNREREHE\UUHBHEWD|Kind=1|AlternatePart= 
+Variation113=Designator=C39|UniqueId=\GNREREHE\SDNKXSSA|Kind=1|AlternatePart= 
+Variation114=Designator=C43|UniqueId=\AHAWVNSC\CIHRJFNB|Kind=1|AlternatePart= 
+Variation115=Designator=C37|UniqueId=\GNREREHE\QGAOELSP|Kind=1|AlternatePart= 
+Variation116=Designator=C45|UniqueId=\AHAWVNSC\UKMHYKXS|Kind=1|AlternatePart= 
+Variation117=Designator=C36|UniqueId=\GNREREHE\IWEBVYOT|Kind=1|AlternatePart= 
+Variation118=Designator=C32|UniqueId=\GNREREHE\VXHGCJDB|Kind=1|AlternatePart= 
+Variation119=Designator=C23|UniqueId=\OFPBMYJG\GXMYSRFS|Kind=1|AlternatePart= 
+Variation120=Designator=C29|UniqueId=\GNREREHE\AHERPPFU|Kind=1|AlternatePart= 
+Variation121=Designator=C4|UniqueId=\RYETYNDG|Kind=1|AlternatePart= 
+Variation122=Designator=C20|UniqueId=\OFPBMYJG\GBMHAQDS|Kind=1|AlternatePart= 
+Variation123=Designator=C34|UniqueId=\GNREREHE\DOJXGPBY|Kind=1|AlternatePart= 
+Variation124=Designator=C21|UniqueId=\OFPBMYJG\WVBEQHDG|Kind=1|AlternatePart= 
+Variation125=Designator=C6|UniqueId=\NFOLXANF|Kind=1|AlternatePart= 
+Variation126=Designator=C22|UniqueId=\OFPBMYJG\GPMTPLVP|Kind=1|AlternatePart= 
+Variation127=Designator=C25|UniqueId=\OFPBMYJG\HVAIIEGW|Kind=1|AlternatePart= 
+Variation128=Designator=C24|UniqueId=\OFPBMYJG\FRGGTCSE|Kind=1|AlternatePart= 
+Variation129=Designator=C30|UniqueId=\GNREREHE\DHTUKWYF|Kind=1|AlternatePart= 
+Variation130=Designator=C35|UniqueId=\GNREREHE\ADDYPMYX|Kind=1|AlternatePart= 
+Variation131=Designator=C31|UniqueId=\GNREREHE\IJYGLKEE|Kind=1|AlternatePart= 
+Variation132=Designator=C27|UniqueId=\GNREREHE\AMUOBSTP|Kind=1|AlternatePart= 
+Variation133=Designator=C7|UniqueId=\IBDDTCJM|Kind=1|AlternatePart= 
+Variation134=Designator=C2|UniqueId=\DASVFKVC|Kind=1|AlternatePart= 
+Variation135=Designator=C33|UniqueId=\GNREREHE\PRWGEQHH|Kind=1|AlternatePart= 
+Variation136=Designator=C26|UniqueId=\GNREREHE\IORDGROO|Kind=1|AlternatePart= 
+Variation137=Designator=R40|UniqueId=\OFPBMYJG\SQTVGGIP|Kind=1|AlternatePart= 
+Variation138=Designator=R42|UniqueId=\OFPBMYJG\WMKJULXB|Kind=1|AlternatePart= 
+Variation139=Designator=R41|UniqueId=\OFPBMYJG\UVOIUYCP|Kind=1|AlternatePart= 
+Variation140=Designator=R43|UniqueId=\OFPBMYJG\QUYPOBAK|Kind=1|AlternatePart= 
+Variation141=Designator=R44|UniqueId=\OFPBMYJG\LUBLEHYY|Kind=1|AlternatePart= 
+Variation142=Designator=R46|UniqueId=\OFPBMYJG\VVXOKNIT|Kind=1|AlternatePart= 
+Variation143=Designator=R50|UniqueId=\OFPBMYJG\DBVOUHWQ|Kind=1|AlternatePart= 
+Variation144=Designator=R48|UniqueId=\OFPBMYJG\ESFDVSWJ|Kind=1|AlternatePart= 
+Variation145=Designator=R47|UniqueId=\OFPBMYJG\ONASARNI|Kind=1|AlternatePart= 
+Variation146=Designator=R49|UniqueId=\OFPBMYJG\FUKWKSCO|Kind=1|AlternatePart= 
+Variation147=Designator=J25|UniqueId=\AHAWVNSC\VGNUGKDP|Kind=1|AlternatePart= 
+Variation148=Designator=J28|UniqueId=\AHAWVNSC\AJKCCXRJ|Kind=1|AlternatePart= 
+Variation149=Designator=J18|UniqueId=\GNREREHE\TKUBGVQE|Kind=1|AlternatePart= 
+Variation150=Designator=J17|UniqueId=\GNREREHE\HHPDKNVH|Kind=1|AlternatePart= 
+Variation151=Designator=FB2|UniqueId=\GNREREHE\TYDHHXSJ|Kind=1|AlternatePart= 
+Variation152=Designator=FB3|UniqueId=\GNREREHE\GCLKKXWO|Kind=1|AlternatePart= 
+Variation153=Designator=FB1|UniqueId=\GNREREHE\PHSDIFXO|Kind=1|AlternatePart= 
+Variation154=Designator=J33|UniqueId=\OFPBMYJG\REIHJAFH|Kind=1|AlternatePart= 
+Variation155=Designator=J12|UniqueId=\OFPBMYJG\SIUVCUAV|Kind=1|AlternatePart= 
+Variation156=Designator=J13|UniqueId=\OFPBMYJG\BUYFSLWX|Kind=1|AlternatePart= 
+Variation157=Designator=J14|UniqueId=\OFPBMYJG\PUPOBWPN|Kind=1|AlternatePart= 
+Variation158=Designator=C8|UniqueId=\GWMQEKWF\TAREBCLJ|Kind=1|AlternatePart= 
+Variation159=Designator=C9|UniqueId=\GWMQEKWF\RGVTJPKL|Kind=1|AlternatePart= 
+Variation160=Designator=C10|UniqueId=\GWMQEKWF\SOGTKATX|Kind=1|AlternatePart= 
+Variation161=Designator=C11|UniqueId=\GWMQEKWF\FONCWNBE|Kind=1|AlternatePart= 
+Variation162=Designator=C12|UniqueId=\GWMQEKWF\UJDUOYDN|Kind=1|AlternatePart= 
+Variation163=Designator=C13|UniqueId=\GWMQEKWF\WGNVPOSP|Kind=1|AlternatePart= 
+Variation164=Designator=C14|UniqueId=\GWMQEKWF\EJLFHHCB|Kind=1|AlternatePart= 
+Variation165=Designator=C15|UniqueId=\GWMQEKWF\EHWYLXSN|Kind=1|AlternatePart= 
+Variation166=Designator=D2|UniqueId=\GWMQEKWF\RPGJBPPQ|Kind=1|AlternatePart= 
+Variation167=Designator=D3|UniqueId=\GWMQEKWF\EAMQIMNQ|Kind=1|AlternatePart= 
+Variation168=Designator=D4|UniqueId=\GWMQEKWF\ECQCVCSO|Kind=1|AlternatePart= 
+Variation169=Designator=D5|UniqueId=\GWMQEKWF\EXOASLQD|Kind=1|AlternatePart= 
+Variation170=Designator=DC1|UniqueId=\GWMQEKWF\EMLCFAIF|Kind=1|AlternatePart= 
+Variation171=Designator=DC2|UniqueId=\GWMQEKWF\FPQNHKVF|Kind=1|AlternatePart= 
+Variation172=Designator=J4|UniqueId=\GWMQEKWF\UBCNSAUH|Kind=1|AlternatePart= 
+Variation173=Designator=J5|UniqueId=\GWMQEKWF\OTCERPQS|Kind=1|AlternatePart= 
+Variation174=Designator=J6|UniqueId=\GWMQEKWF\GHUJSVTH|Kind=1|AlternatePart= 
+Variation175=Designator=J7|UniqueId=\GWMQEKWF\MHGAKOMU|Kind=1|AlternatePart= 
+Variation176=Designator=J8|UniqueId=\GWMQEKWF\VCURCYVE|Kind=1|AlternatePart= 
+Variation177=Designator=J9|UniqueId=\GWMQEKWF\QCKBOJMA|Kind=1|AlternatePart= 
+Variation178=Designator=J31|UniqueId=\GWMQEKWF\RKTALRGW|Kind=1|AlternatePart= 
+Variation179=Designator=R17|UniqueId=\GWMQEKWF\NHHXLSRD|Kind=1|AlternatePart= 
+Variation180=Designator=R18|UniqueId=\GWMQEKWF\ESALUXFM|Kind=1|AlternatePart= 
+Variation181=Designator=R19|UniqueId=\GWMQEKWF\KGHLALPR|Kind=1|AlternatePart= 
+Variation182=Designator=R20|UniqueId=\GWMQEKWF\WXPMIEWF|Kind=1|AlternatePart= 
+Variation183=Designator=R21|UniqueId=\GWMQEKWF\GDFFHYWM|Kind=1|AlternatePart= 
+Variation184=Designator=R22|UniqueId=\GWMQEKWF\CEYLQXKL|Kind=1|AlternatePart= 
+Variation185=Designator=R23|UniqueId=\GWMQEKWF\NNIEQYIJ|Kind=1|AlternatePart= 
+Variation186=Designator=R58|UniqueId=\GNREREHE\YFDQMELF|Kind=1|AlternatePart= 
+Variation187=Designator=R59|UniqueId=\GNREREHE\AEYKCOWW|Kind=1|AlternatePart= 
+Variation188=Designator=R60|UniqueId=\GNREREHE\VTRPSMTO|Kind=1|AlternatePart= 
+Variation189=Designator=R72|UniqueId=\GNREREHE\RLFHYNEO|Kind=1|AlternatePart= 
+Variation190=Designator=R71|UniqueId=\GNREREHE\MAWMFJFY|Kind=1|AlternatePart= 
+Variation191=Designator=R70|UniqueId=\GNREREHE\LDWILWHV|Kind=1|AlternatePart= 
+ParamVariationCount=126
+
+[ProjectVariant5]
+Description=5P et AN(5V)
+AllowFabrication=0
+ParameterCount=0
+VariationCount=201
+Variation1=Designator=R45|UniqueId=\OFPBMYJG\GDXNQIMC|Kind=1|AlternatePart= 
+Variation2=Designator=R51|UniqueId=\OFPBMYJG\BXKRCMWN|Kind=1|AlternatePart= 
+Variation3=Designator=C1|UniqueId=\AYPIIWAJ|Kind=1|AlternatePart= 
+Variation4=Designator=C3|UniqueId=\KFYJGYGK|Kind=1|AlternatePart= 
+Variation5=Designator=R52|UniqueId=\OFPBMYJG\BISAYODH|Kind=1|AlternatePart= 
+Variation6=Designator=R53|UniqueId=\OFPBMYJG\KTWQOHRA|Kind=1|AlternatePart= 
+Variation7=Designator=R54|UniqueId=\OFPBMYJG\UIYHOXRD|Kind=1|AlternatePart= 
+Variation8=Designator=R61|UniqueId=\GNREREHE\MKYMDNTQ|Kind=0|AlternatePart= 
+Variation9=Designator=R62|UniqueId=\GNREREHE\EFKPIQXB|Kind=0|AlternatePart= 
+Variation10=Designator=R63|UniqueId=\GNREREHE\MRNRMEAH|Kind=0|AlternatePart= 
+Variation11=Designator=S3|UniqueId=\AHAWVNSC\RSIIDDMS|Kind=1|AlternatePart= 
+Variation12=Designator=R88|UniqueId=\AHAWVNSC\VUTCKJBW|Kind=1|AlternatePart= 
+Variation13=Designator=R73|UniqueId=\GNREREHE\YUSJAMXI|Kind=0|AlternatePart= 
+Variation14=Designator=R74|UniqueId=\GNREREHE\ELWNRADN|Kind=0|AlternatePart= 
+Variation15=Designator=R75|UniqueId=\GNREREHE\BASQQSXD|Kind=0|AlternatePart= 
+Variation16=Designator=R79|UniqueId=\AHAWVNSC\JVINJNTT|Kind=1|AlternatePart= 
+Variation17=Designator=R80|UniqueId=\AHAWVNSC\RIQEBNUC|Kind=1|AlternatePart= 
+Variation18=Designator=R81|UniqueId=\AHAWVNSC\YJAEMHRF|Kind=1|AlternatePart= 
+Variation19=Designator=R82|UniqueId=\AHAWVNSC\UAHKGGJL|Kind=1|AlternatePart= 
+Variation20=Designator=R83|UniqueId=\AHAWVNSC\KFRHMUKT|Kind=1|AlternatePart= 
+Variation21=Designator=R84|UniqueId=\AHAWVNSC\GBEHOUNJ|Kind=1|AlternatePart= 
+Variation22=Designator=R85|UniqueId=\AHAWVNSC\GYMIEXQU|Kind=1|AlternatePart= 
+Variation23=Designator=R86|UniqueId=\AHAWVNSC\HLVLHNJV|Kind=1|AlternatePart= 
+Variation24=Designator=R87|UniqueId=\AHAWVNSC\VNIPOVON|Kind=1|AlternatePart= 
+Variation25=Designator=R89|UniqueId=\AHAWVNSC\GOUOXINB|Kind=1|AlternatePart= 
+Variation26=Designator=S2|UniqueId=\AHAWVNSC\FSKNJOBF|Kind=1|AlternatePart= 
+Variation27=Designator=R90|UniqueId=\AHAWVNSC\DCYMDCFL|Kind=1|AlternatePart= 
+Variation28=Designator=S1|UniqueId=\AHAWVNSC\GQYCQFEF|Kind=1|AlternatePart= 
+Variation29=Designator=S4|UniqueId=\AHAWVNSC\IJLBDIIE|Kind=1|AlternatePart= 
+Variation30=Designator=S5|UniqueId=\AHAWVNSC\KFBSGLHA|Kind=1|AlternatePart= 
+Variation31=Designator=Q1|UniqueId=\BOFSQVTU|Kind=1|AlternatePart= 
+Variation32=Designator=Q5|UniqueId=\FAJGPRSY|Kind=1|AlternatePart= 
+Variation33=Designator=J35|UniqueId=\OFPBMYJG\ETWUUDFG|Kind=1|AlternatePart= 
+Variation34=Designator=J22|UniqueId=\GNREREHE\HAQSTGUH|Kind=1|AlternatePart= 
+Variation35=Designator=Q17|UniqueId=\AHAWVNSC\MUTVCQPT|Kind=1|AlternatePart= 
+Variation36=Designator=Q7|UniqueId=\OFPBMYJG\BVWKCATF|Kind=1|AlternatePart= 
+Variation37=Designator=J29|UniqueId=\AHAWVNSC\QNVYRIOU|Kind=1|AlternatePart= 
+Variation38=Designator=R6|UniqueId=\EIRQBQHX|Kind=1|AlternatePart= 
+Variation39=Designator=R27|UniqueId=\OFPBMYJG\PQODWRBP|Kind=1|AlternatePart= 
+Variation40=Designator=Q10|UniqueId=\OFPBMYJG\NOJOLASF|Kind=1|AlternatePart= 
+Variation41=Designator=R29|UniqueId=\OFPBMYJG\FDMCECAH|Kind=1|AlternatePart= 
+Variation42=Designator=R32|UniqueId=\OFPBMYJG\PAKNUUHS|Kind=1|AlternatePart= 
+Variation43=Designator=J24|UniqueId=\GNREREHE\PAEJLKIA|Kind=1|AlternatePart= 
+Variation44=Designator=Q6|UniqueId=\WYGQIMDQ|Kind=1|AlternatePart= 
+Variation45=Designator=J34|UniqueId=\OFPBMYJG\MGXIWNIH|Kind=1|AlternatePart= 
+Variation46=Designator=R35|UniqueId=\OFPBMYJG\WVJEDESL|Kind=1|AlternatePart= 
+Variation47=Designator=Q3|UniqueId=\WNXXXMRV|Kind=0|AlternatePart= 
+Variation48=Designator=R30|UniqueId=\OFPBMYJG\VVIYKYKL|Kind=1|AlternatePart= 
+Variation49=Designator=R10|UniqueId=\BXECLDBX|Kind=1|AlternatePart= 
+Variation50=Designator=R34|UniqueId=\OFPBMYJG\WLDUCEVX|Kind=1|AlternatePart= 
+Variation51=Designator=R31|UniqueId=\OFPBMYJG\PJWHXPRE|Kind=1|AlternatePart= 
+Variation52=Designator=R28|UniqueId=\OFPBMYJG\TMSAQQNC|Kind=1|AlternatePart= 
+Variation53=Designator=R36|UniqueId=\OFPBMYJG\FJVJXOHC|Kind=1|AlternatePart= 
+Variation54=Designator=R9|UniqueId=\YAIFVVYP|Kind=1|AlternatePart= 
+Variation55=Designator=Q9|UniqueId=\OFPBMYJG\FWQVPOKN|Kind=1|AlternatePart= 
+Variation56=Designator=J30|UniqueId=\AHAWVNSC\KPNYCSAG|Kind=1|AlternatePart= 
+Variation57=Designator=R37|UniqueId=\OFPBMYJG\TBLKQPDS|Kind=1|AlternatePart= 
+Variation58=Designator=R3|UniqueId=\LUNTNYCG|Kind=1|AlternatePart= 
+Variation59=Designator=R39|UniqueId=\OFPBMYJG\WJLPRABW|Kind=1|AlternatePart= 
+Variation60=Designator=J27|UniqueId=\AHAWVNSC\AXHVUQPM|Kind=1|AlternatePart= 
+Variation61=Designator=R38|UniqueId=\OFPBMYJG\NDKLJAOD|Kind=1|AlternatePart= 
+Variation62=Designator=R33|UniqueId=\OFPBMYJG\NDXHNLDL|Kind=1|AlternatePart= 
+Variation63=Designator=R7|UniqueId=\GKGIHOJE|Kind=1|AlternatePart= 
+Variation64=Designator=J26|UniqueId=\AHAWVNSC\TORHMQEV|Kind=1|AlternatePart= 
+Variation65=Designator=R8|UniqueId=\MAKSTIWC|Kind=1|AlternatePart= 
+Variation66=Designator=R4|UniqueId=\IKLOAAQU|Kind=1|AlternatePart= 
+Variation67=Designator=J23|UniqueId=\GNREREHE\UYXNVBWS|Kind=1|AlternatePart= 
+Variation68=Designator=R1|UniqueId=\UOKPIGMU|Kind=1|AlternatePart= 
+Variation69=Designator=Q8|UniqueId=\OFPBMYJG\IHQTLBNF|Kind=1|AlternatePart= 
+Variation70=Designator=Q4|UniqueId=\MADIJXJI|Kind=1|AlternatePart= 
+Variation71=Designator=Q2|UniqueId=\CTPXYIYV|Kind=1|AlternatePart= 
+Variation72=Designator=R13|UniqueId=\IGOTOWAE|Kind=1|AlternatePart= 
+Variation73=Designator=R12|UniqueId=\ELUPWMGY|Kind=1|AlternatePart= 
+Variation74=Designator=R5|UniqueId=\FCDCLCCB|Kind=1|AlternatePart= 
+Variation75=Designator=R2|UniqueId=\CXIRWFXE|Kind=1|AlternatePart= 
+Variation76=Designator=J21|UniqueId=\GNREREHE\JSAVOQGX|Kind=1|AlternatePart= 
+Variation77=Designator=J20|UniqueId=\GNREREHE\TFMVEAOH|Kind=1|AlternatePart= 
+Variation78=Designator=J19|UniqueId=\GNREREHE\FJOEHADY|Kind=1|AlternatePart= 
+Variation79=Designator=R15|UniqueId=\SILGUAIQ|Kind=1|AlternatePart= 
+Variation80=Designator=R11|UniqueId=\FXLGAGVC|Kind=1|AlternatePart= 
+Variation81=Designator=R14|UniqueId=\YVXCSQND|Kind=1|AlternatePart= 
+Variation82=Designator=R16|UniqueId=\ULMBTOOE|Kind=1|AlternatePart= 
+Variation83=Designator=FB7|UniqueId=\GNREREHE\IGPLTFXQ|Kind=1|AlternatePart= 
+Variation84=Designator=J16|UniqueId=\GNREREHE\YIDRNQKM|Kind=1|AlternatePart= 
+Variation85=Designator=J15|UniqueId=\OFPBMYJG\OTKRVXEF|Kind=1|AlternatePart= 
+Variation86=Designator=J1|UniqueId=\IMQABJVO|Kind=1|AlternatePart= 
+Variation87=Designator=J3|UniqueId=\MTTCHYLJ|Kind=1|AlternatePart= 
+Variation88=Designator=J2|UniqueId=\PEBAGXFF|Kind=1|AlternatePart= 
+Variation89=Designator=FB10|UniqueId=\AHAWVNSC\RQLYTAWD|Kind=1|AlternatePart= 
+Variation90=Designator=FB9|UniqueId=\AHAWVNSC\CBXWLMHR|Kind=1|AlternatePart= 
+Variation91=Designator=D11|UniqueId=\AHAWVNSC\HDMUDBWM|Kind=1|AlternatePart= 
+Variation92=Designator=FB4|UniqueId=\GNREREHE\AIRMYTPI|Kind=1|AlternatePart= 
+Variation93=Designator=FB5|UniqueId=\GNREREHE\LANLNJGS|Kind=1|AlternatePart= 
+Variation94=Designator=FB6|UniqueId=\GNREREHE\ATAYKDHM|Kind=1|AlternatePart= 
+Variation95=Designator=D12|UniqueId=\YTBFMFJK|Kind=1|AlternatePart= 
+Variation96=Designator=D1|UniqueId=\DSQLJQSL|Kind=1|AlternatePart= 
+Variation97=Designator=D10|UniqueId=\AHAWVNSC\GCNEIIWK|Kind=1|AlternatePart= 
+Variation98=Designator=F2|UniqueId=\MEVMHEBA|Kind=1|AlternatePart= 
+Variation99=Designator=F1|UniqueId=\PKVRNYAE|Kind=1|AlternatePart= 
+Variation100=Designator=D9|UniqueId=\OFPBMYJG\ACWBDEXK|Kind=1|AlternatePart= 
+Variation101=Designator=C50|UniqueId=\AHAWVNSC\JNMPPVDH|Kind=1|AlternatePart= 
+Variation102=Designator=DT2|UniqueId=\EVQWNTAR|Kind=1|AlternatePart= 
+Variation103=Designator=C49|UniqueId=\VLIVGLPM|Kind=1|AlternatePart= 
+Variation104=Designator=C48|UniqueId=\AHAWVNSC\SYOVMUEL|Kind=1|AlternatePart= 
+Variation105=Designator=D8|UniqueId=\OFPBMYJG\LBUUJKEU|Kind=1|AlternatePart= 
+Variation106=Designator=C47|UniqueId=\AHAWVNSC\YCAKWOIA|Kind=1|AlternatePart= 
+Variation107=Designator=C46|UniqueId=\AHAWVNSC\IUHVYJYF|Kind=1|AlternatePart= 
+Variation108=Designator=C41|UniqueId=\AHAWVNSC\BVEPDGIR|Kind=1|AlternatePart= 
+Variation109=Designator=C44|UniqueId=\AHAWVNSC\CPDPUTNL|Kind=1|AlternatePart= 
+Variation110=Designator=C5|UniqueId=\CDQJGEMU|Kind=1|AlternatePart= 
+Variation111=Designator=C42|UniqueId=\AHAWVNSC\YCUBWFGI|Kind=1|AlternatePart= 
+Variation112=Designator=C40|UniqueId=\GNREREHE\LSLQGPEY|Kind=1|AlternatePart= 
+Variation113=Designator=C38|UniqueId=\GNREREHE\UUHBHEWD|Kind=1|AlternatePart= 
+Variation114=Designator=C39|UniqueId=\GNREREHE\SDNKXSSA|Kind=1|AlternatePart= 
+Variation115=Designator=C43|UniqueId=\AHAWVNSC\CIHRJFNB|Kind=1|AlternatePart= 
+Variation116=Designator=C37|UniqueId=\GNREREHE\QGAOELSP|Kind=1|AlternatePart= 
+Variation117=Designator=C45|UniqueId=\AHAWVNSC\UKMHYKXS|Kind=1|AlternatePart= 
+Variation118=Designator=C36|UniqueId=\GNREREHE\IWEBVYOT|Kind=1|AlternatePart= 
+Variation119=Designator=C32|UniqueId=\GNREREHE\VXHGCJDB|Kind=1|AlternatePart= 
+Variation120=Designator=C23|UniqueId=\OFPBMYJG\GXMYSRFS|Kind=1|AlternatePart= 
+Variation121=Designator=C29|UniqueId=\GNREREHE\AHERPPFU|Kind=1|AlternatePart= 
+Variation122=Designator=C4|UniqueId=\RYETYNDG|Kind=1|AlternatePart= 
+Variation123=Designator=C20|UniqueId=\OFPBMYJG\GBMHAQDS|Kind=1|AlternatePart= 
+Variation124=Designator=C34|UniqueId=\GNREREHE\DOJXGPBY|Kind=1|AlternatePart= 
+Variation125=Designator=C21|UniqueId=\OFPBMYJG\WVBEQHDG|Kind=1|AlternatePart= 
+Variation126=Designator=C6|UniqueId=\NFOLXANF|Kind=1|AlternatePart= 
+Variation127=Designator=C22|UniqueId=\OFPBMYJG\GPMTPLVP|Kind=1|AlternatePart= 
+Variation128=Designator=C25|UniqueId=\OFPBMYJG\HVAIIEGW|Kind=1|AlternatePart= 
+Variation129=Designator=C24|UniqueId=\OFPBMYJG\FRGGTCSE|Kind=1|AlternatePart= 
+Variation130=Designator=C30|UniqueId=\GNREREHE\DHTUKWYF|Kind=1|AlternatePart= 
+Variation131=Designator=C35|UniqueId=\GNREREHE\ADDYPMYX|Kind=1|AlternatePart= 
+Variation132=Designator=C31|UniqueId=\GNREREHE\IJYGLKEE|Kind=1|AlternatePart= 
+Variation133=Designator=C27|UniqueId=\GNREREHE\AMUOBSTP|Kind=1|AlternatePart= 
+Variation134=Designator=C7|UniqueId=\IBDDTCJM|Kind=1|AlternatePart= 
+Variation135=Designator=C2|UniqueId=\DASVFKVC|Kind=1|AlternatePart= 
+Variation136=Designator=C33|UniqueId=\GNREREHE\PRWGEQHH|Kind=1|AlternatePart= 
+Variation137=Designator=C26|UniqueId=\GNREREHE\IORDGROO|Kind=1|AlternatePart= 
+Variation138=Designator=R40|UniqueId=\OFPBMYJG\SQTVGGIP|Kind=1|AlternatePart= 
+Variation139=Designator=R42|UniqueId=\OFPBMYJG\WMKJULXB|Kind=1|AlternatePart= 
+Variation140=Designator=R41|UniqueId=\OFPBMYJG\UVOIUYCP|Kind=1|AlternatePart= 
+Variation141=Designator=R43|UniqueId=\OFPBMYJG\QUYPOBAK|Kind=1|AlternatePart= 
+Variation142=Designator=R44|UniqueId=\OFPBMYJG\LUBLEHYY|Kind=1|AlternatePart= 
+Variation143=Designator=R46|UniqueId=\OFPBMYJG\VVXOKNIT|Kind=1|AlternatePart= 
+Variation144=Designator=R50|UniqueId=\OFPBMYJG\DBVOUHWQ|Kind=1|AlternatePart= 
+Variation145=Designator=R48|UniqueId=\OFPBMYJG\ESFDVSWJ|Kind=1|AlternatePart= 
+Variation146=Designator=R47|UniqueId=\OFPBMYJG\ONASARNI|Kind=1|AlternatePart= 
+Variation147=Designator=R49|UniqueId=\OFPBMYJG\FUKWKSCO|Kind=1|AlternatePart= 
+Variation148=Designator=J25|UniqueId=\AHAWVNSC\VGNUGKDP|Kind=1|AlternatePart= 
+Variation149=Designator=J28|UniqueId=\AHAWVNSC\AJKCCXRJ|Kind=1|AlternatePart= 
+Variation150=Designator=J18|UniqueId=\GNREREHE\TKUBGVQE|Kind=1|AlternatePart= 
+Variation151=Designator=J17|UniqueId=\GNREREHE\HHPDKNVH|Kind=1|AlternatePart= 
+Variation152=Designator=J33|UniqueId=\OFPBMYJG\REIHJAFH|Kind=1|AlternatePart= 
+Variation153=Designator=J12|UniqueId=\OFPBMYJG\SIUVCUAV|Kind=1|AlternatePart= 
+Variation154=Designator=J13|UniqueId=\OFPBMYJG\BUYFSLWX|Kind=1|AlternatePart= 
+Variation155=Designator=J14|UniqueId=\OFPBMYJG\PUPOBWPN|Kind=1|AlternatePart= 
+Variation156=Designator=R59|UniqueId=\GNREREHE\AEYKCOWW|Kind=1|AlternatePart= 
+Variation157=Designator=R56|UniqueId=\GNREREHE\FYTHWHNK|Kind=1|AlternatePart= 
+Variation158=Designator=R58|UniqueId=\GNREREHE\YFDQMELF|Kind=1|AlternatePart= 
+Variation159=Designator=R55|UniqueId=\GNREREHE\BCCIFHPQ|Kind=1|AlternatePart= 
+Variation160=Designator=R70|UniqueId=\GNREREHE\LDWILWHV|Kind=1|AlternatePart= 
+Variation161=Designator=R67|UniqueId=\GNREREHE\EUYKCCPU|Kind=1|AlternatePart= 
+Variation162=Designator=R68|UniqueId=\GNREREHE\YGCPPMDH|Kind=1|AlternatePart= 
+Variation163=Designator=R71|UniqueId=\GNREREHE\MAWMFJFY|Kind=1|AlternatePart= 
+Variation164=Designator=R72|UniqueId=\GNREREHE\RLFHYNEO|Kind=1|AlternatePart= 
+Variation165=Designator=R69|UniqueId=\GNREREHE\DSJXEQGT|Kind=1|AlternatePart= 
+Variation166=Designator=R60|UniqueId=\GNREREHE\VTRPSMTO|Kind=1|AlternatePart= 
+Variation167=Designator=R57|UniqueId=\GNREREHE\INTRIHMU|Kind=1|AlternatePart= 
+Variation168=Designator=Q13|UniqueId=\GNREREHE\YYMEDIEK|Kind=1|AlternatePart= 
+Variation169=Designator=Q12|UniqueId=\GNREREHE\AJCGQXVL|Kind=1|AlternatePart= 
+Variation170=Designator=Q16|UniqueId=\GNREREHE\TFULMXCN|Kind=1|AlternatePart= 
+Variation171=Designator=Q11|UniqueId=\GNREREHE\LQIYMHMQ|Kind=1|AlternatePart= 
+Variation172=Designator=Q14|UniqueId=\GNREREHE\LSUDOAQU|Kind=1|AlternatePart= 
+Variation173=Designator=Q15|UniqueId=\GNREREHE\GHLVFRUY|Kind=1|AlternatePart= 
+Variation174=Designator=C8|UniqueId=\GWMQEKWF\TAREBCLJ|Kind=1|AlternatePart= 
+Variation175=Designator=C9|UniqueId=\GWMQEKWF\RGVTJPKL|Kind=1|AlternatePart= 
+Variation176=Designator=C10|UniqueId=\GWMQEKWF\SOGTKATX|Kind=1|AlternatePart= 
+Variation177=Designator=C11|UniqueId=\GWMQEKWF\FONCWNBE|Kind=1|AlternatePart= 
+Variation178=Designator=C16|UniqueId=\GWMQEKWF\CNWEHJVX|Kind=1|AlternatePart= 
+Variation179=Designator=C17|UniqueId=\GWMQEKWF\FIEYWBND|Kind=1|AlternatePart= 
+Variation180=Designator=C18|UniqueId=\GWMQEKWF\WLWWFESC|Kind=1|AlternatePart= 
+Variation181=Designator=C19|UniqueId=\GWMQEKWF\AUKXKWHQ|Kind=1|AlternatePart= 
+Variation182=Designator=D2|UniqueId=\GWMQEKWF\RPGJBPPQ|Kind=1|AlternatePart= 
+Variation183=Designator=D3|UniqueId=\GWMQEKWF\EAMQIMNQ|Kind=1|AlternatePart= 
+Variation184=Designator=D6|UniqueId=\GWMQEKWF\PBKPDYPA|Kind=1|AlternatePart= 
+Variation185=Designator=D7|UniqueId=\GWMQEKWF\HYNDUATU|Kind=1|AlternatePart= 
+Variation186=Designator=DC1|UniqueId=\GWMQEKWF\EMLCFAIF|Kind=1|AlternatePart= 
+Variation187=Designator=DC3|UniqueId=\GWMQEKWF\MFOFPSPO|Kind=1|AlternatePart= 
+Variation188=Designator=J4|UniqueId=\GWMQEKWF\UBCNSAUH|Kind=1|AlternatePart= 
+Variation189=Designator=J5|UniqueId=\GWMQEKWF\OTCERPQS|Kind=1|AlternatePart= 
+Variation190=Designator=J6|UniqueId=\GWMQEKWF\GHUJSVTH|Kind=1|AlternatePart= 
+Variation191=Designator=J7|UniqueId=\GWMQEKWF\MHGAKOMU|Kind=1|AlternatePart= 
+Variation192=Designator=J10|UniqueId=\GWMQEKWF\BCWXXDMQ|Kind=1|AlternatePart= 
+Variation193=Designator=J11|UniqueId=\GWMQEKWF\JYFIDOTP|Kind=1|AlternatePart= 
+Variation194=Designator=J32|UniqueId=\GWMQEKWF\NHLCBLTS|Kind=1|AlternatePart= 
+Variation195=Designator=R17|UniqueId=\GWMQEKWF\NHHXLSRD|Kind=1|AlternatePart= 
+Variation196=Designator=R18|UniqueId=\GWMQEKWF\ESALUXFM|Kind=1|AlternatePart= 
+Variation197=Designator=R19|UniqueId=\GWMQEKWF\KGHLALPR|Kind=1|AlternatePart= 
+Variation198=Designator=R20|UniqueId=\GWMQEKWF\WXPMIEWF|Kind=1|AlternatePart= 
+Variation199=Designator=R24|UniqueId=\GWMQEKWF\MWURCJJS|Kind=1|AlternatePart= 
+Variation200=Designator=R25|UniqueId=\GWMQEKWF\RJSONNLY|Kind=1|AlternatePart= 
+Variation201=Designator=R26|UniqueId=\GWMQEKWF\OJVEVMBV|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -206,10 +1148,10 @@ Name=Default Configuration
 ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
+CurrentRevision=
 Variant=[No Variations]
+GenerateBOM=1
 OutputJobsCount=0
-ContentTypeGUID=
-ConfigurationType=
 
 [Generic_SmartPDF]
 AutoOpenFile=0
@@ -253,108 +1195,33 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP LaserJet M177fw
+TargetPrinter=HP LJ P4014-electrolab
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=CadnetixNetlist
-OutputName2=Cadnetix Netlist
+OutputType2=PADSNetlist
+OutputName2=PADS ASCII Netlist
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=CalayNetlist
-OutputName3=Calay Netlist
+OutputType3=Verilog
+OutputName3=Verilog File
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=EDIF
-OutputName4=EDIF for PCB
+OutputType4=VHDL
+OutputName4=VHDL File
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=EESofNetlist
-OutputName5=EESof Netlist
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-OutputType6=IntergraphNetlist
-OutputName6=Intergraph Netlist
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-OutputType7=MentorBoardStationNetlist
-OutputName7=Mentor BoardStation Netlist
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-OutputType8=MultiWire
-OutputName8=MultiWire
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-OutputType9=OrCadPCB2Netlist
-OutputName9=Orcad/PCB2 Netlist
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-OutputType10=Pcad
-OutputName10=Pcad for PCB
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=PCADnltNetlist
-OutputName11=PCADnlt Netlist
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Protel2Netlist
-OutputName12=Protel2 Netlist
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=ProtelNetlist
-OutputName13=Protel
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=RacalNetlist
-OutputName14=Racal Netlist
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=RINFNetlist
-OutputName15=RINF Netlist
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=SciCardsNetlist
-OutputName16=SciCards Netlist
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=TangoNetlist
-OutputName17=Tango Netlist
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=TelesisNetlist
-OutputName18=Telesis Netlist
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-OutputType19=WireListNetlist
-OutputName19=WireList Netlist
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP LaserJet M177fw
+TargetPrinter=HP LJ P4014-electrolab
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -422,17 +1289,65 @@ OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType10=PCBDrawing
-OutputName10=Draftsman
+OutputType10=Assembler Source Print
+OutputName10=Assembler Source Prints
 OutputDocumentPath10=
-OutputVariantName10=[No Variations]
+OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=C Source Print
+OutputName11=C Source Prints
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=C/C++ Header Print
+OutputName12=C/C++ Header Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=C++ Source Print
+OutputName13=C++ Source Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=FSM Print
+OutputName14=FSM Prints
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType15=OpenBus Print
+OutputName15=OpenBus Prints
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType16=VHDL Print
+OutputName16=VHDL Prints
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType17=Wave Print
+OutputName17=Wave Prints
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType18=WaveSim Print
+OutputName18=WaveSim Prints
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP LaserJet M177fw
+TargetPrinter=HP LJ P4014-electrolab
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -454,7 +1369,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP LaserJet M177fw
+TargetPrinter=HP LJ P4014-electrolab
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -526,7 +1441,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP LaserJet M177fw
+TargetPrinter=HP LJ P4014-electrolab
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -577,7 +1492,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP LaserJet M177fw
+TargetPrinter=HP LJ P4014-electrolab
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -757,7 +1672,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP LaserJet M177fw
+TargetPrinter=HP LJ P4014-electrolab
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -792,16 +1707,11 @@ OutputName6=Footprint Comparison Report
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=BOM_Violations
-OutputName7=BOM Checks Report
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
 
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP LaserJet M177fw
+TargetPrinter=HP LJ P4014-electrolab
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -818,42 +1728,11 @@ OutputName3=Export STEP
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=ExportPARASOLID
-OutputName4=Export PARASOLID
+OutputType4=ExportIDF
+OutputName4=Export IDF
 OutputDocumentPath4=
-OutputVariantName4=[No Variations]
+OutputVariantName4=
 OutputDefault4=0
-OutputType5=ExportVRML
-OutputName5=Export VRML
-OutputDocumentPath5=
-OutputVariantName5=[No Variations]
-OutputDefault5=0
-OutputType6=Save As/Export PCB
-OutputName6=Save As/Export PCB
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-OutputType7=Save As/Export Schematic
-OutputName7=Save As/Export Schematic
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-OutputType8=Specctra Design PCB
-OutputName8=Specctra Design PCB
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-
-[OutputGroup10]
-Name=PostProcess Outputs
-Description=
-TargetPrinter=HP LaserJet M177fw
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Copy Files
-OutputName1=Copy Files
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [Modification Levels]
 Type1=1
@@ -936,43 +1815,6 @@ Type77=1
 Type78=1
 Type79=1
 Type80=1
-Type81=1
-Type82=1
-Type83=1
-Type84=1
-Type85=1
-Type86=1
-Type87=1
-Type88=1
-Type89=1
-Type90=1
-Type91=1
-Type92=1
-Type93=1
-Type94=1
-Type95=1
-Type96=1
-Type97=1
-Type98=1
-Type99=1
-Type100=1
-Type101=1
-Type102=1
-Type103=1
-Type104=1
-Type105=1
-Type106=1
-Type107=1
-Type108=1
-Type109=1
-Type110=1
-Type111=1
-Type112=1
-Type113=1
-Type114=1
-Type115=1
-Type116=1
-Type117=1
 
 [Difference Levels]
 Type1=1
@@ -1020,27 +1862,6 @@ Type42=1
 Type43=1
 Type44=0
 Type45=1
-Type46=1
-Type47=1
-Type48=1
-Type49=1
-Type50=1
-Type51=1
-Type52=1
-Type53=1
-Type54=1
-Type55=1
-Type56=1
-Type57=1
-Type58=1
-Type59=1
-Type60=1
-Type61=1
-Type62=1
-Type63=1
-Type64=1
-Type65=1
-Type66=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1154,17 +1975,6 @@ Type108=2
 Type109=1
 Type110=1
 Type111=1
-Type112=1
-Type113=1
-Type114=2
-Type115=2
-Type116=2
-Type117=3
-Type118=3
-Type119=3
-MultiChannelAlternate=2
-AlternateItemFail=3
-Type122=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1639,7 +2449,7 @@ ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=
 ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions5=Kind=Code Memory|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
