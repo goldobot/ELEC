@@ -1,0 +1,29 @@
+Voici les évolutions souhaité de la carte mère 2020 par rapport à la carte mère 2019:
+- sérigraphie connecteur: ID, pinout (-;+5;+3;S;P;A), fleche polarité (pour éviter les autocolants)
+- connecteurs WR-MM dédiés à la carte:
+	> clavier, 
+	> moteur,
+	> oDrive,
+	> capteur (x1 + 1 avec option picot)
+- modification du stack-up: 
+	> carte DE0 non soudé, utilise des connecteur 6100xx243021 + 6130xx21121 
+	> carte nucléo sur header CMS 61004021821
+	> connecteur IO angle droit en bottom, CMS si possible.
+- si possible passage en 0603 au lieu de 0402
+- prise dynamixel reduites (2 max)
+- colonnete de fixation CMS incluse
+- connecteur Alim 3p (au lieu de x2 2p)
+- prise servo unique (barette THT, 3x12
+- entrée encodeur SSI ou Quadrature
+- sortie contrôle moteur supplémentaire
+- protection TVS sur les signaux moteurs
+- déport 8 leds+ 2 boutons DE0? (comment? avec un petit connecteur? avec un guide lumière?)
+- intégrer la liaison série secondaire?
+- prévoir des sorties d'alimentation pour:
+	> le ventillateur Rpi
+	> l'alim lidar
+	> l'alim Rpi
+- capa chimique possiblement placé sous le programmeur Nucléo en position couché
+
+liste des patchs à intégrer 
+- A COMPLETER AVEC LE RETOUR DE GOLDO

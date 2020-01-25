@@ -1,0 +1,12 @@
+voici la liste des erreurs identifié sur la carte:
+1- les capa de découplage de la partie capteur sont entre l'alim et le signal au lieu de l'alim et la masse (elles peuvent être soudée directement en bottom entre les pins du connecteur)
+2- empreinte mosfet puissance incorrecte
+3- le montage mosfet de la partie puissance ne résiste pas aux appels de courant, les modification suivante sont nécessaire:
+	> le mosfet est a remplacer par SQM120P06-07L_GE3 
+	> ajouter diode RS3J R6 en // de la ligne de puissance (autrement dit de la diode interne): Anode sur Q1_4; Cathode sur Q1_2
+	> ajouter une diode zener 15V: MM3Z15VST1G est a ajouter sur la gate: Anode sur Q1_1; Cathode sur Q1_2
+4- la dissippation de la carte moteur est faible, clip pour radiateur? agrandir les zones sans verni au bottom
+5- J27 est trop proche de l'interrupteur et ne peut pas être branché  sans être modifié, cf https://photos.google.com/photo/AF1QipPI9cO04hVZEv9uizKQd5UoQlhEHSyj2fmHmz1K
+6- J28 est trop vers le haut, la prise de l'AU coince sur le support de la tirette
+
+les points 1,2 et 3 peuvent être corrigé par une reprise manuelle.
