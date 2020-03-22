@@ -8,5 +8,9 @@ voici la liste des erreurs identifié sur la carte:
 4- la dissippation de la carte moteur est faible, clip pour radiateur? agrandir les zones sans verni au bottom
 5- J27 est trop proche de l'interrupteur et ne peut pas être branché  sans être modifié, cf https://photos.google.com/photo/AF1QipPI9cO04hVZEv9uizKQd5UoQlhEHSyj2fmHmz1K
 6- J28 est trop vers le haut, la prise de l'AU coince sur le support de la tirette
+7- voir si le bouton S4 ne pourrait pas utiliser les bouton avec led intégré de Wurth
+8- changer FB7, FB8 par WE-CBF, 742792023
+9- changer les autre ferrite par RC0603FR-070RL
+10- Ajouter une sortie de contrôle du nRST de l'oDrive (AU enclenché => Pin tiré à 0V)
 
 les points 1,2 et 3 peuvent être corrigé par une reprise manuelle.
