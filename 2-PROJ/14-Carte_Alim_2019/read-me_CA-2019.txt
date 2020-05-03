@@ -1,23 +1,27 @@
-voici la liste des erreurs identifié sur la carte:
-1- les capa de découplage de la partie capteur sont entre l'alim et le signal au lieu de l'alim et la masse (elles peuvent être soudée directement en bottom entre les pins du connecteur)
-2- empreinte mosfet puissance incorrecte
-3- le montage mosfet de la partie puissance ne résiste pas aux appels de courant, les modification suivante sont nécessaire:
-	> le mosfet est a remplacer par SQM120P06-07L_GE3 
-	> ajouter diode RS3J R6 en // de la ligne de puissance (autrement dit de la diode interne): Anode sur Q1_4; Cathode sur Q1_2
-	> ajouter une diode zener 15V: MM3Z15VST1G est a ajouter sur la gate: Anode sur Q1_1; Cathode sur Q1_2
+
+
+voici la liste des erreurs identifié sur la carte et des modification a y apporter:
+#1- les capa de découplage de la partie capteur sont entre l'alim et le signal au lieu de l'alim et la masse (elles peuvent être soudée directement en bottom entre #les pins du connecteur)
+#2- empreinte mosfet puissance incorrecte
+#3- le montage mosfet de la partie puissance ne résiste pas aux appels de courant, les modification suivante sont nécessaire:
+#	> le mosfet est a remplacer par SQM120P06-07L_GE3 
+#	> ajouter diode RS3J R6 en // de la ligne de puissance (autrement dit de la diode interne): Anode sur Q1_4; Cathode sur Q1_2
+#	> ajouter une diode zener 15V: MM3Z15VST1G est a ajouter sur la gate: Anode sur Q1_1; Cathode sur Q1_2
 4- la dissippation de la carte moteur est faible, clip pour radiateur? agrandir les zones sans verni au bottom
 5- J27 est trop proche de l'interrupteur et ne peut pas être branché  sans être modifié, cf https://photos.google.com/photo/AF1QipPI9cO04hVZEv9uizKQd5UoQlhEHSyj2fmHmz1K
 6- J28 est trop vers le haut, la prise de l'AU coince sur le support de la tirette
 7- voir si le bouton S4 ne pourrait pas utiliser les bouton avec led intégré de Wurth
-8- changer FB7, FB8 par WE-CBF, 742792023
+#8- changer FB7, FB8 par WE-CBF, 742792023
 9- changer les autre ferrite par RC0603FR-070RL
-10- Ajouter une sortie de contrôle du nRST de l'oDrive (AU enclenché => Pin tiré à 0V)
+#10- Ajouter une sortie de contrôle du nRST de l'oDrive (AU enclenché => Pin tiré à 0V)
 11- sur le connecteur Tirette de la carte clavier, ajouter un 3V3_CLAV sur le pin libre (éventuellement revoir le pinout pour être conforme à notre standard voir si possible au pinout d'un capteur à effet hall
 afin de pouvoir le souder directement (du genre Allegro A1106, attention cette ref là est 3.8V minimum).
 12- décaller le connecteur de la tirette à coté de J25 pour pouvoir souder le Hall directement au bon endroit (sous la tirette).
-13- CLAV: générer le 3V3 localement à partir du 5L du connecteur carte alim
+13- CLAV: générer le 3V3 localement à partir du 5L du connecteur carte alim (LDO
 14- Utiliser le signal libéré sur le pin 1 du connecteur nucléo comme signal de controle de la led du bouton S4
 15- Remplacer le jumper de selection de sécurité par des CMS (avec le DNI qui va bien pour être à fonctionnalité égale
 16- Utiliser le pin 8 du connecteur nucléo pour retourner un signal logique donnant le statut de l'AU.
+#17- mettre en DNI les connecteur de puissance (des fils terminé par un connecteur bullet ou XT30 y seront soudée à la place)
+18- remplacer les deux BAT54S-7-F de la carte moteur par la TVS 82400274
 
 les points 1,2 et 3 peuvent être corrigé par une reprise manuelle.
