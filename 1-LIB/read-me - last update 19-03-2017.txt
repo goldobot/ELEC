@@ -69,8 +69,10 @@ resumé:
 - Mechanical 17 (M17) 	not to use (sometine .Designator are left on this layer)
 
 pour résumer lors de la création de composant les plans mécaniques importants: 
-M13: corps 3D et Ligne de forme (info esthétique)
-M15: espace/zone occupé par le composant (y compris la prise si c'est un connecteur par ex) + croix à l'origine du composant
+M13: Modele 3D et Ligne de profil du composant (=contour en projection verticale du corps du composant, sans ses pattes) + indication du pin1/polarité
+M15: espace/zone occupé par le composant (y compris la prise si c'est un connecteur par ex) + croix à l'origine du composant 
+M17: string .Designator en text height 1.0mm ou 1.5mm
+
 
 A la fin de processus de création d'un composant, prenez le temps de vous relire.
 De toute façon il est TRES FORTEMENT recommandé de vérifier tout composant ajouté à une nouvelle carte et si nécessaire de le mettre à jour au niveau de la librairie en cas de problème. 
