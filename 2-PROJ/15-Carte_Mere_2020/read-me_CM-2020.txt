@@ -18,7 +18,8 @@ Voici les évolutions souhaité de la carte mère 2020 par rapport à la carte m
 - sortie contrôle moteur supplémentaire
 - protection TVS sur les signaux moteurs
 - déport 8 leds+ 2 boutons DE0? (comment? avec un petit connecteur? avec un guide lumière?)
-- intégrer la liaison série secondaire?
+- intégrer la liaison série secondaire (cf sch du module actuel + note sur le CI dispo chez JLCPCB parts)
+- port SPI pour le Gyro
 - prévoir des sorties d'alimentation pour:
 	> le ventillateur Rpi
 	> l'alim lidar
