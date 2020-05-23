@@ -1,0 +1,33 @@
+Voici les évolutions souhaité de la carte mère 2020 par rapport à la carte mère 2019:
+- sérigraphie connecteur: ID, pinout (-;+5;+3;S;P;A), fleche polarité (pour éviter les autocolants)
+- connecteurs WR-MM dédiés à la carte:
+	> clavier, 
+	> moteur,
+	> oDrive,
+	> capteur (x1 + 1 avec option picot)
+- modification du stack-up: 
+	> carte DE0 non soudé, utilise des connecteur 6100xx243021 + 6130xx21121 
+	> carte nucléo sur header CMS 61004021821
+	> connecteur IO angle droit en bottom, CMS si possible (triple: traversant (en stock);double: cms 6101xx249121
+- si possible passage en 0603 au lieu de 0402
+- prise dynamixel reduites (2 max), potentiellement en connectique spécialisé
+- colonnete de fixation CMS incluse
+- connecteur Alim 3p (au lieu de x2 2p)
+- prise servo unique (barette THT, 3x12)
+- entrée encodeur SSI ou Quadrature
+- sortie contrôle moteur supplémentaire
+- protection TVS sur les signaux moteurs
+- déport 8 leds+ 2 boutons DE0? (comment? avec un petit connecteur? avec un guide lumière?)
+- intégrer la liaison série secondaire (cf sch du module actuel + note sur le CI dispo chez JLCPCB parts)
+- port SPI pour le Gyro
+- prévoir des sorties d'alimentation pour:
+	> le ventillateur Rpi
+	> l'alim lidar
+	> l'alim Rpi
+- capa chimique possiblement placé sous le programmeur Nucléo en position couché
+
+liste des patchs à intégrer 
+Goldo:
+"Pour rappel il y avait les 2 pb suivants dans la + recente version de la carte log (qui integre les modifs de Nefastor et dont un exemplaire est installé sur le PR2019):
+ * 1) La + grave : le PIN F16 du FPGA Cyclone 4 (nom du signal sur la carte Terasic : "GPIO_29" et sur la carte log je crois que le signal s'appelle "ADC3_GPIO" ) n'est pas utilisable ni comme GPIO ni comme fonction speciale, donc le connecteur ("ADC3"?) de type "telemetre sharp" sur lequel il est route n'est pas utilisable comme prevu (pas de signal de trig). Sur le PR2019 tu avais choisi de router sur le connecteur "ADC3" le signal gpio voisin "ADC4_GPIO" (connecte au PIN_G16 du fpga) en sacrifiant le connecteur "ADC4"(?) de la carte log..
+ * 2) Moins grave pour toi mais embettant pour moi : les signaux suivants de la carte log : US3_ECHO (PIN_FPGA_E16), US3_TRIG (PIN_FPGA_E15) et US2_TRIG (PIN_FPGA_M16) destines a des interfaces de type "telemetre ultra-son" ne sont utilisables sur Cyclone 4 que comme des entrees (IN). Je preconise donc de swapper les paires de signaux suivants sur la carte log : US2_TRIG <-> US2_ECHO et US3_TRIG <-> UART4_RX. Comme ca je pourrais beneficier de 2 interfaces ultra-sons operationnelles a nouveau.."
