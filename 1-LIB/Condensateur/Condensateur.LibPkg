@@ -105,14 +105,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RJVEMULF
 
-[GeneratedDocument1]
-DocumentPath=WCAP-ATG8.csv
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=WCAP-ATG8.rep
-DItemRevisionGUID=
-
 [Generic_IntLibOptions]
 OldFormat=False
 
