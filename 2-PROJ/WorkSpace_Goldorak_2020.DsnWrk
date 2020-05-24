@@ -1,0 +1,16 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=11-Carte_GR_2017_v2\propulsion\Carte_GR_2017_propulsion_v1.PrjPcb
+[Project2]
+ProjectPath=11-Carte_GR_2017_v2\logique\Carte_GR_2017_logique_v1.PrjPCB
+[Project3]
+ProjectPath=12-Carte_Barriere_Optique\Carte_Barriere_Optique.PrjPcb
+[Project4]
+ProjectPath=12-Carte_Barriere_Optique\Carte_Barriere_Optique_Interface.PrjPcb
+[Project5]
+ProjectPath=14-Carte_Alim\Carte_Alim.PrjPcb
+[Project6]
+ProjectPath=15-Carte_Mere\Carte_Mere.PrjPcb
+[Project7]
+ProjectPath=16-Carte_Herse_2020\Carte_Herse_2020.PrjPcb
