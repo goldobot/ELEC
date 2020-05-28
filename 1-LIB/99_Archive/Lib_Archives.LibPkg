@@ -242,6 +242,40 @@ GenerateClassCluster=0
 DocumentUniqueId=THWLUFRP
 
 [Document13]
+DocumentPath=Connecteurs_Wurth.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TQALKBWY
+
+[Document14]
+DocumentPath=Connecteurs_Wurth.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WSVHKBLI
+
+[Document15]
 DocumentPath=0-Template.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SMTITRJY
 
-[Document14]
+[Document16]
 DocumentPath=0-Template.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YFQAWYIJ
 
-[Document15]
+[Document17]
 DocumentPath=Resistance.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SMTITRJY
 
-[Document16]
+[Document18]
 DocumentPath=Resistance.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1

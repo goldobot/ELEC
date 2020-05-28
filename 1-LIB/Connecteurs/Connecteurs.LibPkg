@@ -72,57 +72,6 @@ GenerateClassCluster=0
 DocumentUniqueId=PWHKOUGU
 
 [Document3]
-DocumentPath=Divers.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PFTPDFJL
-
-[Document4]
-DocumentPath=Divers.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CMGDNTUT
-
-[Document5]
-DocumentPath=RJxx.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=REEACIOY
-
-[Document6]
 DocumentPath=Wurth.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WSVHKBLI
 
-[Document7]
+[Document4]
 DocumentPath=Samtec.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FWGUWXJM
 
-[Document8]
+[Document5]
 DocumentPath=Samtec.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EJDUVHVI
 
-[Document9]
+[Document6]
 DocumentPath=Wurth.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
