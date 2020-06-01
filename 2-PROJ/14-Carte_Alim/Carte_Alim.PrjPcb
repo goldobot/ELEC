@@ -535,223 +535,283 @@ ParamVariation20=ParameterName=Value|VariantValue=1.8k
 ParamDesignator20=R61
 ParamVariation21=ParameterName=Vmax|VariantValue=50V
 ParamDesignator21=R61
+ParamVariation22=ParameterName=Pin Info|VariantValue= 
+ParamDesignator22=R61
+ParamVariation23=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator23=R61
+ParamVariation24=ParameterName=Supplier 2|VariantValue=JLCPCB
+ParamDesignator24=R61
+ParamVariation25=ParameterName=Supplier Footprint 2|VariantValue=0603
+ParamDesignator25=R61
+ParamVariation26=ParameterName=Supplier Part Number 2|VariantValue=C4177
+ParamDesignator26=R61
 Variation9=Designator=R62|UniqueId=\GNREREHE\EFKPIQXB|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=True
-ParamVariation22=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
-ParamDesignator22=R62
-ParamVariation23=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator23=R62
-ParamVariation24=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
-ParamDesignator24=R62
-ParamVariation25=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
-ParamDesignator25=R62
-ParamVariation26=ParameterName=ComponentLink2Description|VariantValue=Datasheet
-ParamDesignator26=R62
-ParamVariation27=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
+ParamVariation27=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
 ParamDesignator27=R62
-ParamVariation28=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamVariation28=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator28=R62
-ParamVariation29=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamVariation29=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
 ParamDesignator29=R62
-ParamVariation30=ParameterName=Ibis Model|VariantValue= 
+ParamVariation30=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
 ParamDesignator30=R62
-ParamVariation31=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamVariation31=ParameterName=ComponentLink2Description|VariantValue=Datasheet
 ParamDesignator31=R62
-ParamVariation32=ParameterName=Manufacturer|VariantValue=Yageo
+ParamVariation32=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
 ParamDesignator32=R62
-ParamVariation33=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamVariation33=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
 ParamDesignator33=R62
-ParamVariation34=ParameterName=PCB3D|VariantValue= 
+ParamVariation34=ParameterName=Footprint|VariantValue=RESC1608X06N
 ParamDesignator34=R62
-ParamVariation35=ParameterName=Power|VariantValue=100mW
+ParamVariation35=ParameterName=Ibis Model|VariantValue= 
 ParamDesignator35=R62
-ParamVariation36=ParameterName=Precision|VariantValue=±1%
+ParamVariation36=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
 ParamDesignator36=R62
-ParamVariation37=ParameterName=Simulation|VariantValue= 
+ParamVariation37=ParameterName=Manufacturer|VariantValue=Yageo
 ParamDesignator37=R62
-ParamVariation38=ParameterName=Supplier 1|VariantValue=Farnell
+ParamVariation38=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
 ParamDesignator38=R62
-ParamVariation39=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamVariation39=ParameterName=PCB3D|VariantValue= 
 ParamDesignator39=R62
-ParamVariation40=ParameterName=Type|VariantValue=Thick Film
+ParamVariation40=ParameterName=Power|VariantValue=100mW
 ParamDesignator40=R62
-ParamVariation41=ParameterName=Value|VariantValue=1.8k
+ParamVariation41=ParameterName=Precision|VariantValue=±1%
 ParamDesignator41=R62
-ParamVariation42=ParameterName=Vmax|VariantValue=50V
+ParamVariation42=ParameterName=Simulation|VariantValue= 
 ParamDesignator42=R62
+ParamVariation43=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator43=R62
+ParamVariation44=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator44=R62
+ParamVariation45=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator45=R62
+ParamVariation46=ParameterName=Value|VariantValue=1.8k
+ParamDesignator46=R62
+ParamVariation47=ParameterName=Vmax|VariantValue=50V
+ParamDesignator47=R62
+ParamVariation48=ParameterName=Pin Info|VariantValue= 
+ParamDesignator48=R62
+ParamVariation49=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator49=R62
+ParamVariation50=ParameterName=Supplier 2|VariantValue=JLCPCB
+ParamDesignator50=R62
+ParamVariation51=ParameterName=Supplier Footprint 2|VariantValue=0603
+ParamDesignator51=R62
+ParamVariation52=ParameterName=Supplier Part Number 2|VariantValue=C4177
+ParamDesignator52=R62
 Variation10=Designator=R63|UniqueId=\GNREREHE\MRNRMEAH|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=True
-ParamVariation43=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
-ParamDesignator43=R63
-ParamVariation44=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator44=R63
-ParamVariation45=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
-ParamDesignator45=R63
-ParamVariation46=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
-ParamDesignator46=R63
-ParamVariation47=ParameterName=ComponentLink2Description|VariantValue=Datasheet
-ParamDesignator47=R63
-ParamVariation48=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
-ParamDesignator48=R63
-ParamVariation49=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
-ParamDesignator49=R63
-ParamVariation50=ParameterName=Footprint|VariantValue=RESC1608X06N
-ParamDesignator50=R63
-ParamVariation51=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator51=R63
-ParamVariation52=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
-ParamDesignator52=R63
-ParamVariation53=ParameterName=Manufacturer|VariantValue=Yageo
+ParamVariation53=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
 ParamDesignator53=R63
-ParamVariation54=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamVariation54=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator54=R63
-ParamVariation55=ParameterName=PCB3D|VariantValue= 
+ParamVariation55=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
 ParamDesignator55=R63
-ParamVariation56=ParameterName=Power|VariantValue=100mW
+ParamVariation56=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
 ParamDesignator56=R63
-ParamVariation57=ParameterName=Precision|VariantValue=±1%
+ParamVariation57=ParameterName=ComponentLink2Description|VariantValue=Datasheet
 ParamDesignator57=R63
-ParamVariation58=ParameterName=Simulation|VariantValue= 
+ParamVariation58=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
 ParamDesignator58=R63
-ParamVariation59=ParameterName=Supplier 1|VariantValue=Farnell
+ParamVariation59=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
 ParamDesignator59=R63
-ParamVariation60=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamVariation60=ParameterName=Footprint|VariantValue=RESC1608X06N
 ParamDesignator60=R63
-ParamVariation61=ParameterName=Type|VariantValue=Thick Film
+ParamVariation61=ParameterName=Ibis Model|VariantValue= 
 ParamDesignator61=R63
-ParamVariation62=ParameterName=Value|VariantValue=1.8k
+ParamVariation62=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
 ParamDesignator62=R63
-ParamVariation63=ParameterName=Vmax|VariantValue=50V
+ParamVariation63=ParameterName=Manufacturer|VariantValue=Yageo
 ParamDesignator63=R63
+ParamVariation64=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator64=R63
+ParamVariation65=ParameterName=PCB3D|VariantValue= 
+ParamDesignator65=R63
+ParamVariation66=ParameterName=Power|VariantValue=100mW
+ParamDesignator66=R63
+ParamVariation67=ParameterName=Precision|VariantValue=±1%
+ParamDesignator67=R63
+ParamVariation68=ParameterName=Simulation|VariantValue= 
+ParamDesignator68=R63
+ParamVariation69=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator69=R63
+ParamVariation70=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator70=R63
+ParamVariation71=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator71=R63
+ParamVariation72=ParameterName=Value|VariantValue=1.8k
+ParamDesignator72=R63
+ParamVariation73=ParameterName=Vmax|VariantValue=50V
+ParamDesignator73=R63
+ParamVariation74=ParameterName=Pin Info|VariantValue= 
+ParamDesignator74=R63
+ParamVariation75=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator75=R63
+ParamVariation76=ParameterName=Supplier 2|VariantValue=JLCPCB
+ParamDesignator76=R63
+ParamVariation77=ParameterName=Supplier Footprint 2|VariantValue=0603
+ParamDesignator77=R63
+ParamVariation78=ParameterName=Supplier Part Number 2|VariantValue=C4177
+ParamDesignator78=R63
 Variation11=Designator=S3|UniqueId=\AHAWVNSC\RSIIDDMS|Kind=1|AlternatePart= 
 Variation12=Designator=R88|UniqueId=\AHAWVNSC\VUTCKJBW|Kind=1|AlternatePart= 
 Variation13=Designator=R73|UniqueId=\GNREREHE\YUSJAMXI|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=True
-ParamVariation64=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
-ParamDesignator64=R73
-ParamVariation65=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator65=R73
-ParamVariation66=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
-ParamDesignator66=R73
-ParamVariation67=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
-ParamDesignator67=R73
-ParamVariation68=ParameterName=ComponentLink2Description|VariantValue=Datasheet
-ParamDesignator68=R73
-ParamVariation69=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
-ParamDesignator69=R73
-ParamVariation70=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
-ParamDesignator70=R73
-ParamVariation71=ParameterName=Footprint|VariantValue=RESC1608X06N
-ParamDesignator71=R73
-ParamVariation72=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator72=R73
-ParamVariation73=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
-ParamDesignator73=R73
-ParamVariation74=ParameterName=Manufacturer|VariantValue=Yageo
-ParamDesignator74=R73
-ParamVariation75=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
-ParamDesignator75=R73
-ParamVariation76=ParameterName=PCB3D|VariantValue= 
-ParamDesignator76=R73
-ParamVariation77=ParameterName=Power|VariantValue=100mW
-ParamDesignator77=R73
-ParamVariation78=ParameterName=Precision|VariantValue=±1%
-ParamDesignator78=R73
-ParamVariation79=ParameterName=Simulation|VariantValue= 
+ParamVariation79=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
 ParamDesignator79=R73
-ParamVariation80=ParameterName=Supplier 1|VariantValue=Farnell
+ParamVariation80=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator80=R73
-ParamVariation81=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamVariation81=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
 ParamDesignator81=R73
-ParamVariation82=ParameterName=Type|VariantValue=Thick Film
+ParamVariation82=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
 ParamDesignator82=R73
-ParamVariation83=ParameterName=Value|VariantValue=1.8k
+ParamVariation83=ParameterName=ComponentLink2Description|VariantValue=Datasheet
 ParamDesignator83=R73
-ParamVariation84=ParameterName=Vmax|VariantValue=50V
+ParamVariation84=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
 ParamDesignator84=R73
+ParamVariation85=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamDesignator85=R73
+ParamVariation86=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamDesignator86=R73
+ParamVariation87=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator87=R73
+ParamVariation88=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamDesignator88=R73
+ParamVariation89=ParameterName=Manufacturer|VariantValue=Yageo
+ParamDesignator89=R73
+ParamVariation90=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator90=R73
+ParamVariation91=ParameterName=PCB3D|VariantValue= 
+ParamDesignator91=R73
+ParamVariation92=ParameterName=Power|VariantValue=100mW
+ParamDesignator92=R73
+ParamVariation93=ParameterName=Precision|VariantValue=±1%
+ParamDesignator93=R73
+ParamVariation94=ParameterName=Simulation|VariantValue= 
+ParamDesignator94=R73
+ParamVariation95=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator95=R73
+ParamVariation96=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator96=R73
+ParamVariation97=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator97=R73
+ParamVariation98=ParameterName=Value|VariantValue=1.8k
+ParamDesignator98=R73
+ParamVariation99=ParameterName=Vmax|VariantValue=50V
+ParamDesignator99=R73
+ParamVariation100=ParameterName=Pin Info|VariantValue= 
+ParamDesignator100=R73
+ParamVariation101=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator101=R73
+ParamVariation102=ParameterName=Supplier 2|VariantValue=JLCPCB
+ParamDesignator102=R73
+ParamVariation103=ParameterName=Supplier Footprint 2|VariantValue=0603
+ParamDesignator103=R73
+ParamVariation104=ParameterName=Supplier Part Number 2|VariantValue=C4177
+ParamDesignator104=R73
 Variation14=Designator=R74|UniqueId=\GNREREHE\ELWNRADN|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=True
-ParamVariation85=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
-ParamDesignator85=R74
-ParamVariation86=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator86=R74
-ParamVariation87=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
-ParamDesignator87=R74
-ParamVariation88=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
-ParamDesignator88=R74
-ParamVariation89=ParameterName=ComponentLink2Description|VariantValue=Datasheet
-ParamDesignator89=R74
-ParamVariation90=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
-ParamDesignator90=R74
-ParamVariation91=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
-ParamDesignator91=R74
-ParamVariation92=ParameterName=Footprint|VariantValue=RESC1608X06N
-ParamDesignator92=R74
-ParamVariation93=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator93=R74
-ParamVariation94=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
-ParamDesignator94=R74
-ParamVariation95=ParameterName=Manufacturer|VariantValue=Yageo
-ParamDesignator95=R74
-ParamVariation96=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
-ParamDesignator96=R74
-ParamVariation97=ParameterName=PCB3D|VariantValue= 
-ParamDesignator97=R74
-ParamVariation98=ParameterName=Power|VariantValue=100mW
-ParamDesignator98=R74
-ParamVariation99=ParameterName=Precision|VariantValue=±1%
-ParamDesignator99=R74
-ParamVariation100=ParameterName=Simulation|VariantValue= 
-ParamDesignator100=R74
-ParamVariation101=ParameterName=Supplier 1|VariantValue=Farnell
-ParamDesignator101=R74
-ParamVariation102=ParameterName=Supplier Part Number 1|VariantValue=9238514
-ParamDesignator102=R74
-ParamVariation103=ParameterName=Type|VariantValue=Thick Film
-ParamDesignator103=R74
-ParamVariation104=ParameterName=Value|VariantValue=1.8k
-ParamDesignator104=R74
-ParamVariation105=ParameterName=Vmax|VariantValue=50V
+ParamVariation105=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
 ParamDesignator105=R74
+ParamVariation106=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator106=R74
+ParamVariation107=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
+ParamDesignator107=R74
+ParamVariation108=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
+ParamDesignator108=R74
+ParamVariation109=ParameterName=ComponentLink2Description|VariantValue=Datasheet
+ParamDesignator109=R74
+ParamVariation110=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
+ParamDesignator110=R74
+ParamVariation111=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamDesignator111=R74
+ParamVariation112=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamDesignator112=R74
+ParamVariation113=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator113=R74
+ParamVariation114=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamDesignator114=R74
+ParamVariation115=ParameterName=Manufacturer|VariantValue=Yageo
+ParamDesignator115=R74
+ParamVariation116=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator116=R74
+ParamVariation117=ParameterName=PCB3D|VariantValue= 
+ParamDesignator117=R74
+ParamVariation118=ParameterName=Power|VariantValue=100mW
+ParamDesignator118=R74
+ParamVariation119=ParameterName=Precision|VariantValue=±1%
+ParamDesignator119=R74
+ParamVariation120=ParameterName=Simulation|VariantValue= 
+ParamDesignator120=R74
+ParamVariation121=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator121=R74
+ParamVariation122=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator122=R74
+ParamVariation123=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator123=R74
+ParamVariation124=ParameterName=Value|VariantValue=1.8k
+ParamDesignator124=R74
+ParamVariation125=ParameterName=Vmax|VariantValue=50V
+ParamDesignator125=R74
+ParamVariation126=ParameterName=Pin Info|VariantValue= 
+ParamDesignator126=R74
+ParamVariation127=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator127=R74
+ParamVariation128=ParameterName=Supplier 2|VariantValue=JLCPCB
+ParamDesignator128=R74
+ParamVariation129=ParameterName=Supplier Footprint 2|VariantValue=0603
+ParamDesignator129=R74
+ParamVariation130=ParameterName=Supplier Part Number 2|VariantValue=C4177
+ParamDesignator130=R74
 Variation15=Designator=R75|UniqueId=\GNREREHE\BASQQSXD|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=True
-ParamVariation106=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
-ParamDesignator106=R75
-ParamVariation107=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator107=R75
-ParamVariation108=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
-ParamDesignator108=R75
-ParamVariation109=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
-ParamDesignator109=R75
-ParamVariation110=ParameterName=ComponentLink2Description|VariantValue=Datasheet
-ParamDesignator110=R75
-ParamVariation111=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
-ParamDesignator111=R75
-ParamVariation112=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
-ParamDesignator112=R75
-ParamVariation113=ParameterName=Footprint|VariantValue=RESC1608X06N
-ParamDesignator113=R75
-ParamVariation114=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator114=R75
-ParamVariation115=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
-ParamDesignator115=R75
-ParamVariation116=ParameterName=Manufacturer|VariantValue=Yageo
-ParamDesignator116=R75
-ParamVariation117=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
-ParamDesignator117=R75
-ParamVariation118=ParameterName=PCB3D|VariantValue= 
-ParamDesignator118=R75
-ParamVariation119=ParameterName=Power|VariantValue=100mW
-ParamDesignator119=R75
-ParamVariation120=ParameterName=Precision|VariantValue=±1%
-ParamDesignator120=R75
-ParamVariation121=ParameterName=Simulation|VariantValue= 
-ParamDesignator121=R75
-ParamVariation122=ParameterName=Supplier 1|VariantValue=Farnell
-ParamDesignator122=R75
-ParamVariation123=ParameterName=Supplier Part Number 1|VariantValue=9238514
-ParamDesignator123=R75
-ParamVariation124=ParameterName=Type|VariantValue=Thick Film
-ParamDesignator124=R75
-ParamVariation125=ParameterName=Value|VariantValue=1.8k
-ParamDesignator125=R75
-ParamVariation126=ParameterName=Vmax|VariantValue=50V
-ParamDesignator126=R75
+ParamVariation131=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator131=R75
+ParamVariation132=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator132=R75
+ParamVariation133=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
+ParamDesignator133=R75
+ParamVariation134=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
+ParamDesignator134=R75
+ParamVariation135=ParameterName=ComponentLink2Description|VariantValue=Datasheet
+ParamDesignator135=R75
+ParamVariation136=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
+ParamDesignator136=R75
+ParamVariation137=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamDesignator137=R75
+ParamVariation138=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamDesignator138=R75
+ParamVariation139=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator139=R75
+ParamVariation140=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamDesignator140=R75
+ParamVariation141=ParameterName=Manufacturer|VariantValue=Yageo
+ParamDesignator141=R75
+ParamVariation142=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator142=R75
+ParamVariation143=ParameterName=PCB3D|VariantValue= 
+ParamDesignator143=R75
+ParamVariation144=ParameterName=Power|VariantValue=100mW
+ParamDesignator144=R75
+ParamVariation145=ParameterName=Precision|VariantValue=±1%
+ParamDesignator145=R75
+ParamVariation146=ParameterName=Simulation|VariantValue= 
+ParamDesignator146=R75
+ParamVariation147=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator147=R75
+ParamVariation148=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator148=R75
+ParamVariation149=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator149=R75
+ParamVariation150=ParameterName=Value|VariantValue=1.8k
+ParamDesignator150=R75
+ParamVariation151=ParameterName=Vmax|VariantValue=50V
+ParamDesignator151=R75
+ParamVariation152=ParameterName=Pin Info|VariantValue= 
+ParamDesignator152=R75
+ParamVariation153=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator153=R75
+ParamVariation154=ParameterName=Supplier 2|VariantValue=JLCPCB
+ParamDesignator154=R75
+ParamVariation155=ParameterName=Supplier Footprint 2|VariantValue=0603
+ParamDesignator155=R75
+ParamVariation156=ParameterName=Supplier Part Number 2|VariantValue=C4177
+ParamDesignator156=R75
 Variation16=Designator=R79|UniqueId=\AHAWVNSC\JVINJNTT|Kind=1|AlternatePart= 
 Variation17=Designator=R80|UniqueId=\AHAWVNSC\RIQEBNUC|Kind=1|AlternatePart= 
 Variation18=Designator=R81|UniqueId=\AHAWVNSC\YJAEMHRF|Kind=1|AlternatePart= 
@@ -927,7 +987,7 @@ Variation187=Designator=D14|UniqueId=\OFPBMYJG\ZGGVOTZS|Kind=1|AlternatePart=
 Variation188=Designator=J37|UniqueId=\VGQFBPMD|Kind=1|AlternatePart= 
 Variation189=Designator=R100|UniqueId=\AHAWVNSC\BLVCYOOC|Kind=1|AlternatePart= 
 Variation190=Designator=R101|UniqueId=\AHAWVNSC\TTEPHCJD|Kind=1|AlternatePart= 
-ParamVariationCount=126
+ParamVariationCount=156
 
 [ProjectVariant5]
 UniqueID=1B5EE894-33E9-4009-822F-B8F62B6FED10
@@ -2148,13 +2208,13 @@ NetClassManualEnabled=0
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=1
+SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
-ComponentLibIdentifierKind0=Any
-ComponentLibraryIdentifier0=
-ComponentDesignItemID0=RC0603FR-071KL
-ComponentSymbolReference0=RC0603FR-071KL
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Alimentation.IntLib
+ComponentDesignItemID0=HT7533-1
+ComponentSymbolReference0=HT7533-1
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
@@ -2176,215 +2236,245 @@ ComponentSymbolReference3=THN30-2411WI-A1
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=Condensateur.IntLib
-ComponentDesignItemID4=WCAP-ATG8, 860010374012
-ComponentSymbolReference4=WCAP-ATG8, 860010374012
+ComponentLibraryIdentifier4=CI.IntLib
+ComponentDesignItemID4=VNH5180ATR-E
+ComponentSymbolReference4=VNH5180ATR-E
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
 ComponentLibraryIdentifier5=Condensateur.IntLib
-ComponentDesignItemID5=WCAP-ATG8, 860010483029
-ComponentSymbolReference5=WCAP-ATG8, 860010483029
+ComponentDesignItemID5=WCAP-ATG8, 860010374012
+ComponentSymbolReference5=WCAP-ATG8, 860010374012
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
 ComponentLibraryIdentifier6=Condensateur.IntLib
-ComponentDesignItemID6=WCAP-ATG8, 860010574011
-ComponentSymbolReference6=WCAP-ATG8, 860010574011
+ComponentDesignItemID6=WCAP-ATG8, 860010483029
+ComponentSymbolReference6=WCAP-ATG8, 860010483029
 ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
 ComponentLibraryIdentifier7=Condensateur.IntLib
-ComponentDesignItemID7=WCAP-ATG8, 860010575012
-ComponentSymbolReference7=WCAP-ATG8, 860010575012
+ComponentDesignItemID7=WCAP-ATG8, 860010574011
+ComponentSymbolReference7=WCAP-ATG8, 860010574011
 ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
 ComponentLibraryIdentifier8=Condensateur.IntLib
-ComponentDesignItemID8=WCAP-ATG8, 860010672009
-ComponentSymbolReference8=WCAP-ATG8, 860010672009
+ComponentDesignItemID8=WCAP-ATG8, 860010575012
+ComponentSymbolReference8=WCAP-ATG8, 860010575012
 ComponentUpdate8=1
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
 ComponentLibraryIdentifier9=Condensateur.IntLib
-ComponentDesignItemID9=WCAP-CSGP, 885012205067
-ComponentSymbolReference9=WCAP-CSGP, 885012205067
+ComponentDesignItemID9=WCAP-ATG8, 860010672009
+ComponentSymbolReference9=WCAP-ATG8, 860010672009
 ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
 ComponentLibraryIdentifier10=Condensateur.IntLib
-ComponentDesignItemID10=WCAP-CSGP, 885012206095
-ComponentSymbolReference10=WCAP-CSGP, 885012206095
+ComponentDesignItemID10=WCAP-CSGP, 885012205067
+ComponentSymbolReference10=WCAP-CSGP, 885012205067
 ComponentUpdate10=1
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
 ComponentLibraryIdentifier11=Condensateur.IntLib
-ComponentDesignItemID11=WCAP-CSGP, 885012207103
-ComponentSymbolReference11=WCAP-CSGP, 885012207103
+ComponentDesignItemID11=WCAP-CSGP, 885012206095
+ComponentSymbolReference11=WCAP-CSGP, 885012206095
 ComponentUpdate11=1
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=Connecteurs.IntLib
-ComponentDesignItemID12=20-03-5035
-ComponentSymbolReference12=20-03-5035
+ComponentLibraryIdentifier12=Condensateur.IntLib
+ComponentDesignItemID12=WCAP-CSGP, 885012207026
+ComponentSymbolReference12=WCAP-CSGP, 885012207026
 ComponentUpdate12=1
 ComponentIsDeviceSheet12=0
 ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=Connecteurs.IntLib
-ComponentDesignItemID13=22-03-2021
-ComponentSymbolReference13=22-03-2021
+ComponentLibraryIdentifier13=Condensateur.IntLib
+ComponentDesignItemID13=WCAP-CSGP, 885012207103
+ComponentSymbolReference13=WCAP-CSGP, 885012207103
 ComponentUpdate13=1
 ComponentIsDeviceSheet13=0
 ComponentLibIdentifierKind14=Library Name And Type
 ComponentLibraryIdentifier14=Connecteurs.IntLib
-ComponentDesignItemID14=22-03-2031
-ComponentSymbolReference14=22-03-2031
+ComponentDesignItemID14=20-03-5035
+ComponentSymbolReference14=20-03-5035
 ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
 ComponentLibraryIdentifier15=Connecteurs.IntLib
-ComponentDesignItemID15=690367280676
-ComponentSymbolReference15=690367280676
+ComponentDesignItemID15=22-03-2021
+ComponentSymbolReference15=22-03-2021
 ComponentUpdate15=1
 ComponentIsDeviceSheet15=0
 ComponentLibIdentifierKind16=Library Name And Type
 ComponentLibraryIdentifier16=Connecteurs.IntLib
-ComponentDesignItemID16=690367280876
-ComponentSymbolReference16=690367280876
+ComponentDesignItemID16=22-03-2031
+ComponentSymbolReference16=22-03-2031
 ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 ComponentLibIdentifierKind17=Library Name And Type
 ComponentLibraryIdentifier17=Connecteurs.IntLib
-ComponentDesignItemID17=691311500102
-ComponentSymbolReference17=691311500102
+ComponentDesignItemID17=690367280676
+ComponentSymbolReference17=690367280676
 ComponentUpdate17=1
 ComponentIsDeviceSheet17=0
 ComponentLibIdentifierKind18=Library Name And Type
 ComponentLibraryIdentifier18=Connecteurs.IntLib
-ComponentDesignItemID18=691322110002
-ComponentSymbolReference18=691322110002
+ComponentDesignItemID18=690367280876
+ComponentSymbolReference18=690367280876
 ComponentUpdate18=1
 ComponentIsDeviceSheet18=0
 ComponentLibIdentifierKind19=Library Name And Type
-ComponentLibraryIdentifier19=Diode.IntLib
-ComponentDesignItemID19=824540241
-ComponentSymbolReference19=824540241
+ComponentLibraryIdentifier19=Connecteurs.IntLib
+ComponentDesignItemID19=691311500102
+ComponentSymbolReference19=691311500102
 ComponentUpdate19=1
 ComponentIsDeviceSheet19=0
 ComponentLibIdentifierKind20=Library Name And Type
-ComponentLibraryIdentifier20=Diode.IntLib
-ComponentDesignItemID20=BAT54S-7-F
-ComponentSymbolReference20=BAT54S-7-F
+ComponentLibraryIdentifier20=Connecteurs.IntLib
+ComponentDesignItemID20=691321100002
+ComponentSymbolReference20=691321100002
 ComponentUpdate20=1
 ComponentIsDeviceSheet20=0
 ComponentLibIdentifierKind21=Library Name And Type
-ComponentLibraryIdentifier21=Diode.IntLib
-ComponentDesignItemID21=HTA5U100
-ComponentSymbolReference21=HTA5U100
+ComponentLibraryIdentifier21=Connecteurs.IntLib
+ComponentDesignItemID21=691322110002
+ComponentSymbolReference21=691322110002
 ComponentUpdate21=1
 ComponentIsDeviceSheet21=0
 ComponentLibIdentifierKind22=Library Name And Type
 ComponentLibraryIdentifier22=Diode.IntLib
-ComponentDesignItemID22=RBR3MM40ATFTR
-ComponentSymbolReference22=RBR3MM40ATFTR
+ComponentDesignItemID22=82400274
+ComponentSymbolReference22=82400274
 ComponentUpdate22=1
 ComponentIsDeviceSheet22=0
 ComponentLibIdentifierKind23=Library Name And Type
-ComponentLibraryIdentifier23=Fuse.IntLib
-ComponentDesignItemID23=0891030.NXS
-ComponentSymbolReference23=0891030.NXS
+ComponentLibraryIdentifier23=Diode.IntLib
+ComponentDesignItemID23=824540241
+ComponentSymbolReference23=824540241
 ComponentUpdate23=1
 ComponentIsDeviceSheet23=0
 ComponentLibIdentifierKind24=Library Name And Type
-ComponentLibraryIdentifier24=Fuse.IntLib
-ComponentDesignItemID24=3557-2
-ComponentSymbolReference24=3557-2
+ComponentLibraryIdentifier24=Diode.IntLib
+ComponentDesignItemID24=HTA5U100
+ComponentSymbolReference24=HTA5U100
 ComponentUpdate24=1
 ComponentIsDeviceSheet24=0
 ComponentLibIdentifierKind25=Library Name And Type
-ComponentLibraryIdentifier25=Inductance.IntLib
-ComponentDesignItemID25=WE-CBF, 742792624
-ComponentSymbolReference25=WE-CBF, 742792624
+ComponentLibraryIdentifier25=Diode.IntLib
+ComponentDesignItemID25=MM3Z15VST1G
+ComponentSymbolReference25=MM3Z15VST1G
 ComponentUpdate25=1
 ComponentIsDeviceSheet25=0
 ComponentLibIdentifierKind26=Library Name And Type
-ComponentLibraryIdentifier26=Optoélectronique.IntLib
-ComponentDesignItemID26=WL-SMCW 0603  150060GS75000
-ComponentSymbolReference26=WL-SMCW 0603  150060GS75000
+ComponentLibraryIdentifier26=Diode.IntLib
+ComponentDesignItemID26=RBR3MM40ATFTR
+ComponentSymbolReference26=RBR3MM40ATFTR
 ComponentUpdate26=1
 ComponentIsDeviceSheet26=0
 ComponentLibIdentifierKind27=Library Name And Type
-ComponentLibraryIdentifier27=Resistance.IntLib
-ComponentDesignItemID27=Generic_TH_Vert_Res
-ComponentSymbolReference27=Generic_TH_Vert_Res
+ComponentLibraryIdentifier27=Diode.IntLib
+ComponentDesignItemID27=RS3J_R6
+ComponentSymbolReference27=RS3J_R6
 ComponentUpdate27=1
 ComponentIsDeviceSheet27=0
 ComponentLibIdentifierKind28=Library Name And Type
-ComponentLibraryIdentifier28=Resistance.IntLib
-ComponentDesignItemID28=RC0402FR-07620RL
-ComponentSymbolReference28=RC0402FR-07620RL
+ComponentLibraryIdentifier28=Fuse.IntLib
+ComponentDesignItemID28=0891030.NXS
+ComponentSymbolReference28=0891030.NXS
 ComponentUpdate28=1
 ComponentIsDeviceSheet28=0
 ComponentLibIdentifierKind29=Library Name And Type
-ComponentLibraryIdentifier29=Resistance.IntLib
-ComponentDesignItemID29=RC0603FR-0710KL
-ComponentSymbolReference29=RC0603FR-0710KL
+ComponentLibraryIdentifier29=Fuse.IntLib
+ComponentDesignItemID29=3557-2
+ComponentSymbolReference29=3557-2
 ComponentUpdate29=1
 ComponentIsDeviceSheet29=0
 ComponentLibIdentifierKind30=Library Name And Type
-ComponentLibraryIdentifier30=Resistance.IntLib
-ComponentDesignItemID30=RC0603FR-071K8L
-ComponentSymbolReference30=RC0603FR-071K8L
+ComponentLibraryIdentifier30=Inductance.IntLib
+ComponentDesignItemID30=WE-CBF, 742792023
+ComponentSymbolReference30=WE-CBF, 742792023
 ComponentUpdate30=1
 ComponentIsDeviceSheet30=0
 ComponentLibIdentifierKind31=Library Name And Type
-ComponentLibraryIdentifier31=Resistance.IntLib
-ComponentDesignItemID31=RC0603FR-071KL
-ComponentSymbolReference31=RC0603FR-071KL
+ComponentLibraryIdentifier31=Opto.IntLib
+ComponentDesignItemID31=WL-SMCW 0603  150060RS75000
+ComponentSymbolReference31=WL-SMCW 0603  150060RS75000
 ComponentUpdate31=1
 ComponentIsDeviceSheet31=0
 ComponentLibIdentifierKind32=Library Name And Type
 ComponentLibraryIdentifier32=Resistance.IntLib
-ComponentDesignItemID32=RC0603FR-0768RL
-ComponentSymbolReference32=RC0603FR-0768RL
-ComponentUpdate32=1
+ComponentDesignItemID32=Generic_TH_Vert_Res
+ComponentSymbolReference32=Generic_TH_Vert_Res
+ComponentUpdate32=0
 ComponentIsDeviceSheet32=0
 ComponentLibIdentifierKind33=Library Name And Type
 ComponentLibraryIdentifier33=Resistance.IntLib
-ComponentDesignItemID33=RC0805FR-072K7L
-ComponentSymbolReference33=RC0805FR-072K7L
+ComponentDesignItemID33=RC0603FR-070RL
+ComponentSymbolReference33=RC0603FR-070RL
 ComponentUpdate33=1
 ComponentIsDeviceSheet33=0
 ComponentLibIdentifierKind34=Library Name And Type
-ComponentLibraryIdentifier34=Switchs.IntLib
-ComponentDesignItemID34=430456085736
-ComponentSymbolReference34=430456085736
+ComponentLibraryIdentifier34=Resistance.IntLib
+ComponentDesignItemID34=RC0603FR-0710KL
+ComponentSymbolReference34=RC0603FR-0710KL
 ComponentUpdate34=1
 ComponentIsDeviceSheet34=0
 ComponentLibIdentifierKind35=Library Name And Type
-ComponentLibraryIdentifier35=Switchs.IntLib
-ComponentDesignItemID35=OS102011MS2QN1
-ComponentSymbolReference35=OS102011MS2QN1
+ComponentLibraryIdentifier35=Resistance.IntLib
+ComponentDesignItemID35=RC0603FR-071K8L
+ComponentSymbolReference35=RC0603FR-071K8L
 ComponentUpdate35=1
 ComponentIsDeviceSheet35=0
 ComponentLibIdentifierKind36=Library Name And Type
-ComponentLibraryIdentifier36=Transistors.IntLib
-ComponentDesignItemID36=IPD50P04P4-L11
-ComponentSymbolReference36=IPD50P04P4-L11
+ComponentLibraryIdentifier36=Resistance.IntLib
+ComponentDesignItemID36=RC0603FR-071KL
+ComponentSymbolReference36=RC0603FR-071KL
 ComponentUpdate36=1
 ComponentIsDeviceSheet36=0
 ComponentLibIdentifierKind37=Library Name And Type
-ComponentLibraryIdentifier37=Transistors.IntLib
-ComponentDesignItemID37=IRLML0040
-ComponentSymbolReference37=IRLML0040
+ComponentLibraryIdentifier37=Resistance.IntLib
+ComponentDesignItemID37=RC0603FR-07620RL
+ComponentSymbolReference37=RC0603FR-07620RL
 ComponentUpdate37=1
 ComponentIsDeviceSheet37=0
 ComponentLibIdentifierKind38=Library Name And Type
-ComponentLibraryIdentifier38=Transistors.IntLib
-ComponentDesignItemID38=VNH5180ATR-E
-ComponentSymbolReference38=VNH5180ATR-E
+ComponentLibraryIdentifier38=Resistance.IntLib
+ComponentDesignItemID38=RC0603FR-0768RL
+ComponentSymbolReference38=RC0603FR-0768RL
 ComponentUpdate38=1
 ComponentIsDeviceSheet38=0
+ComponentLibIdentifierKind39=Library Name And Type
+ComponentLibraryIdentifier39=Resistance.IntLib
+ComponentDesignItemID39=RC0805FR-072K7L
+ComponentSymbolReference39=RC0805FR-072K7L
+ComponentUpdate39=1
+ComponentIsDeviceSheet39=0
+ComponentLibIdentifierKind40=Library Name And Type
+ComponentLibraryIdentifier40=Switchs.IntLib
+ComponentDesignItemID40=440GS67082622
+ComponentSymbolReference40=440GS67082622
+ComponentUpdate40=1
+ComponentIsDeviceSheet40=0
+ComponentLibIdentifierKind41=Library Name And Type
+ComponentLibraryIdentifier41=Switchs.IntLib
+ComponentDesignItemID41=OS102011MS2QN1
+ComponentSymbolReference41=OS102011MS2QN1
+ComponentUpdate41=1
+ComponentIsDeviceSheet41=0
+ComponentLibIdentifierKind42=Library Name And Type
+ComponentLibraryIdentifier42=Transistors.IntLib
+ComponentDesignItemID42=2N7002
+ComponentSymbolReference42=2N7002
+ComponentUpdate42=1
+ComponentIsDeviceSheet42=0
+ComponentLibIdentifierKind43=Library Name And Type
+ComponentLibraryIdentifier43=Transistors.IntLib
+ComponentDesignItemID43=SQM120P06-07L_GE3
+ComponentSymbolReference43=SQM120P06-07L_GE3
+ComponentUpdate43=1
+ComponentIsDeviceSheet43=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -2400,74 +2490,78 @@ RemoveModels=1
 UpdateCurrentModels=1
 ParameterName0=CeramicType
 ParameterUpdate0=1
-ParameterName1=Color
+ParameterName1=Comment
 ParameterUpdate1=1
-ParameterName2=Comment
+ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=Component Kind
+ParameterName3=ComponentLink1Description
 ParameterUpdate3=1
-ParameterName4=ComponentLink1Description
+ParameterName4=ComponentLink1URL
 ParameterUpdate4=1
-ParameterName5=ComponentLink1URL
+ParameterName5=ComponentLink2Description
 ParameterUpdate5=1
-ParameterName6=ComponentLink2Description
+ParameterName6=ComponentLink2URL
 ParameterUpdate6=1
-ParameterName7=ComponentLink2URL
+ParameterName7=ComponentLink3Description
 ParameterUpdate7=1
-ParameterName8=ComponentLink3Description
+ParameterName8=ComponentLink3URL
 ParameterUpdate8=1
-ParameterName9=ComponentLink3URL
+ParameterName9=ContinuousForwardCurrent
 ParameterUpdate9=1
-ParameterName10=ContinuousForwardCurrent
+ParameterName10=Courant nominal
 ParameterUpdate10=1
-ParameterName11=Courant nominal
+ParameterName11=Description
 ParameterUpdate11=1
-ParameterName12=Created by
+ParameterName12=Emitting Color
 ParameterUpdate12=1
-ParameterName13=Created Date
+ParameterName13=Library Reference
 ParameterUpdate13=1
-ParameterName14=Description
+ParameterName14=Manufacturer
 ParameterUpdate14=1
-ParameterName15=Library Reference
+ParameterName15=Manufacturer 1
 ParameterUpdate15=1
-ParameterName16=Manufacturer
+ParameterName16=Manufacturer Part Number
 ParameterUpdate16=1
-ParameterName17=Manufacturer 1
+ParameterName17=Operation Force
 ParameterUpdate17=1
-ParameterName18=Manufacturer Part Number
+ParameterName18=Power
 ParameterUpdate18=1
-ParameterName19=Operation Force
+ParameterName19=Precision
 ParameterUpdate19=1
-ParameterName20=Power
+ParameterName20=Pricing
 ParameterUpdate20=1
-ParameterName21=Precision
+ParameterName21=Published Date
 ParameterUpdate21=1
-ParameterName22=Pricing
+ParameterName22=PublishedDate
 ParameterUpdate22=1
-ParameterName23=Published Date
+ParameterName23=Rated Current
 ParameterUpdate23=1
-ParameterName24=PublishedDate
+ParameterName24=Rated Voltage
 ParameterUpdate24=1
-ParameterName25=Rated Voltage
+ParameterName25=RatedCurrent
 ParameterUpdate25=1
-ParameterName26=RatedCurrent
+ParameterName26=RatedVoltage
 ParameterUpdate26=1
-ParameterName27=RatedVoltage
+ParameterName27=ReverseVoltage
 ParameterUpdate27=1
-ParameterName28=ReverseVoltage
+ParameterName28=Size
 ParameterUpdate28=1
-ParameterName29=Size
+ParameterName29=Supplier 1
 ParameterUpdate29=1
-ParameterName30=Supplier 1
+ParameterName30=Supplier 2
 ParameterUpdate30=1
-ParameterName31=Supplier Part Number 1
+ParameterName31=Supplier Footprint 2
 ParameterUpdate31=1
-ParameterName32=Type
+ParameterName32=Supplier Part Number 1
 ParameterUpdate32=1
-ParameterName33=Value
+ParameterName33=Supplier Part Number 2
 ParameterUpdate33=1
-ParameterName34=Vmax
+ParameterName34=Type
 ParameterUpdate34=1
+ParameterName35=Value
+ParameterUpdate35=1
+ParameterName36=Vmax
+ParameterUpdate36=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
@@ -2483,7 +2577,7 @@ ModelType3=PCBLIB
 ModelName3=3557-2
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=4304x60857x6_12x12x8.5
+ModelName4=440xx67082622
 ModelUpdate4=1
 ModelType5=PCBLIB
 ModelName5=690367280676
@@ -2495,80 +2589,92 @@ ModelType7=PCBLIB
 ModelName7=691311500102
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=691322110002
+ModelName8=691321100002
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=DO-214AB_Unidirectional
+ModelName9=691322110002
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=DPAK
+ModelName10=DO-214AB_Unidirectional
 ModelUpdate10=1
 ModelType11=PCBLIB
 ModelName11=RESADV480W80L1200D390
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=RESC1005X04N
+ModelName12=RESC1608X06N
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=RESC1608X06N
+ModelName13=RESC2012X06M
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=RESC2012X06M
+ModelName14=RESC2012X06N
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=SMA Diode (DO-214AC)
+ModelName15=SC70-6L
 ModelUpdate15=1
 ModelType16=PCBLIB
-ModelName16=SMCW_0603
+ModelName16=SMA Diode (DO-214AC)
 ModelUpdate16=1
 ModelType17=PCBLIB
-ModelName17=SMCW_0603 - MIXTE
+ModelName17=SMCW_0603
 ModelUpdate17=1
 ModelType18=PCBLIB
-ModelName18=SOD-123FL
+ModelName18=SMCW_0603 - MIXTE
 ModelUpdate18=1
 ModelType19=PCBLIB
-ModelName19=SOT-23
+ModelName19=SOD-123FL
 ModelUpdate19=1
 ModelType20=PCBLIB
-ModelName20=SSOP50P1030X247-36N
+ModelName20=SOD-323
 ModelUpdate20=1
 ModelType21=PCBLIB
-ModelName21=SW_OS102011MS2QN1
+ModelName21=SOT-23
 ModelUpdate21=1
 ModelType22=PCBLIB
-ModelName22=TEN 60
+ModelName22=SOT89-150P350X160-3N
 ModelUpdate22=1
 ModelType23=PCBLIB
-ModelName23=THN 15WI
+ModelName23=SSOP50P1030X247-36N
 ModelUpdate23=1
 ModelType24=PCBLIB
-ModelName24=THN 30WI-A1
+ModelName24=SW_OS102011MS2QN1
 ModelUpdate24=1
 ModelType25=PCBLIB
-ModelName25=WCAP-ATG8_10x12.5x5x0.6
+ModelName25=TEN 60
 ModelUpdate25=1
 ModelType26=PCBLIB
-ModelName26=WCAP-ATG8_22x41x10x0.8
+ModelName26=THN 15WI
 ModelUpdate26=1
 ModelType27=PCBLIB
-ModelName27=WCAP-ATG8_5x11x2x0.5
+ModelName27=THN 30WI-A1
 ModelUpdate27=1
 ModelType28=PCBLIB
-ModelName28=WCAP-ATG8_8x11.5x3.5x0.5
+ModelName28=TO-263
 ModelUpdate28=1
 ModelType29=PCBLIB
-ModelName29=WCAP-CSGP_0402, 1x0.5x0.5
+ModelName29=WCAP-ATG8_10x12.5x5x0.6
 ModelUpdate29=1
 ModelType30=PCBLIB
-ModelName30=WCAP-CSGP_0603, 1.6x0.8x0.8
+ModelName30=WCAP-ATG8_22x41x10x0.8
 ModelUpdate30=1
 ModelType31=PCBLIB
-ModelName31=WCAP-CSGP_0805, 2x1.25x1.25
+ModelName31=WCAP-ATG8_5x11x2x0.5
 ModelUpdate31=1
 ModelType32=PCBLIB
-ModelName32=WE-CBF_0603_High Current
+ModelName32=WCAP-ATG8_8x11.5x3.5x0.5
 ModelUpdate32=1
+ModelType33=PCBLIB
+ModelName33=WCAP-CSGP_0402, 1x0.5x0.5
+ModelUpdate33=1
+ModelType34=PCBLIB
+ModelName34=WCAP-CSGP_0603, 1.6x0.8x0.8
+ModelUpdate34=1
+ModelType35=PCBLIB
+ModelName35=WCAP-CSGP_0805, 2x1.25x1.25
+ModelUpdate35=1
+ModelType36=PCBLIB
+ModelName36=WE-CBF_0805_High Current
+ModelUpdate36=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
