@@ -23,6 +23,7 @@ ref possible: A3213EUA-T (fonctionne en N ou S), AH182-PG-B (pas dispo farnell) 
 #16- Utiliser le pin 8 du connecteur nucléo pour retourner un signal logique donnant le statut de l'AU.
 #17- mettre en DNI les connecteur de puissance (des fils terminé par un connecteur bullet ou XT30 y seront soudée à la place)
 #18- remplacer les deux BAT54S-7-F de la carte moteur par la TVS 82400274
+#19- changer la couleur des LEDs pour du rouge et reduire leur intensité en augmentant les résistances série
 
 les points 1,2 et 3 peuvent être corrigé par une reprise manuelle.
 
