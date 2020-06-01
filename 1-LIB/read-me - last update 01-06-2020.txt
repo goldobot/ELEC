@@ -68,11 +68,16 @@ resumé:
 - Mechanical 16 (M16)	Bottom layer courtyard and assembly information (paired with M15). This normally includes a cross-hairs at the origin of the component.
 - Mechanical 17 (M17) 	not to use (sometine .Designator are left on this layer)
 
-pour résumer lors de la création de composant les plans mécaniques importants: 
-M13: Modele 3D et Ligne de profil du composant (=contour en projection verticale du corps du composant, sans ses pattes) + indication du pin1/polarité
-M15: espace/zone occupé par le composant (y compris la prise si c'est un connecteur par ex) + croix à l'origine du composant 
-M17: string .Designator en text height 1.0mm ou 1.5mm
-
+pour résumer lors de la création de composant les layers importants: 
+-Top Layer:
+Pour les CMS: pad en rectangle arrondi 50 ou 70% de rayon, sauf le pin 1: 15 ou 30% de rayon
+Pour les traversants: trou métalisé circulaire sauf le pin 1 en rectangle arrondi 50% de rayon
+-M13: Modele 3D (attention à l'offset de hauteur) et Ligne de profil du composant 
+=contour en projection verticale du corps du composant et optionnellement ses pattes, ligne 0.1mm + indication du pin1/polarité
+-M15: Espace/zone occupé par le composant , contour en 0.15mm
+y compris la prise si c'est un connecteur par ex + croix à l'origine du composant (en 0.1mm)
+-M17: String .Designator en texte trueType Arial en 1.0mm ou 1.5mm
+-Top Overlay: Ligne basique de contour de composant en 0.2 ou 0.3mm
 
 A la fin de processus de création d'un composant, prenez le temps de vous relire.
 De toute façon il est TRES FORTEMENT recommandé de vérifier tout composant ajouté à une nouvelle carte et si nécessaire de le mettre à jour au niveau de la librairie en cas de problème. 

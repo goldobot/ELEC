@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Carte_Alim_2019.OutJob
+Name=Carte_Alim.OutJob
 Description=
 TargetOutputMedium=Assembly
 VariantName=[No Variations]
@@ -29,7 +29,7 @@ OutputMedium1_Printer=
 OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium2=PDF
 OutputMedium2_Type=Publish
-OutputMedium3=Guerber
+OutputMedium3=Gerber
 OutputMedium3_Type=GeneratedFiles
 OutputMedium4=Assembly
 OutputMedium4_Type=Publish
@@ -234,7 +234,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=D:\06-perso\GIT\ELEC\2-PROJ\14-Carte_Alim_2019\Project Outputs for Carte_Alim_2019\
+OutputFilePath3=N:\DOC\Audran\GIT\ELEC\2-PROJ\14-Carte_Alim\Project Outputs for Carte_Alim\
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for Carte_Alim
 OutputPathMedia3=
@@ -317,7 +317,7 @@ OpenOutput7=1
 [GeneratedFilesSettings]
 RelativeOutputPath2=Project Outputs for Free Documents\Free Documents.PDF
 OpenOutputs2=1
-RelativeOutputPath3=D:\06-perso\GIT\ELEC\2-PROJ\14-Carte_Alim_2019\Project Outputs for Carte_Alim_2019\
+RelativeOutputPath3=N:\DOC\Audran\GIT\ELEC\2-PROJ\14-Carte_Alim\Project Outputs for Carte_Alim\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
