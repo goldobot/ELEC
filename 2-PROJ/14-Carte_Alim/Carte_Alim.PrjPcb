@@ -162,8 +162,8 @@ Description=PROD
 AllowFabrication=0
 ParameterCount=0
 VariationCount=27
-Variation1=Designator=R45|UniqueId=\OFPBMYJG\GDXNQIMC|Kind=1|AlternatePart= 
-Variation2=Designator=R51|UniqueId=\OFPBMYJG\BXKRCMWN|Kind=1|AlternatePart= 
+Variation1=Designator=R45|UniqueId=\OFPBMYJG\GDXNQIMC|Kind=0|AlternatePart= 
+Variation2=Designator=R51|UniqueId=\OFPBMYJG\BXKRCMWN|Kind=0|AlternatePart= 
 Variation3=Designator=J12|UniqueId=\OFPBMYJG\SIUVCUAV|Kind=1|AlternatePart= 
 Variation4=Designator=J25|UniqueId=\AHAWVNSC\VGNUGKDP|Kind=1|AlternatePart= 
 Variation5=Designator=J28|UniqueId=\AHAWVNSC\AJKCCXRJ|Kind=1|AlternatePart= 
