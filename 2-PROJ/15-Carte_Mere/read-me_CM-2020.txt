@@ -1,29 +1,29 @@
 Voici les évolutions souhaité de la carte mère 2020 par rapport à la carte mère 2019:
 - sérigraphie connecteur: ID, pinout (-;+5;+3;S;P;A), fleche polarité (pour éviter les autocolants)
-- connecteurs WR-MM dédiés à la carte:
-	> clavier, 
-	> moteur,
-	> oDrive,
-	> capteur (x1 + 1 avec option picot)
-- modification du stack-up: 
-	> carte DE0 non soudé, utilise des connecteur 6100xx243021 + 6130xx21121 
-	> carte nucléo sur header CMS 61004021821
-	> connecteur IO angle droit en bottom, CMS si possible (triple: traversant (en stock);double: cms 6101xx249121
-- si possible passage en 0603 au lieu de 0402
-- prise dynamixel reduites (2 max), potentiellement en connectique spécialisé
-- colonnete de fixation CMS incluse
-- connecteur Alim 3p (au lieu de x2 2p)
-- prise servo unique (barette THT, 3x12)
-- entrée encodeur SSI ou Quadrature
-- sortie contrôle moteur supplémentaire
-- protection TVS sur les signaux moteurs
-- déport 8 leds+ 2 boutons DE0? (comment? avec un petit connecteur? avec un guide lumière?)
-- intégrer la liaison série secondaire (cf sch du module actuel + note sur le CI dispo chez JLCPCB parts)
-- port SPI pour le Gyro
-- prévoir des sorties d'alimentation pour:
-	> le ventillateur Rpi
-	> l'alim lidar
-	> l'alim Rpi
+o- connecteurs WR-MM dédiés à la carte:
+o	> clavier, 
+o	> moteur,
+o	> oDrive,
+o	> capteur (x1 + 1 avec option picot)
+o- modification du stack-up: 
+o	> carte DE0 non soudé, utilise des connecteur 6100xx243021 + 6130xx21121 
+o	> carte nucléo sur header CMS 61004021821
+o	> connecteur IO angle droit en bottom, CMS si possible (triple: traversant (en stock);double: cms 6101xx249121
+x- si possible passage en 0603 au lieu de 0402
+o- prise dynamixel reduites (2 max), potentiellement en connectique spécialisé
+o- colonnete de fixation CMS incluse
+x- connecteur Alim 3p (au lieu de x2 2p)
+o- prise servo unique (barette THT, 3x12)
+o- entrée encodeur SSI ou Quadrature
+- sortie contrôle moteur supplémentaire (sortie Stepper?)
+x- protection TVS sur les signaux moteurs
+x- déport 8 leds+ 2 boutons DE0? (comment? avec un petit connecteur? avec un guide lumière?)
+o- intégrer la liaison série secondaire (cf sch du module actuel + note sur le CI dispo chez JLCPCB parts)
+o- port SPI pour le Gyro
+o- prévoir des sorties d'alimentation pour:
+o	> le ventillateur Rpi
+o	> l'alim lidar
+o	> l'alim Rpi
 - capa chimique possiblement placé sous le programmeur Nucléo en position couché
 
 liste des patchs à intégrer 
