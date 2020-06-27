@@ -73,7 +73,7 @@ DocumentUniqueId=BAIPDYOI
 
 [Document3]
 DocumentPath=Nucleo.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=200
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -90,7 +90,7 @@ DocumentUniqueId=FDCNOXFC
 
 [Document4]
 DocumentPath=DE0_Nano.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=200
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -107,7 +107,7 @@ DocumentUniqueId=EWVXTNXW
 
 [Document5]
 DocumentPath=Motorisation.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=200
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -141,7 +141,7 @@ DocumentUniqueId=QQHSQUIE
 
 [Document7]
 DocumentPath=Servomoteur.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=200
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -158,7 +158,7 @@ DocumentUniqueId=PXKEPIWE
 
 [Document8]
 DocumentPath=Interface_BUS.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=200
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -175,7 +175,7 @@ DocumentUniqueId=YNFABQBR
 
 [Document9]
 DocumentPath=Power.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=200
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -192,7 +192,7 @@ DocumentUniqueId=ODWBHYND
 
 [Document10]
 DocumentPath=TOP.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=200
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=

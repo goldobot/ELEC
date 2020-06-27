@@ -25,6 +25,8 @@ o	> le ventillateur Rpi
 o	> l'alim lidar
 o	> l'alim Rpi
 - capa chimique possiblement placé sous le programmeur Nucléo en position couché
+- avant commande JLCPCB, retirer manuellement l'ouverture solderpaste de: INA139 (x4), MAX485, R0.001ohm_0805 (x4) pour éviter d'avoir à retirer la soudure pour pouvoir les souder
+- verifier empreinte entretoise (trou métalisé?) et ajuster la longueur
 
 liste des patchs à intégrer 
 Goldo:
