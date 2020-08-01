@@ -15,7 +15,7 @@ o- colonnete de fixation CMS incluse
 x- connecteur Alim 3p (au lieu de x2 2p)
 o- prise servo unique (barette THT, 3x12)
 o- entrée encodeur SSI ou Quadrature
-- sortie contrôle moteur supplémentaire (sortie Stepper?)
+o- sortie contrôle moteur supplémentaire (sortie Stepper?) ~> via les "EXT_IO"
 x- protection TVS sur les signaux moteurs
 x- déport 8 leds+ 2 boutons DE0? (comment? avec un petit connecteur? avec un guide lumière?)
 o- intégrer la liaison série secondaire (cf sch du module actuel + note sur le CI dispo chez JLCPCB parts)
@@ -24,9 +24,11 @@ o- prévoir des sorties d'alimentation pour:
 o	> le ventillateur Rpi
 o	> l'alim lidar
 o	> l'alim Rpi
-- capa chimique possiblement placé sous le programmeur Nucléo en position couché
-- avant commande JLCPCB, retirer manuellement l'ouverture solderpaste de: INA139 (x4), MAX485, R0.001ohm_0805 (x4) pour éviter d'avoir à retirer la soudure pour pouvoir les souder
+x- capa chimique possiblement placé sous le programmeur Nucléo en position couché ~> capa mise en couche TOP
+x- avant commande JLCPCB, retirer manuellement l'ouverture solderpaste de: INA139 (x4), MAX485, R0.001ohm_0805 (x4) pour éviter d'avoir à retirer la soudure pour pouvoir les souder ~> JLCPCB ne met pas de paste sur les composants hors BOM
 - verifier empreinte entretoise (trou métalisé?) et ajuster la longueur
+o- mettre une option (activé par defaut) pour alimenter directement la nucléo avec la CM via le pin E5V. sur la Nucléo le jumper JP5 doit être changé de position pour exploiter cette alimentation 
+(sinon elle se fait par défaut via USB)
 
 liste des patchs à intégrer 
 Goldo:
