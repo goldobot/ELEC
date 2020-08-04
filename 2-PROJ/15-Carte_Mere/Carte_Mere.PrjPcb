@@ -314,8 +314,361 @@ UniqueID=1CAC0655-BB43-4BBD-B06A-54D0688ACE34
 Description=PROD
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
-ParamVariationCount=0
+VariationCount=41
+Variation1=Designator=FB206|UniqueId=\HMXZSBHI\YFNBAQSZ|Kind=1|AlternatePart= 
+Variation2=Designator=FB208|UniqueId=\HMXZSBHI\QIBLFUWC|Kind=1|AlternatePart= 
+Variation3=Designator=FB207|UniqueId=\HMXZSBHI\YXVZSKXB|Kind=1|AlternatePart= 
+Variation4=Designator=FB209|UniqueId=\HMXZSBHI\WALSPARM|Kind=1|AlternatePart= 
+Variation5=Designator=R206|UniqueId=\EYDZEEWE\JBEZACPC|Kind=1|AlternatePart= 
+Variation6=Designator=R205|UniqueId=\EYDZEEWE\WMSINOYZ|Kind=1|AlternatePart= 
+Variation7=Designator=R274|UniqueId=\VFQKXGFC\YFDQMELF|Kind=1|AlternatePart= 
+Variation8=Designator=R286|UniqueId=\VFQKXGFC\LDWILWHV|Kind=1|AlternatePart= 
+Variation9=Designator=R275|UniqueId=\VFQKXGFC\AEYKCOWW|Kind=1|AlternatePart= 
+Variation10=Designator=R287|UniqueId=\VFQKXGFC\MAWMFJFY|Kind=1|AlternatePart= 
+Variation11=Designator=R269|UniqueId=\VFQKXGFC\VTRPSMTO|Kind=1|AlternatePart= 
+Variation12=Designator=R281|UniqueId=\VFQKXGFC\RLFHYNEO|Kind=1|AlternatePart= 
+Variation13=Designator=R270|UniqueId=\VFQKXGFC\MRNRMEAH|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator1=R270
+ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator2=R270
+ParamVariation3=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
+ParamDesignator3=R270
+ParamVariation4=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
+ParamDesignator4=R270
+ParamVariation5=ParameterName=ComponentLink2Description|VariantValue=Datasheet
+ParamDesignator5=R270
+ParamVariation6=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
+ParamDesignator6=R270
+ParamVariation7=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamDesignator7=R270
+ParamVariation8=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamDesignator8=R270
+ParamVariation9=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator9=R270
+ParamVariation10=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamDesignator10=R270
+ParamVariation11=ParameterName=Manufacturer|VariantValue=Yageo
+ParamDesignator11=R270
+ParamVariation12=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator12=R270
+ParamVariation13=ParameterName=PCB3D|VariantValue= 
+ParamDesignator13=R270
+ParamVariation14=ParameterName=Pin Info|VariantValue= 
+ParamDesignator14=R270
+ParamVariation15=ParameterName=Power|VariantValue=100mW
+ParamDesignator15=R270
+ParamVariation16=ParameterName=Precision|VariantValue=±1%
+ParamDesignator16=R270
+ParamVariation17=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator17=R270
+ParamVariation18=ParameterName=Simulation|VariantValue= 
+ParamDesignator18=R270
+ParamVariation19=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator19=R270
+ParamVariation20=ParameterName=Supplier 2|VariantValue=JLCPCB
+ParamDesignator20=R270
+ParamVariation21=ParameterName=Supplier Footprint 2|VariantValue=0603
+ParamDesignator21=R270
+ParamVariation22=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator22=R270
+ParamVariation23=ParameterName=Supplier Part Number 2|VariantValue=C4177
+ParamDesignator23=R270
+ParamVariation24=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator24=R270
+ParamVariation25=ParameterName=Value|VariantValue=1.8k
+ParamDesignator25=R270
+ParamVariation26=ParameterName=Vmax|VariantValue=50V
+ParamDesignator26=R270
+Variation14=Designator=R282|UniqueId=\VFQKXGFC\BASQQSXD|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=True
+ParamVariation27=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator27=R282
+ParamVariation28=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator28=R282
+ParamVariation29=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
+ParamDesignator29=R282
+ParamVariation30=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
+ParamDesignator30=R282
+ParamVariation31=ParameterName=ComponentLink2Description|VariantValue=Datasheet
+ParamDesignator31=R282
+ParamVariation32=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
+ParamDesignator32=R282
+ParamVariation33=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamDesignator33=R282
+ParamVariation34=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamDesignator34=R282
+ParamVariation35=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator35=R282
+ParamVariation36=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamDesignator36=R282
+ParamVariation37=ParameterName=Manufacturer|VariantValue=Yageo
+ParamDesignator37=R282
+ParamVariation38=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator38=R282
+ParamVariation39=ParameterName=PCB3D|VariantValue= 
+ParamDesignator39=R282
+ParamVariation40=ParameterName=Pin Info|VariantValue= 
+ParamDesignator40=R282
+ParamVariation41=ParameterName=Power|VariantValue=100mW
+ParamDesignator41=R282
+ParamVariation42=ParameterName=Precision|VariantValue=±1%
+ParamDesignator42=R282
+ParamVariation43=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator43=R282
+ParamVariation44=ParameterName=Simulation|VariantValue= 
+ParamDesignator44=R282
+ParamVariation45=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator45=R282
+ParamVariation46=ParameterName=Supplier 2|VariantValue=JLCPCB
+ParamDesignator46=R282
+ParamVariation47=ParameterName=Supplier Footprint 2|VariantValue=0603
+ParamDesignator47=R282
+ParamVariation48=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator48=R282
+ParamVariation49=ParameterName=Supplier Part Number 2|VariantValue=C4177
+ParamDesignator49=R282
+ParamVariation50=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator50=R282
+ParamVariation51=ParameterName=Value|VariantValue=1.8k
+ParamDesignator51=R282
+ParamVariation52=ParameterName=Vmax|VariantValue=50V
+ParamDesignator52=R282
+Variation15=Designator=R277|UniqueId=\VFQKXGFC\EFKPIQXB|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=True
+ParamVariation53=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator53=R277
+ParamVariation54=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator54=R277
+ParamVariation55=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
+ParamDesignator55=R277
+ParamVariation56=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
+ParamDesignator56=R277
+ParamVariation57=ParameterName=ComponentLink2Description|VariantValue=Datasheet
+ParamDesignator57=R277
+ParamVariation58=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
+ParamDesignator58=R277
+ParamVariation59=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamDesignator59=R277
+ParamVariation60=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamDesignator60=R277
+ParamVariation61=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator61=R277
+ParamVariation62=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamDesignator62=R277
+ParamVariation63=ParameterName=Manufacturer|VariantValue=Yageo
+ParamDesignator63=R277
+ParamVariation64=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator64=R277
+ParamVariation65=ParameterName=PCB3D|VariantValue= 
+ParamDesignator65=R277
+ParamVariation66=ParameterName=Pin Info|VariantValue= 
+ParamDesignator66=R277
+ParamVariation67=ParameterName=Power|VariantValue=100mW
+ParamDesignator67=R277
+ParamVariation68=ParameterName=Precision|VariantValue=±1%
+ParamDesignator68=R277
+ParamVariation69=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator69=R277
+ParamVariation70=ParameterName=Simulation|VariantValue= 
+ParamDesignator70=R277
+ParamVariation71=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator71=R277
+ParamVariation72=ParameterName=Supplier 2|VariantValue=JLCPCB
+ParamDesignator72=R277
+ParamVariation73=ParameterName=Supplier Footprint 2|VariantValue=0603
+ParamDesignator73=R277
+ParamVariation74=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator74=R277
+ParamVariation75=ParameterName=Supplier Part Number 2|VariantValue=C4177
+ParamDesignator75=R277
+ParamVariation76=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator76=R277
+ParamVariation77=ParameterName=Value|VariantValue=1.8k
+ParamDesignator77=R277
+ParamVariation78=ParameterName=Vmax|VariantValue=50V
+ParamDesignator78=R277
+Variation16=Designator=R276|UniqueId=\VFQKXGFC\MKYMDNTQ|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=True
+ParamVariation79=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator79=R276
+ParamVariation80=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator80=R276
+ParamVariation81=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
+ParamDesignator81=R276
+ParamVariation82=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
+ParamDesignator82=R276
+ParamVariation83=ParameterName=ComponentLink2Description|VariantValue=Datasheet
+ParamDesignator83=R276
+ParamVariation84=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
+ParamDesignator84=R276
+ParamVariation85=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamDesignator85=R276
+ParamVariation86=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamDesignator86=R276
+ParamVariation87=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator87=R276
+ParamVariation88=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamDesignator88=R276
+ParamVariation89=ParameterName=Manufacturer|VariantValue=Yageo
+ParamDesignator89=R276
+ParamVariation90=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator90=R276
+ParamVariation91=ParameterName=PCB3D|VariantValue= 
+ParamDesignator91=R276
+ParamVariation92=ParameterName=Pin Info|VariantValue= 
+ParamDesignator92=R276
+ParamVariation93=ParameterName=Power|VariantValue=100mW
+ParamDesignator93=R276
+ParamVariation94=ParameterName=Precision|VariantValue=±1%
+ParamDesignator94=R276
+ParamVariation95=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator95=R276
+ParamVariation96=ParameterName=Simulation|VariantValue= 
+ParamDesignator96=R276
+ParamVariation97=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator97=R276
+ParamVariation98=ParameterName=Supplier 2|VariantValue=JLCPCB
+ParamDesignator98=R276
+ParamVariation99=ParameterName=Supplier Footprint 2|VariantValue=0603
+ParamDesignator99=R276
+ParamVariation100=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator100=R276
+ParamVariation101=ParameterName=Supplier Part Number 2|VariantValue=C4177
+ParamDesignator101=R276
+ParamVariation102=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator102=R276
+ParamVariation103=ParameterName=Value|VariantValue=1.8k
+ParamDesignator103=R276
+ParamVariation104=ParameterName=Vmax|VariantValue=50V
+ParamDesignator104=R276
+Variation17=Designator=R289|UniqueId=\VFQKXGFC\ELWNRADN|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=True
+ParamVariation105=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator105=R289
+ParamVariation106=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator106=R289
+ParamVariation107=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
+ParamDesignator107=R289
+ParamVariation108=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
+ParamDesignator108=R289
+ParamVariation109=ParameterName=ComponentLink2Description|VariantValue=Datasheet
+ParamDesignator109=R289
+ParamVariation110=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
+ParamDesignator110=R289
+ParamVariation111=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamDesignator111=R289
+ParamVariation112=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamDesignator112=R289
+ParamVariation113=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator113=R289
+ParamVariation114=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamDesignator114=R289
+ParamVariation115=ParameterName=Manufacturer|VariantValue=Yageo
+ParamDesignator115=R289
+ParamVariation116=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator116=R289
+ParamVariation117=ParameterName=PCB3D|VariantValue= 
+ParamDesignator117=R289
+ParamVariation118=ParameterName=Pin Info|VariantValue= 
+ParamDesignator118=R289
+ParamVariation119=ParameterName=Power|VariantValue=100mW
+ParamDesignator119=R289
+ParamVariation120=ParameterName=Precision|VariantValue=±1%
+ParamDesignator120=R289
+ParamVariation121=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator121=R289
+ParamVariation122=ParameterName=Simulation|VariantValue= 
+ParamDesignator122=R289
+ParamVariation123=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator123=R289
+ParamVariation124=ParameterName=Supplier 2|VariantValue=JLCPCB
+ParamDesignator124=R289
+ParamVariation125=ParameterName=Supplier Footprint 2|VariantValue=0603
+ParamDesignator125=R289
+ParamVariation126=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator126=R289
+ParamVariation127=ParameterName=Supplier Part Number 2|VariantValue=C4177
+ParamDesignator127=R289
+ParamVariation128=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator128=R289
+ParamVariation129=ParameterName=Value|VariantValue=1.8k
+ParamDesignator129=R289
+ParamVariation130=ParameterName=Vmax|VariantValue=50V
+ParamDesignator130=R289
+Variation18=Designator=R288|UniqueId=\VFQKXGFC\YUSJAMXI|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistance.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603FR-071K8L|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=Resistance.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1608X06N|AltLibLink_IsSameFootprint=True
+ParamVariation131=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator131=R288
+ParamVariation132=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator132=R288
+ParamVariation133=ParameterName=ComponentLink1Description|VariantValue=Manufacturer
+ParamDesignator133=R288
+ParamVariation134=ParameterName=ComponentLink1URL|VariantValue=http://www.yageo.com/NewPortal/_en/index.jsp
+ParamDesignator134=R288
+ParamVariation135=ParameterName=ComponentLink2Description|VariantValue=Datasheet
+ParamDesignator135=R288
+ParamVariation136=ParameterName=ComponentLink2URL|VariantValue=http://www.farnell.com/datasheets/2167052.pdf
+ParamDesignator136=R288
+ParamVariation137=ParameterName=Description|VariantValue=RES SMD 1.8K OHM 1% 1/10W 0603
+ParamDesignator137=R288
+ParamVariation138=ParameterName=Footprint|VariantValue=RESC1608X06N
+ParamDesignator138=R288
+ParamVariation139=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator139=R288
+ParamVariation140=ParameterName=Library Reference|VariantValue=RC0603FR-071K8L
+ParamDesignator140=R288
+ParamVariation141=ParameterName=Manufacturer|VariantValue=Yageo
+ParamDesignator141=R288
+ParamVariation142=ParameterName=Manufacturer Part Number|VariantValue=RC0603FR-071K8L
+ParamDesignator142=R288
+ParamVariation143=ParameterName=PCB3D|VariantValue= 
+ParamDesignator143=R288
+ParamVariation144=ParameterName=Pin Info|VariantValue= 
+ParamDesignator144=R288
+ParamVariation145=ParameterName=Power|VariantValue=100mW
+ParamDesignator145=R288
+ParamVariation146=ParameterName=Precision|VariantValue=±1%
+ParamDesignator146=R288
+ParamVariation147=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator147=R288
+ParamVariation148=ParameterName=Simulation|VariantValue= 
+ParamDesignator148=R288
+ParamVariation149=ParameterName=Supplier 1|VariantValue=Farnell
+ParamDesignator149=R288
+ParamVariation150=ParameterName=Supplier 2|VariantValue=JLCPCB
+ParamDesignator150=R288
+ParamVariation151=ParameterName=Supplier Footprint 2|VariantValue=0603
+ParamDesignator151=R288
+ParamVariation152=ParameterName=Supplier Part Number 1|VariantValue=9238514
+ParamDesignator152=R288
+ParamVariation153=ParameterName=Supplier Part Number 2|VariantValue=C4177
+ParamDesignator153=R288
+ParamVariation154=ParameterName=Type|VariantValue=Thick Film
+ParamDesignator154=R288
+ParamVariation155=ParameterName=Value|VariantValue=1.8k
+ParamDesignator155=R288
+ParamVariation156=ParameterName=Vmax|VariantValue=50V
+ParamDesignator156=R288
+Variation19=Designator=R360|UniqueId=\GPRVPFHZ\NZEULYOO|Kind=1|AlternatePart= 
+Variation20=Designator=R361|UniqueId=\GPRVPFHZ\RDJOKHKK|Kind=1|AlternatePart= 
+Variation21=Designator=R362|UniqueId=\GPRVPFHZ\JOXVMBUQ|Kind=1|AlternatePart= 
+Variation22=Designator=R366|UniqueId=\GPRVPFHZ\SNAAIAHS|Kind=1|AlternatePart= 
+Variation23=Designator=R363|UniqueId=\GPRVPFHZ\VYIMIJNN|Kind=1|AlternatePart= 
+Variation24=Designator=R367|UniqueId=\GPRVPFHZ\NPTYBGEU|Kind=1|AlternatePart= 
+Variation25=Designator=R377|UniqueId=\GPRVPFHZ\NOJZXGQA|Kind=1|AlternatePart= 
+Variation26=Designator=R378|UniqueId=\GPRVPFHZ\GGAYTIRW|Kind=1|AlternatePart= 
+Variation27=Designator=R405|UniqueId=\GPRVPFHZ\HLQKEEIQ|Kind=1|AlternatePart= 
+Variation28=Designator=R404|UniqueId=\GPRVPFHZ\VMTERYXS|Kind=1|AlternatePart= 
+Variation29=Designator=R343|UniqueId=\GPRVPFHZ\YFPBZCGO|Kind=1|AlternatePart= 
+Variation30=Designator=R344|UniqueId=\GPRVPFHZ\BGDUWATV|Kind=1|AlternatePart= 
+Variation31=Designator=R347|UniqueId=\GPRVPFHZ\IUBEIUEB|Kind=1|AlternatePart= 
+Variation32=Designator=R348|UniqueId=\GPRVPFHZ\MJQAZBAL|Kind=1|AlternatePart= 
+Variation33=Designator=R345|UniqueId=\GPRVPFHZ\NCOASEWF|Kind=1|AlternatePart= 
+Variation34=Designator=R346|UniqueId=\GPRVPFHZ\QODEWEQA|Kind=1|AlternatePart= 
+Variation35=Designator=R349|UniqueId=\GPRVPFHZ\OSYHSMEP|Kind=1|AlternatePart= 
+Variation36=Designator=R350|UniqueId=\GPRVPFHZ\JNFNBSOC|Kind=1|AlternatePart= 
+Variation37=Designator=R323|UniqueId=\GPRVPFHZ\MLHJRPIH|Kind=1|AlternatePart= 
+Variation38=Designator=R326|UniqueId=\GPRVPFHZ\BOUDRWTP|Kind=1|AlternatePart= 
+Variation39=Designator=R324|UniqueId=\GPRVPFHZ\EZLPPIJW|Kind=1|AlternatePart= 
+Variation40=Designator=R325|UniqueId=\GPRVPFHZ\NHXGGLGH|Kind=1|AlternatePart= 
+Variation41=Designator=R327|UniqueId=\GPRVPFHZ\ZOIOHFZC|Kind=1|AlternatePart= 
+ParamVariationCount=156
 
 [Configuration1]
 Name=Default Configuration
