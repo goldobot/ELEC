@@ -3,5 +3,7 @@ history
 */__Previews
 __Previews
 Project Logs*
+*.step
+*.log
 #ignore folderFile created by windows
 desktop.ini

@@ -13,8 +13,12 @@ ProjectPath=14-Carte_Alim\Carte_Alim.PrjPcb
 [Project6]
 ProjectPath=15-Carte_Mere\Carte_Mere.PrjPcb
 [Project7]
-ProjectPath=16-Carte_Herse_2020\Carte_Herse_2020.PrjPcb
-[Project8]
 ProjectPath=17-Carte_OPB\Carte_OPB.PrjPcb
+[Project8]
+ProjectPath=16-Carte_Herse_2020\Carte_Herse_2020.PrjPcb
 [Project9]
 ProjectPath=C:\Users\audran\Google Drive\Goldorak\7-Espionnage\elec NUCLEO-F303RE (utilisé par Goldo)\MB1136_w_pcb.PrjPCB
+[Project10]
+ProjectPath=19-Carte_test_JLC\Carte_test_JLC.PrjPcb
+[Project11]
+ProjectPath=18-Panel_2020\Panel_2020.PrjPcb

@@ -1,0 +1,45 @@
+Altium Designer Pick and Place Locations
+N:\DOC\Audran\GIT\ELEC\2-PROJ\19-Carte_test_JLC\Project Outputs for Carte_test_JLC\Pick Place\Pick Place for Carte_test_JLC.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       25/08/20
+Time:       00:02
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Footprint","Center-X(mm)","Center-Y(mm)","Layer","Rotation","Comment"
+"U4","SOT223","34.7754","5.5154","TopLayer","0","ZLDO1117G33TA"
+"U3","SOT89-150P350X160-3N","26.0751","4.5154","TopLayer","0","HT7533-1"
+"U2","SOIC127P600X175-8N","34.7754","28.5154","TopLayer","0","MCP2551-I/SN"
+"U1","SSOP28","33.7754","17.5154","TopLayer","0","FT232RL"
+"R13","RESC1608X06N","3.7754","17.5154","TopLayer","90","RC0603FR-070RL"
+"R12","RESC1005X04N","3.7754","24.5154","TopLayer","90","RC0402FR-0722RL"
+"R11","RESC1608X06N","8.6555","17.5150","TopLayer","90","RC0603FR-0768RL"
+"R10","RESC1005X04N","9.7754","24.5154","TopLayer","90","RC0402FR-07330RL"
+"R9","RESC1608X06N","13.7754","17.5154","TopLayer","90","RC0603FR-07620RL"
+"R8","RESC1608X06N","17.7754","17.5154","TopLayer","90","RC0603FR-071KL"
+"R7","RESC1005X04N","15.7754","24.5154","TopLayer","90","RC0402FR-071KL"
+"R6","RESC1608X06N","21.7754","17.5154","TopLayer","90","RC0603FR-071K8L"
+"R5","RESC2012X06N","3.7754","10.5154","TopLayer","90","RC0805FR-072K7L"
+"R4","RESC1005X04N","19.7754","24.5154","TopLayer","90","RC0402FR-074K7L"
+"R3","RESC1608X06N","25.7754","17.5154","TopLayer","90","RC0603FR-0710KL"
+"R2","RESC1005X04N","27.7754","24.5154","TopLayer","90","RC0402FR-0710KL"
+"R1","RESC1005X04N","23.7754","24.5154","TopLayer","90","RC0402FR-07100KL"
+"Q1","SOT-23","3.7754","3.5154","TopLayer","0","2N7002"
+"FB1","WE-CBF_0805_High_Current","18.7754","10.5154","TopLayer","90","742792023"
+"D4","SOD-123FL","7.7754","3.5154","TopLayer","90","RBR3MM40ATFTR"
+"D3","SMCW_0603","11.7754","3.5154","TopLayer","270","150060RS75000"
+"D2","SOT-23-6L","20.7754","3.5154","TopLayer","0","824001"
+"D1","SMCW_0603","15.7754","3.5154","TopLayer","270","150060YS75000"
+"C9","WCAP-CSGP_0402,_1x0.5x0.5","23.7754","31.5154","TopLayer","90","1nF"
+"C8","WCAP-CSGP_0402,_1x0.5x0.5","27.7754","31.5154","TopLayer","90","10nF"
+"C7","WCAP-CSGP_0402,_1x0.5x0.5","15.7754","31.5154","TopLayer","90","100nF"
+"C6","WCAP-CSGP_0603,_1.6x0.8x0.8","7.7754","31.5154","TopLayer","90","100nF"
+"C5","WCAP-CSGP_0402,_1x0.5x0.5","19.7754","31.5154","TopLayer","90","1uF"
+"C4","WCAP-CSGP_0603,_1.6x0.8x0.8","3.7754","31.5154","TopLayer","90","1uF"
+"C3","WCAP-CSGP_0805,_2x1.25x1.25","8.7754","10.5154","TopLayer","90","1uF"
+"C2","WCAP-CSGP_0603,_1.6x0.8x0.8","11.7754","31.5154","TopLayer","90","4.7uF"
+"C1","WCAP-CSGP_0805,_2x1.25x1.25","13.7754","10.5154","TopLayer","90","10uF"

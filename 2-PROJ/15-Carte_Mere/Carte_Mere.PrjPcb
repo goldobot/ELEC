@@ -1,4 +1,4 @@
-[Design]
+ï»¿[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -38,7 +38,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\98-Templates et Parametres\T_4-layer_Guerber.OutJob
+DocumentPath=Carte_Mere.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -358,7 +358,7 @@ ParamVariation14=ParameterName=Pin Info|VariantValue=
 ParamDesignator14=R270
 ParamVariation15=ParameterName=Power|VariantValue=100mW
 ParamDesignator15=R270
-ParamVariation16=ParameterName=Precision|VariantValue=±1%
+ParamVariation16=ParameterName=Precision|VariantValue=Â±1%
 ParamDesignator16=R270
 ParamVariation17=ParameterName=Signal Integrity|VariantValue= 
 ParamDesignator17=R270
@@ -411,7 +411,7 @@ ParamVariation40=ParameterName=Pin Info|VariantValue=
 ParamDesignator40=R282
 ParamVariation41=ParameterName=Power|VariantValue=100mW
 ParamDesignator41=R282
-ParamVariation42=ParameterName=Precision|VariantValue=±1%
+ParamVariation42=ParameterName=Precision|VariantValue=Â±1%
 ParamDesignator42=R282
 ParamVariation43=ParameterName=Signal Integrity|VariantValue= 
 ParamDesignator43=R282
@@ -464,7 +464,7 @@ ParamVariation66=ParameterName=Pin Info|VariantValue=
 ParamDesignator66=R277
 ParamVariation67=ParameterName=Power|VariantValue=100mW
 ParamDesignator67=R277
-ParamVariation68=ParameterName=Precision|VariantValue=±1%
+ParamVariation68=ParameterName=Precision|VariantValue=Â±1%
 ParamDesignator68=R277
 ParamVariation69=ParameterName=Signal Integrity|VariantValue= 
 ParamDesignator69=R277
@@ -517,7 +517,7 @@ ParamVariation92=ParameterName=Pin Info|VariantValue=
 ParamDesignator92=R276
 ParamVariation93=ParameterName=Power|VariantValue=100mW
 ParamDesignator93=R276
-ParamVariation94=ParameterName=Precision|VariantValue=±1%
+ParamVariation94=ParameterName=Precision|VariantValue=Â±1%
 ParamDesignator94=R276
 ParamVariation95=ParameterName=Signal Integrity|VariantValue= 
 ParamDesignator95=R276
@@ -570,7 +570,7 @@ ParamVariation118=ParameterName=Pin Info|VariantValue=
 ParamDesignator118=R289
 ParamVariation119=ParameterName=Power|VariantValue=100mW
 ParamDesignator119=R289
-ParamVariation120=ParameterName=Precision|VariantValue=±1%
+ParamVariation120=ParameterName=Precision|VariantValue=Â±1%
 ParamDesignator120=R289
 ParamVariation121=ParameterName=Signal Integrity|VariantValue= 
 ParamDesignator121=R289
@@ -623,7 +623,7 @@ ParamVariation144=ParameterName=Pin Info|VariantValue=
 ParamDesignator144=R288
 ParamVariation145=ParameterName=Power|VariantValue=100mW
 ParamDesignator145=R288
-ParamVariation146=ParameterName=Precision|VariantValue=±1%
+ParamVariation146=ParameterName=Precision|VariantValue=Â±1%
 ParamDesignator146=R288
 ParamVariation147=ParameterName=Signal Integrity|VariantValue= 
 ParamDesignator147=R288
@@ -670,6 +670,10 @@ Variation40=Designator=R325|UniqueId=\GPRVPFHZ\NHXGGLGH|Kind=1|AlternatePart=
 Variation41=Designator=R327|UniqueId=\GPRVPFHZ\ZOIOHFZC|Kind=1|AlternatePart= 
 ParamVariationCount=156
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Carte_Mere\BOM-Carte_Mere(PROD).xlsx
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -679,6 +683,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=
 ConfigurationType=
+
+[Generic_EDE]
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -857,6 +864,12 @@ OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1263,6 +1276,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1393,6 +1416,8 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
+Type118=1
+Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1461,6 +1486,8 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1469,33 +1496,33 @@ Type3=2
 Type4=1
 Type5=2
 Type6=2
-Type7=1
+Type7=0
 Type8=1
 Type9=1
 Type10=1
 Type11=2
-Type12=2
-Type13=2
+Type12=0
+Type13=0
 Type14=1
 Type15=1
 Type16=1
 Type17=1
 Type18=1
 Type19=1
-Type20=1
-Type21=1
-Type22=1
-Type23=1
+Type20=0
+Type21=0
+Type22=0
+Type23=0
 Type24=1
 Type25=2
-Type26=2
+Type26=0
 Type27=2
 Type28=1
 Type29=1
 Type30=1
 Type31=1
 Type32=2
-Type33=2
+Type33=0
 Type34=2
 Type35=1
 Type36=2
@@ -1506,15 +1533,15 @@ Type40=2
 Type41=0
 Type42=2
 Type43=1
-Type44=1
-Type45=2
-Type46=1
-Type47=2
-Type48=2
-Type49=1
+Type44=0
+Type45=0
+Type46=0
+Type47=0
+Type48=0
+Type49=0
 Type50=2
-Type51=1
-Type52=1
+Type51=0
+Type52=0
 Type53=1
 Type54=1
 Type55=1
@@ -1522,10 +1549,10 @@ Type56=2
 Type57=1
 Type58=1
 Type59=0
-Type60=1
-Type61=2
-Type62=2
-Type63=1
+Type60=0
+Type61=0
+Type62=0
+Type63=0
 Type64=0
 Type65=2
 Type66=3
@@ -1563,7 +1590,7 @@ Type97=2
 Type98=0
 Type99=1
 Type100=2
-Type101=1
+Type101=0
 Type102=2
 Type103=2
 Type104=1
@@ -1608,6 +1635,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1628,6 +1656,7 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 FullReplace=1
 UpdateDesignatorLock=1
@@ -1646,6 +1675,7 @@ UpdateCurrentModels=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
