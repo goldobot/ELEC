@@ -1,0 +1,8 @@
+modification manuelle des BOMs:
+
+o- fusion des BOM des 4 cartes en respectant les quantités pour le bon nombre de cartes
+o- colonne pour tracer le stock actuel
+o- colonne pour indiquer la source JLCPCB/Sponso/Achat (une colonne par source?)
+o- ajout des composants hors BOM: hall, prise connecteur, embase connecteur spécifique
+o- remplacement des connecteur triple righ angle par ref unique (cf sch)
+o- remplacement des ferrites (carte capteur)

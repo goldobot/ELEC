@@ -1,0 +1,37 @@
+
+attention, à la génération des gerber, les polices peuvent 'sauter', il faut donc remettre manuellement la police Magma pour les noms de carte (et les exclamations de goldorak)
+
+layer: 4
+dim: 100*189.5
+qty: 10
+different design: 4
+panel by customer
+no impedance
+pcb green
+HASL
+1oz
+no fingers
+material FR-4 TG155
+fully test
+no castellated
+order number specify a location
+-> advanced
+min hole 0.2/0.4
+4-wire kelvin: yes
+no paper
+confirm prod file: yes
+remark:
+
+- Tooling hole already placed
+- GP1, GP2 are negative copper
+- in BOM "comment" might not match the caracteristics of the JLCPCB part, no problem
+- SOT-89-3 (U1; U150; U150) is flipped and offseted in JLC preview, check positionning please
+ 
+
+SMT assembly:
+top side
+qty 10
+tooling: added by customer
+
+
+prix avec DDP: qty5: 292€ /qty10: 346€ 
