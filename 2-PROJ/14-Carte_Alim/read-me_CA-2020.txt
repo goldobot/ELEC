@@ -30,3 +30,7 @@ les points 1,2 et 3 peuvent être corrigé par une reprise manuelle.
 Pensez à:
 - mettre à jour les serigraphie
 - la position des switch sur la pièce support est à mettre à jour
+
+
+correction sur la carte 2020:
+- la logique du contrôle du reset de l'oDrive est inversé, un patch est prévu sur les deux cartes qui iront dans les robots, pour les autres le montage sera laissé tel quel

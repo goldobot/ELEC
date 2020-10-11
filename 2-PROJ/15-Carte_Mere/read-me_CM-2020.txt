@@ -37,7 +37,7 @@ Goldo:
  * 2) Moins grave pour toi mais embettant pour moi : les signaux suivants de la carte log : US3_ECHO (PIN_FPGA_E16), US3_TRIG (PIN_FPGA_E15) et US2_TRIG (PIN_FPGA_M16) destines a des interfaces de type "telemetre ultra-son" ne sont utilisables sur Cyclone 4 que comme des entrees (IN). Je preconise donc de swapper les paires de signaux suivants sur la carte log : US2_TRIG <-> US2_ECHO et US3_TRIG <-> UART4_RX. Comme ca je pourrais beneficier de 2 interfaces ultra-sons operationnelles a nouveau.."
  
  
-Erreur vu sur la carte 2020:
+Correction sur la carte 2020:
 - J200 n'est pas aligné, décalé de 0.5mm vers le bord de la carte
 - les connecteurs J225, J226 sont prévu pour être en bord de carte
 - les micro-switch sont configuré tel que le 5V part dans le robot ce n'est pas safe. mieux vaut ajouter une PU de 1k (tension de gate: 3.91V) et le µSW en normally close
