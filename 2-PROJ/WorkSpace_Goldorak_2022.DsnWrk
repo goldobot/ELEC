@@ -1,0 +1,12 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=14-Carte_Alim\Carte_Alim.PrjPcb
+[Project2]
+ProjectPath=15-Carte_Mere\Carte_Mere.PrjPcb
+[Project3]
+ProjectPath=17-Carte_OPB\Carte_OPB.PrjPcb
+[Project4]
+ProjectPath=20-TryOhm\Carte_TryOhm.PrjPcb
+[Project5]
+ProjectPath=C:\Users\audran\Google Drive\Goldorak\7-Espionnage\elec NUCLEO-F303RE (utilisé par Goldo)\MB1136_w_pcb.PrjPCB
