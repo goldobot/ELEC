@@ -1,0 +1,6 @@
+la lib MOLEX est bugué, selon Jules Mirage de Eceborg, c'est Altium qui interprète le nom des connecteur comme des dates.
+20-03-5035
+22-03-2021
+22-03-2031
+
+renommer les composants ne suffit pas, prevoir de les refaire de zero

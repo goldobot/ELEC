@@ -57,7 +57,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
-DocumentPath=Carte_TryOhm.PcbDoc
+DocumentPath=Carte_TryOhm_v2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -80,7 +80,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -95,10 +95,20 @@ UniqueID=DEF23495-3E6C-4D91-9A3A-D6D741F2C747
 Description=PROD
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
+VariationCount=4
 Variation1=Designator=J1|UniqueId=\NCEUPDYF|Kind=1|AlternatePart= 
 Variation2=Designator=J2|UniqueId=\HOKANUWL|Kind=1|AlternatePart= 
+Variation3=Designator=J2|UniqueId=\NMANHMHP|Kind=1|AlternatePart= 
+Variation4=Designator=J3|UniqueId=\GRVOANTA|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Carte_TryOhm\BOM-Carte_TryOhm(PROD).xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Carte_TryOhm\Carte_TryOhm(PROD).step
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -696,6 +706,36 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1067,26 +1107,26 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Condensateur.IntLib
-ComponentDesignItemID0=WCAP-CSGP, 885012207103
-ComponentSymbolReference0=WCAP-CSGP, 885012207103
+ComponentDesignItemID0=WCAP-CSGP, 885012106012
+ComponentSymbolReference0=WCAP-CSGP, 885012106012
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=Connecteurs.IntLib
-ComponentDesignItemID1=61300811021
-ComponentSymbolReference1=61300811021
+ComponentLibraryIdentifier1=Condensateur.IntLib
+ComponentDesignItemID1=WCAP-CSGP, 885012206089
+ComponentSymbolReference1=WCAP-CSGP, 885012206089
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=Connecteurs.IntLib
-ComponentDesignItemID2=68610814122
-ComponentSymbolReference2=68610814122
+ComponentLibraryIdentifier2=Condensateur.IntLib
+ComponentDesignItemID2=WCAP-CSGP, 885012206095
+ComponentSymbolReference2=WCAP-CSGP, 885012206095
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 FullReplace=1
@@ -1112,45 +1152,31 @@ ParameterName3=ComponentLink1Description
 ParameterUpdate3=1
 ParameterName4=ComponentLink1URL
 ParameterUpdate4=1
-ParameterName5=ComponentLink2Description
+ParameterName5=Description
 ParameterUpdate5=1
-ParameterName6=ComponentLink2URL
+ParameterName6=Library Reference
 ParameterUpdate6=1
-ParameterName7=Description
+ParameterName7=Manufacturer
 ParameterUpdate7=1
-ParameterName8=Library Reference
+ParameterName8=Manufacturer Part Number
 ParameterUpdate8=1
-ParameterName9=Manufacturer
+ParameterName9=RatedVoltage
 ParameterUpdate9=1
-ParameterName10=Manufacturer Part Number
+ParameterName10=Size
 ParameterUpdate10=1
-ParameterName11=PublishedDate
+ParameterName11=Supplier 2
 ParameterUpdate11=1
-ParameterName12=RatedVoltage
+ParameterName12=Supplier Footprint 2
 ParameterUpdate12=1
-ParameterName13=Size
+ParameterName13=Supplier Part Number 2
 ParameterUpdate13=1
-ParameterName14=Supplier 1
+ParameterName14=Value
 ParameterUpdate14=1
-ParameterName15=Supplier 2
-ParameterUpdate15=1
-ParameterName16=Supplier Part Number 1
-ParameterUpdate16=1
-ParameterName17=Supplier Part Number 2
-ParameterUpdate17=1
-ParameterName18=Value
-ParameterUpdate18=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=61300811021
+ModelName0=WCAP-CSGP_0603, 1.6x0.8x0.8
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=68610814122
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=WCAP-CSGP_0805, 2x1.25x1.25
-ModelUpdate2=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
