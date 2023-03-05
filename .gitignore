@@ -7,3 +7,4 @@ Project Logs*
 *.log
 #ignore folderFile created by windows
 desktop.ini
+*.PcbDoc_loc
