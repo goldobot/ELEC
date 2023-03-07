@@ -8,3 +8,7 @@ ProjectPath=15-Carte_Mere\Carte_Mere.PrjPcb
 ProjectPath=22-Carte_Batterie 2023\Carte_Batterie 2023.PrjPcb
 [Project4]
 ProjectPath=20-TryOhm\Carte_TryOhm.PrjPcb
+[Project5]
+ProjectPath=..\1-LIB\Divers\Divers.LibPkg
+[Project6]
+ProjectPath=..\1-LIB\Connecteurs\Connecteurs.LibPkg

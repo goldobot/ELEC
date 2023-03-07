@@ -90,6 +90,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FDCNOXFC
 
+[Document4]
+DocumentPath=Lipo_Saver_Buzzer_only.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VRIMCHMA
+
 [ProjectVariant1]
 UniqueID=DEF23495-3E6C-4D91-9A3A-D6D741F2C747
 Description=PROD
