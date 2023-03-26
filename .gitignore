@@ -8,3 +8,4 @@ Project Logs*
 #ignore folderFile created by windows
 desktop.ini
 *.PcbDoc_loc
+*.Annotation_loc
