@@ -12,3 +12,5 @@ ProjectPath=20-TryOhm\Carte_TryOhm.PrjPcb
 ProjectPath=..\1-LIB\Divers\Divers.LibPkg
 [Project6]
 ProjectPath=..\1-LIB\Connecteurs\Connecteurs.LibPkg
+[Project7]
+ProjectPath=..\1-LIB\CI\CI.LibPkg
