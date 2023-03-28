@@ -71,7 +71,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=BAIPDYOI
 
 [Document3]
 DocumentPath=Carte_Batterie 2023.SchDoc
@@ -140,6 +140,10 @@ Variation7=Designator=C5|UniqueId=\PMJVUCDZ|Kind=1|AlternatePart=
 Variation8=Designator=C6|UniqueId=\EMCEXAYR|Kind=1|AlternatePart= 
 Variation9=Designator=C7|UniqueId=\LQUBXVWF|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Carte_Batterie 2023\Design Rule Check - Carte_Batterie 2023.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
