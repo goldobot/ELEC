@@ -9,6 +9,19 @@ Generating : Board Outline
 
 
 Used DCodes :
+    D100
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Carte_Batterie 2023.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
+    D13
     D99
 *************************************************************
 

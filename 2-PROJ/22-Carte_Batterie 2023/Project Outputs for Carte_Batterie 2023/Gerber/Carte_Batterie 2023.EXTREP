@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Carte_Batterie 2023.GBR   02/04/2023  13:46:00
+Gerber File Extension Report For: Carte_Batterie 2023.GBR   05/04/2023  09:39:17
 ------------------------------------------------------------------------------------------
 
 
@@ -13,5 +13,6 @@ Layer Extension     Layer Description
 .GBL                Solder Side                             
 .GBS                Bottom Solder                           
 .GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
 .GM1                Board Outline                           
 ------------------------------------------------------------------------------------------
