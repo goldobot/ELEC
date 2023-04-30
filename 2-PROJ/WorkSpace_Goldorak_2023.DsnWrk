@@ -6,7 +6,3 @@ ProjectPath=14-Carte_Alim\Carte_Alim.PrjPcb
 ProjectPath=15-Carte_Mere\Carte_Mere.PrjPcb
 [Project3]
 ProjectPath=22-Carte_Batterie 2023\Carte_Batterie 2023.PrjPcb
-[Project4]
-ProjectPath=20-TryOhm\Carte_TryOhm.PrjPcb
-[Project5]
-ProjectPath=..\1-LIB\Divers\Divers.LibPkg
