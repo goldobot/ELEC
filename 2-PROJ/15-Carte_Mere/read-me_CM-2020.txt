@@ -46,4 +46,5 @@ Correction sur la carte 2020:
 - le CAN_Rx/Tx semble inversé au niveau de la nucléo (à confirmer) + vérifier que Rx à 5V est ok pour la nucléo
 Patch à la coupe:
 - R297 en DNI => conflit avec un pin du FPGA selon Goldo
+- patch AU_STATUT: relier au travers d'une 22ohm, le pin coté FPGA de R297 au pin AU_STATUT du connecteur Clavier (voir photo du 23/01/2022)
 - R364/R368 en DNI, J232 fermé, Fil entre R364(extIO7) et J234 ext(ADC_IN_1), Fil entre R368(extIO8) et J236 ext(ADC_IN_2) => connexion de deux sondes de température PTC100
