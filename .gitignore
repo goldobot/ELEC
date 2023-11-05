@@ -9,3 +9,5 @@ Project Logs*
 desktop.ini
 *.PcbDoc_loc
 *.Annotation_loc
+*.db
+*Status Report.Txt
