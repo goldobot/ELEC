@@ -1,0 +1,12 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=14-Carte_Alim\Carte_Alim.PrjPcb
+[Project2]
+ProjectPath=15-Carte_Mere\Carte_Mere.PrjPcb
+[Project3]
+ProjectPath=22-Carte_Batterie 2023\Carte_Batterie 2023.PrjPcb
+[Project4]
+ProjectPath=17-Carte_OPB\Carte_OPB.PrjPcb
+[Project5]
+ProjectPath=24-Carte_Batterie PAMI 2024\Carte_Batterie_PAMI 2024.PrjPcb
