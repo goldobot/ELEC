@@ -158,6 +158,14 @@ Variation8=Designator=C6|UniqueId=\EMCEXAYR|Kind=1|AlternatePart=
 Variation9=Designator=C7|UniqueId=\LQUBXVWF|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Carte_Batterie_PAMI 2024\Carte_Batterie PAMI 2024(PROD).step
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Carte_Batterie_PAMI 2024\Design Rule Check - Carte_Batterie PAMI 2024.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
