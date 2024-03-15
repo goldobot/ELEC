@@ -88,16 +88,21 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=BAIPDYOI
 
 [ProjectVariant1]
 UniqueID=DEF23495-3E6C-4D91-9A3A-D6D741F2C747
 Description=PROD
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
+VariationCount=7
 Variation1=Designator=J1|UniqueId=\NCEUPDYF|Kind=1|AlternatePart= 
 Variation2=Designator=J2|UniqueId=\HOKANUWL|Kind=1|AlternatePart= 
+Variation3=Designator=J10|UniqueId=\PSXRUNTY|Kind=1|AlternatePart= 
+Variation4=Designator=Q1|UniqueId=\AICDNKNB|Kind=1|AlternatePart= 
+Variation5=Designator=D1|UniqueId=\VTAUHKWI|Kind=1|AlternatePart= 
+Variation6=Designator=J9|UniqueId=\RXYAQOYZ|Kind=0|AlternatePart= 
+Variation7=Designator=J4|UniqueId=\PRITJWBO|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
