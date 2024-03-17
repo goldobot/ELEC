@@ -1,4 +1,4 @@
-21791370483760088
+21798212138032890
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6510,6 +6510,13 @@ MODULE_NUCLEO-32
 30
 30
 ComponentsEvo
+MODULE_NUCLEO-32-SMD
+
+
+0
+32
+31
+ComponentsEvo
 MODULE_NUCLEO-F303RE
 
 
@@ -6551,6 +6558,13 @@ Powerpak SO-8 SOIC 1.27 dual
 0
 10
 6
+ComponentsEvo
+Raspberry_Pi_Zero_W_Vertical
+
+
+0
+48
+41
 ComponentsEvo
 SC70-5
 
@@ -6733,6 +6747,13 @@ WL-SMTD_3528_DOME_150141XX631X0
 0
 4
 4
+ComponentsEvo
+WP-SMRA_74663025
+<B>WP-SMRA REDCUBE SMT Right Angled 90° without Pins, M3/Ø 3.3 mm{return}<BR></B>Thread M2.5 {return}<br>Height = 5mm
+
+0
+4
+1
 ComponentsEvo
 WSEN-PDUS_2513130810X01
 <b>WSEN-PDUS - 2513130810x01<br><br></b>Differential Pressure Sensor
@@ -50168,6 +50189,13 @@ ConnectorsEvo
 0
 4
 4
+ConnectorsEvo
+649006227222
+<B>WR-MPC4 </B><BR>4.20 mm Male Dual Row Angled Header w. Mounting Pegs,6 pins
+
+0
+6
+6
 ConnectorsEvo
 64900311122
 <B>WR-MPC4 </B><BR>4.20 mm Male Single Row Vertical Header,3 Pins
