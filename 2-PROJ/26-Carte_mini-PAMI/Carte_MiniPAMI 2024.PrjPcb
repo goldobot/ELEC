@@ -105,6 +105,10 @@ Variation6=Designator=J9|UniqueId=\RXYAQOYZ|Kind=0|AlternatePart=
 Variation7=Designator=J4|UniqueId=\PRITJWBO|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Carte_MiniPAMI 2024\Design Rule Check - Carte_MiniPAMI 2024.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0

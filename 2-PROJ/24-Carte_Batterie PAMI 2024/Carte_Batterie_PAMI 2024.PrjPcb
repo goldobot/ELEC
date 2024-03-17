@@ -162,10 +162,6 @@ ParamVariationCount=0
 DocumentPath=Project Outputs for Carte_Batterie_PAMI 2024\Carte_Batterie PAMI 2024(PROD).step
 DItemRevisionGUID=
 
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Carte_Batterie_PAMI 2024\Design Rule Check - Carte_Batterie PAMI 2024.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
