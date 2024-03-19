@@ -702,7 +702,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a3adfdf9-ac52-4541-b80e-4103a6fb9595)
   )
-  (hierarchical_label "INT" (shape input) (at 121.92 81.28 0) (fields_autoplaced)
+  (hierarchical_label "INT" (shape output) (at 121.92 81.28 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b1a87cb5-1967-4101-b9c0-6c58182a422d)
   )
@@ -842,7 +842,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 140.97 57.15 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 8f52ed5a-e962-4f78-a085-09427c76bc57)
     (property "Reference" "R1" (at 143.51 56.515 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -1194,7 +1194,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 186.69 71.12 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid f852815a-581f-409b-b1ee-98e84adb6942)
     (property "Reference" "R7" (at 186.69 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -1226,7 +1226,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 140.97 83.82 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid fb14cd9b-bb24-427b-9fdf-72355905592c)
     (property "Reference" "R1" (at 143.51 83.82 90)
       (effects (font (size 1.27 1.27)))
