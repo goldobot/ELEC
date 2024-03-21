@@ -3092,7 +3092,7 @@
     (property "Value" "Conn_02x05_Odd_Even" (at 161.29 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ConnectorsEvo:690357281076" (at 160.02 38.1 0)
+    (property "Footprint" "ConnectorsEvo:690367281076" (at 160.02 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 160.02 38.1 0)
