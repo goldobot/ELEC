@@ -90,7 +90,6 @@
         "silk_overlap|178375000|106740000|88c8ea57-d256-4111-b46b-249769549ccf|ee239e12-6616-47c4-ab72-e4b552624cd5",
         "silk_overlap|178375000|111820000|5ca28a5a-0280-48d1-8cb5-1cc9a464bccd|01d83e3e-e000-4f02-a22d-3a660aa5d6a3",
         "silk_overlap|178375000|79950000|d528bf2e-8078-4d9d-b524-85f97cbecefb|4c385fa0-5de0-4851-896f-56c1e32371ae",
-        "silk_overlap|178375000|82490000|fc278a8a-f2fa-4be1-9934-0f2fa80bc10e|c276efc8-d097-4816-aff2-ae3fc1c45039",
         "silk_overlap|178375000|82610000|fc278a8a-f2fa-4be1-9934-0f2fa80bc10e|f5503675-88c1-4c46-84d6-0c229bca2f91",
         "silk_overlap|178375000|85150000|8f9df679-cdb2-4a68-8045-1e141c2f6be9|3737f18e-399d-4559-871a-87891a61d5c5",
         "silk_overlap|178375000|85150000|f5503675-88c1-4c46-84d6-0c229bca2f91|3737f18e-399d-4559-871a-87891a61d5c5",
@@ -526,7 +525,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PAMI_Mainboard_2024_v1.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
