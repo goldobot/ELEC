@@ -1,0 +1,1 @@
+Audran 2024-03-22: sur le schéma (et pcb) les signaux EN_5V et ALIM_EN_5V sont inversés au niveau du header. Pas d'impact fonctionnel
