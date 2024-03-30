@@ -146,7 +146,7 @@ UniqueID=DEF23495-3E6C-4D91-9A3A-D6D741F2C747
 Description=PROD
 AllowFabrication=0
 ParameterCount=0
-VariationCount=9
+VariationCount=11
 Variation1=Designator=J1|UniqueId=\NCEUPDYF|Kind=1|AlternatePart= 
 Variation2=Designator=J2|UniqueId=\HOKANUWL|Kind=1|AlternatePart= 
 Variation3=Designator=J2|UniqueId=\NMANHMHP|Kind=1|AlternatePart= 
@@ -156,9 +156,15 @@ Variation6=Designator=C4|UniqueId=\UWMLFQPP|Kind=1|AlternatePart=
 Variation7=Designator=C5|UniqueId=\PMJVUCDZ|Kind=1|AlternatePart= 
 Variation8=Designator=C6|UniqueId=\EMCEXAYR|Kind=1|AlternatePart= 
 Variation9=Designator=C7|UniqueId=\LQUBXVWF|Kind=1|AlternatePart= 
+Variation10=Designator=R23|UniqueId=\YIRUDIMX|Kind=1|AlternatePart= 
+Variation11=Designator=R24|UniqueId=\FWHSHXIZ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for Carte_Batterie_PAMI 2024\BOM-Carte_Batterie_PAMI 2024(PROD).xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for Carte_Batterie_PAMI 2024\Carte_Batterie PAMI 2024(PROD).step
 DItemRevisionGUID=
 
