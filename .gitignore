@@ -5,12 +5,16 @@ __Previews
 Project Logs*
 *.step
 *.log
+*.PcbDoc_loc
+*.SchDoc_loc
+*.PrjPcb_loc
+*.Annotation_loc
+*Status Report.Txt
 #ignore folderFile created by windows
 desktop.ini
-*.PcbDoc_loc
-*.Annotation_loc
 *.db
-*Status Report.Txt
+#specific folder to ignore
 2-PROJ/23-Carte_Alim_Turbines/#auto_saved_files#
 2-PROJ/23-Carte_Alim_Turbines/23-Carte_Alim_Turbines-backups/
 2-PROJ/23-Carte_Alim_Turbines/fp-info-cache
+2-PROJ/24-Carte_Mere_PAMI_2024/backups
