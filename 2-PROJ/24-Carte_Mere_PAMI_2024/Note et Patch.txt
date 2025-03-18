@@ -1,2 +1,4 @@
 Audran 2024-03-22: sur le schéma (et pcb) les signaux EN_5V et ALIM_EN_5V sont inversés au niveau du header. Pas d'impact fonctionnel
 le transceiver CAN ne fonctionne pas, utiliser la ref de waveshare
+dans le routage, le connecteur de la batterie est à l'envers
+faire des trou oblong ou plus grand pour les switch qui sont fragile

@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: \\Nasa\doc\DOC\Audran\GIT\ELEC\2-PROJ\26-Carte_mini-PAMI\Carte_MiniPAMI 2025.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=3.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.95
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Clearance_general|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance_for_power_net|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance_polygon|Scope=Board|Minimum=9.84
