@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "12V-actuators_pcb")(type "KiCad")(uri "${KIPRJMOD}/lib/12V-actuators_pcb.kicad_sym")(options "")(descr ""))
+  (lib (name "Carte_Mere_PAMI_2025-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Carte_Mere_PAMI_2025-altium-import.kicad_sym")(options "")(descr ""))
+)
