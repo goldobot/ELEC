@@ -498,40 +498,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "PWR_20A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "PWR_35A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -551,26 +517,14 @@
       "GND": "rgb(88, 90, 255)",
       "GNDPWR": "rgb(123, 185, 255)",
       "Net-(BZ1--)": "rgb(207, 90, 255)",
+      "VBATT_12V": "rgb(255, 0, 0)",
       "unconnected-(J92-Pad2)": "rgb(194, 194, 0)",
       "unconnected-(J92-Pad4)": "rgb(207, 90, 255)",
       "unconnected-(J93-Pin_1-Pad1)": "rgb(132, 0, 0)",
       "unconnected-(J93-Pin_2-Pad2)": "rgb(132, 0, 0)"
     },
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "PWR_35A",
-        "pattern": "VBATT12"
-      },
-      {
-        "netclass": "PWR_35A",
-        "pattern": "VBATT12_F"
-      },
-      {
-        "netclass": "PWR_35A",
-        "pattern": "Batt12_P3"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
