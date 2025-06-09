@@ -6802,6 +6802,12 @@
 		(uuid "0f946bb7-a840-47f4-b552-a438fd9a4f62")
 	)
 	(junction
+		(at 349.25 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fce195d-bd27-49c6-ba21-ad79edf13807")
+	)
+	(junction
 		(at 147.32 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6854,6 +6860,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25c33379-8962-4f03-916f-df0907c12193")
+	)
+	(junction
+		(at 339.09 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d57d923-9483-4fdc-abad-e278486858cb")
 	)
 	(junction
 		(at 132.08 143.51)
@@ -8711,6 +8723,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 237.49) (xy 358.14 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7869d74d-9961-424b-aa96-c48a6a0cec2c")
+	)
+	(wire
+		(pts
 			(xy 114.3 57.15) (xy 137.16 57.15)
 		)
 		(stroke
@@ -8788,6 +8810,16 @@
 			(type default)
 		)
 		(uuid "82399e28-7a33-4397-bd82-4125f9e6c533")
+	)
+	(wire
+		(pts
+			(xy 339.09 237.49) (xy 349.25 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829b7e93-74d4-4df6-8086-50eba317e8e8")
 	)
 	(wire
 		(pts
@@ -9245,16 +9277,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 229.87) (xy 322.58 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7b013b0-45e2-41a3-b6e3-14b02486513a")
-	)
-	(wire
-		(pts
 			(xy 374.65 166.37) (xy 373.38 166.37)
 		)
 		(stroke
@@ -9487,7 +9509,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 229.87) (xy 349.25 229.87)
+			(xy 311.15 229.87) (xy 320.04 229.87)
 		)
 		(stroke
 			(width 0)
@@ -10283,6 +10305,18 @@
 		(uuid 251526b4-7ec0-439e-814d-822b190929f4)
 	)
 	(rectangle
+		(start 331.47 222.25)
+		(end 359.41 251.46)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 361d1551-84a3-4dd4-8feb-fbccce6b86e1)
+	)
+	(rectangle
 		(start 318.77 200.66)
 		(end 354.33 213.36)
 		(stroke
@@ -10344,7 +10378,7 @@
 	)
 	(rectangle
 		(start 300.99 222.25)
-		(end 359.41 251.46)
+		(end 328.93 251.46)
 		(stroke
 			(width 0)
 			(type dash)
@@ -13962,17 +13996,6 @@
 		)
 		(uuid "32bdfdb7-adcf-4931-b08a-5374db2f9843")
 	)
-	(text "Blink=Ready"
-		(exclude_from_sim no)
-		(at 319.786 233.172 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify right bottom)
-		)
-		(uuid "37185f57-5001-45ac-b4c6-94bf0878e2f9")
-	)
 	(text "vers WR-MM \ncarte batt"
 		(exclude_from_sim no)
 		(at 252.222 48.514 0)
@@ -13994,7 +14017,7 @@
 		)
 		(uuid "3d6a10e5-a9ba-4061-9d31-0cb80cd83762")
 	)
-	(text "LED statut"
+	(text "LED status"
 		(exclude_from_sim no)
 		(at 317.754 226.06 0)
 		(effects
@@ -14039,7 +14062,7 @@
 	)
 	(text "Blink=Error"
 		(exclude_from_sim no)
-		(at 347.472 233.172 0)
+		(at 316.484 234.442 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -14125,6 +14148,17 @@
 			(justify left bottom)
 		)
 		(uuid "6d2aefae-0268-44fd-bfa0-b672cdba1ce8")
+	)
+	(text "AU Status"
+		(exclude_from_sim no)
+		(at 348.234 226.06 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "7226a467-7655-4b6c-871e-abc86d8d122e")
 	)
 	(text "Fete (de securité)"
 		(exclude_from_sim no)
@@ -14608,6 +14642,16 @@
 		)
 		(uuid "277d7e3f-1356-4c94-bec2-d0166d7eeee6")
 	)
+	(label "AU_STATUS"
+		(at 358.14 237.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d9b88d4-9c80-4ef6-a510-4dee95f4cd45")
+	)
 	(label "uSW2"
 		(at 147.32 166.37 0)
 		(effects
@@ -15069,7 +15113,7 @@
 		(uuid "c26a2dd7-2eb1-49f9-9b8a-8e628c5ccbd4")
 	)
 	(label "LED_RED"
-		(at 340.36 229.87 0)
+		(at 311.15 229.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15097,16 +15141,6 @@
 			(justify left bottom)
 		)
 		(uuid "c7a10f6c-5348-48ab-94d8-9bb3263a540f")
-	)
-	(label "LED_GREEN"
-		(at 311.15 229.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c836e48d-d5e9-42ba-8232-ff054bcb6edb")
 	)
 	(label "M2_DIAG{slash}uSW2"
 		(at 172.72 166.37 0)
@@ -15148,7 +15182,7 @@
 		)
 		(uuid "cfcfc24a-b8d2-41da-85ef-db5a0ca6b87b")
 	)
-	(label "LED_GREEN"
+	(label "AU_STATUS"
 		(at 172.72 130.81 0)
 		(effects
 			(font
@@ -15983,75 +16017,6 @@
 			(project "Carte_Mere_PAMI_2025"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "#PWR13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 322.58 241.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "106d7afa-a228-4f53-8e0a-663f35fe6dc9")
-		(property "Reference" "D4"
-			(at 316.23 241.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 316.23 243.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 322.58 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 322.58 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 322.58 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e83c36c1-8b8b-45bc-883c-92ea7ec6eac1")
-		)
-		(pin "2"
-			(uuid "c77fa837-92e5-4b23-99e7-836f4d498a0e")
-		)
-		(instances
-			(project "Carte_Mere_PAMI_2025"
-				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -18992,6 +18957,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 349.25 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e042abd-ac68-41b5-92a8-3ff2c4aef085")
+		(property "Reference" "#PWR100"
+			(at 349.25 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 345.186 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 349.25 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b666d96-f5f9-477c-9406-feb612b30d21")
+		)
+		(instances
+			(project "Carte_Mere_PAMI_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "#PWR100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 328.93 24.13 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19254,7 +19284,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 349.25 233.68 180)
+		(at 320.04 233.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19262,7 +19292,7 @@
 		(dnp no)
 		(uuid "4392edef-5e97-4f0b-9011-2aeeb9446e2f")
 		(property "Reference" "R19"
-			(at 353.06 232.41 0)
+			(at 323.85 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19270,7 +19300,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 353.06 234.95 0)
+			(at 323.85 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19278,7 +19308,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 351.028 233.68 90)
+			(at 321.818 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19287,7 +19317,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 349.25 233.68 0)
+			(at 320.04 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19296,7 +19326,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 349.25 233.68 0)
+			(at 320.04 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20097,73 +20127,6 @@
 			(project "Carte_Mere_PAMI_2025"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "#PWR7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 322.58 233.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ee8f9be-0c97-4254-b7c7-590a006362c7")
-		(property "Reference" "R18"
-			(at 326.39 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 326.39 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 324.358 233.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 322.58 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 322.58 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c230489-4c69-4d51-b300-48c27f08d08c")
-		)
-		(pin "2"
-			(uuid "be1c6eff-74a7-43a3-a5e7-4dea5a842ba0")
-		)
-		(instances
-			(project "Carte_Mere_PAMI_2025"
-				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -21386,6 +21349,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 339.09 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fde771b-d8d2-4515-a1de-32b30be0635f")
+		(property "Reference" "#PWR46"
+			(at 339.09 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 335.026 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2859454d-0ee7-4b92-aa68-a3f5ada9f943")
+		)
+		(instances
+			(project "Carte_Mere_PAMI_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "#PWR46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 59.69 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21652,7 +21680,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 349.25 241.3 90)
+		(at 320.04 241.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21660,7 +21688,7 @@
 		(dnp no)
 		(uuid "653092d2-c278-4c58-a0e4-683fa4910689")
 		(property "Reference" "D8"
-			(at 342.9 241.3 90)
+			(at 313.69 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21669,7 +21697,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 342.9 243.84 90)
+			(at 313.69 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21678,7 +21706,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 349.25 241.3 0)
+			(at 320.04 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21687,7 +21715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 349.25 241.3 0)
+			(at 320.04 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21696,7 +21724,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 349.25 241.3 0)
+			(at 320.04 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23164,7 +23192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 323.85 34.29 0)
 			(effects
 				(font
@@ -23411,7 +23439,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 349.25 245.11 0)
+		(at 320.04 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23419,7 +23447,7 @@
 		(dnp no)
 		(uuid "853090ee-a6d3-4055-8703-8749cd9f0284")
 		(property "Reference" "#PWR63"
-			(at 349.25 251.46 0)
+			(at 320.04 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23428,7 +23456,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 349.25 249.428 0)
+			(at 320.04 249.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23436,7 +23464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 349.25 245.11 0)
+			(at 320.04 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23445,7 +23473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 245.11 0)
+			(at 320.04 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23454,7 +23482,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 349.25 245.11 0)
+			(at 320.04 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24918,71 +24946,6 @@
 			(project "Carte_Mere_PAMI_2025"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "#PWR70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 322.58 245.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2ef318f-4e0d-4703-b7f2-923963351c10")
-		(property "Reference" "#PWR46"
-			(at 322.58 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 322.58 249.428 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 322.58 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 322.58 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00fe4612-0b67-42ac-8aaa-3d5006da6c1b")
-		)
-		(instances
-			(project "Carte_Mere_PAMI_2025"
-				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
-					(reference "#PWR46")
 					(unit 1)
 				)
 			)
@@ -27064,6 +27027,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 339.09 241.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4165471-dfd5-42ee-bdbe-38092ff2cb0b")
+		(property "Reference" "R18"
+			(at 341.63 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 341.63 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 340.868 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 339.09 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 339.09 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03d5e9f3-dfdb-4539-b919-d24804c73ff3")
+		)
+		(pin "2"
+			(uuid "75389219-f8bf-4b37-9d87-ab618f68d061")
+		)
+		(instances
+			(project "Carte_Mere_PAMI_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 278.13 266.7 0)
 		(unit 1)
@@ -27470,6 +27511,76 @@
 			(project "Carte_Mere_PAMI_2025"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "#PWR33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 349.25 241.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd1e12dc-39a2-434c-bfcc-4da113d6825a")
+		(property "Reference" "C29"
+			(at 357.886 240.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 357.886 242.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 348.2848 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 349.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c8b0c47-e7aa-4b6e-b318-e6f2e23d00c8")
+		)
+		(pin "2"
+			(uuid "e38587af-cbf7-4c65-9807-1da226834d9d")
+		)
+		(instances
+			(project "Carte_Mere_PAMI_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -28982,6 +29093,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 339.09 233.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea83f82c-3a11-4878-8445-45df13a2dbf1")
+		(property "Reference" "R26"
+			(at 341.63 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 341.63 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 340.868 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 339.09 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 339.09 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2797870-075c-49aa-a420-5fc09135208b")
+		)
+		(pin "2"
+			(uuid "c47e02b6-2e3d-4d8a-b00b-ce7756486bd2")
+		)
+		(instances
+			(project "Carte_Mere_PAMI_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 218.44 113.03 0)
 		(unit 1)
@@ -29853,7 +30042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 323.85 76.2 0)
 			(effects
 				(font
@@ -30106,6 +30295,71 @@
 			(project "Carte_Mere_PAMI_2025"
 				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
 					(reference "#PWR97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5P")
+		(at 339.09 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd97f19e-2ee2-4af7-8797-500fb8064c32")
+		(property "Reference" "#PWR99"
+			(at 339.09 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5P"
+			(at 335.788 228.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21117a61-6cb3-47b9-9748-e05980ace429")
+		)
+		(instances
+			(project "Carte_Mere_PAMI_2025"
+				(path "/d0b6cc72-ff07-4f5e-a148-04b65c86a715"
+					(reference "#PWR99")
 					(unit 1)
 				)
 			)
